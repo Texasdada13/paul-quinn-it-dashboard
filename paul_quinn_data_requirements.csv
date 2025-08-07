@@ -1,0 +1,18 @@
+Category,Data Item,Required For,Format,Frequency,Current Source,Priority
+Financial,Total IT Budget,CFO Dashboard,Excel/CSV,Annual,Finance System,Critical
+Financial,IT Spend by Category,Cost Analysis,Excel/CSV,Monthly,AP System,Critical
+Financial,Vendor Contract Values,Vendor Analysis,Excel/CSV,Quarterly,Contracts,Critical
+Financial,Institution Revenue,Benchmark %,Number,Annual,Finance,High
+Financial,Grant Allocations,Compliance,Excel/CSV,As needed,Grants Office,Medium
+Financial,Historical Spend (3yr),Trending,Excel/CSV,One-time,Finance,High
+Operational,Active Project List,Portfolio Mgmt,Excel/CSV,Weekly,PMO,Critical
+Operational,System Uptime Logs,Reliability,CSV/API,Daily,Monitoring,Critical
+Operational,License Utilization,Optimization,Report/API,Monthly,Vendors,High
+Operational,Help Desk Tickets,Service Quality,CSV/Export,Weekly,Service Desk,High
+Operational,User Count by System,Adoption,CSV,Monthly,IT/HR,Medium
+Operational,Security Incidents,Risk Mgmt,Log/CSV,Weekly,Security,High
+Strategic,Strategic Plan,Alignment,Document,Annual,Leadership,High
+Strategic,Peer Benchmarks,Comparison,Report,Annual,Research,Medium
+Strategic,Student Outcomes,ROI Linkage,CSV,Semester,Registrar,High
+Strategic,Staff Satisfaction,Value Metric,Survey,Annual,HR,Medium
+Strategic,Digital Roadmap,Planning,Document,Annual,IT Leadership,High

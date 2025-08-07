@@ -1,0 +1,27 @@
+{
+  "Financial_Metrics": {
+    "total_spend": "2322572",
+    "spend_by_category": {
+      "Academic Software": 193634,
+      "Cloud Services": 182994,
+      "Enterprise Software": 679285,
+      "IT Services": 505212,
+      "Infrastructure": 221465,
+      "Productivity": 177276,
+      "Security": 243594,
+      "Specialized": 119112
+    },
+    "high_risk_vendor_spend": "198008"
+  },
+  "Project_Metrics": {
+    "total_projects": 20,
+    "active_projects": 7,
+    "at_risk_projects": 3,
+    "total_budget": "5601854"
+  },
+  "Operational_Metrics": {
+    "vendor_count": 40,
+    "system_count": 10,
+    "avg_satisfaction": 3.9900000000000007
+  }
+}

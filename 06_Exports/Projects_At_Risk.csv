@@ -1,0 +1,10 @@
+project_name,department,budget,spent_to_date,health,risk_score,overrun_risk
+Server Refresh 2024,Student Services,187154,106198,Red,10,57.0
+Storage Expansion Phase 1,Student Services,237900,130816,Yellow,8,55.0
+CRM Implementation Initiative,Finance,326817,74473,Yellow,4,23.0
+Portal Development Phase 2,Finance,296559,164451,Yellow,6,55.0
+Mobile App Initiative,Finance,452298,353116,Red,4,78.0
+Virtual Labs 2024,Finance,51363,15422,Yellow,5,30.0
+Classroom Tech Phase 1,Academic Affairs,35162,21433,Red,4,61.0
+Cloud Migration Phase 2,IT,417128,240174,Yellow,7,58.0
+Process Automation Phase 2,Student Services,335429,239703,Yellow,6,71.0

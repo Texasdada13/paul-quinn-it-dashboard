@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+02_Data/raw/*
+02_Data/processed/*
+!02_Data/raw/.gitkeep
+!02_Data/processed/.gitkeep
+
+# Power BI
+*.pbix.bak
+*.pbit.bak
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials
+.env
+config.ini
+*credentials*
+*password*

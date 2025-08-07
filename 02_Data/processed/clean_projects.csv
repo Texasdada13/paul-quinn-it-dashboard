@@ -1,0 +1,9 @@
+project_name,department,budget,spent_to_date,start_date,expected_end_date,status,project_manager,budget_remaining,budget_utilization_%,risk_flag
+Student Portal Upgrade,IT,75000,45000,2024-01-15,2024-12-31,In Progress,John Smith,30000,60.0,LOW
+Network Infrastructure Refresh,IT,120000,110000,2024-02-01,2024-11-30,In Progress,Jane Doe,10000,91.67,HIGH
+Classroom Technology Phase 2,Academic Affairs,85000,40000,2024-03-15,2024-10-31,Planning,Mike Johnson,45000,47.06,LOW
+Cybersecurity Enhancement,IT,50000,48000,2024-01-01,2024-09-30,At Risk,John Smith,2000,96.0,HIGH
+Cloud Migration Phase 1,IT,95000,30000,2024-04-01,2024-12-31,In Progress,Sarah Williams,65000,31.58,LOW
+ERP System Upgrade,Finance,150000,125000,2023-11-01,2024-08-31,Delayed,Jane Doe,25000,83.33,MEDIUM
+Wi-Fi Expansion Project,IT,65000,20000,2024-05-01,2024-10-31,Planning,Mike Johnson,45000,30.77,LOW
+Digital Learning Initiative,Academic Affairs,40000,35000,2024-02-15,2024-07-31,In Progress,Sarah Williams,5000,87.5,MEDIUM

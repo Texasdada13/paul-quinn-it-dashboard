@@ -3,6 +3,10 @@ Paul Quinn College IT Analytics Suite
 Enterprise IT Spend & Project Management Dashboard
 """
 
+print("Starting app...")
+import sys
+print(f"Python version: {sys.version}")
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -10,6 +14,8 @@ import plotly.graph_objects as go
 from datetime import datetime, timedelta
 import numpy as np
 import json
+
+print("All imports successful!")
 
 # Page configuration
 st.set_page_config(

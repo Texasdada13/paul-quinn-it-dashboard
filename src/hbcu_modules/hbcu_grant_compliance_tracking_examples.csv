@@ -1,0 +1,22 @@
+Metric,Description,Example
+Active Grant Count,Current number of active federal/foundation grants managed,12
+Percent Grant Allocation Used,Percent of budgeted grant dollars spent in cycle,84%
+Timeliness of Grant Reporting,Percent of required reports submitted on time,95%
+Compliance Rate by Grant Type,Percent federal/foundation grants fully compliant with terms,"Federal: 96%, Foundation: 92%"
+Unspent Grant Funds,Dollar value of unspent/encumbered funds by fiscal year end,"$245,000"
+Grant Risk Score,Composite metric for risk of compliance breach by grant,Low/Moderate/High
+Flagged Compliance Issues,Number of grants with flagged issues in audits,3
+Audit Exception Rate,Percent of audits with material exceptions/events,8%
+Outstanding Documentation Requests,Count of unresolved document/information requests,7
+Disallowed Cost Rate,Percent of grant costs deemed ineligible in audits,2.6%
+Percent Staff Trained in Compliance,Percent project/finance staff with up-to-date compliance training,88%
+Days to Resolution of Audit Exception,Average days to resolve audit exception/findings,23
+Federal Drawdown Frequency,Number of federal account drawdowns per fiscal year,9
+Foundation Fund Spending Adherence,Percent of foundation funding spent to spec/requirements,97%
+Grant Renewal Rate,Percent of grants successfully renewed/extended,71%
+Cost Allocation Accuracy Score,Quantitative compliance with cost allocation plans,9.2/10
+Percent Compliance for Subgrantees,Percent subgrantees monitoring/compliance rate,100%
+Percent of Grants Used for Direct Instruction,Percent of grant dollars supporting instructional/student-facing efforts,62%
+Annual Compliance Training Completion,Percent compliance team completed training,91%
+Grant Report Accuracy Rate,Percent of grant reports submitted without correction,98%
+Grant Reporting Technology Utilization,Percent of grant teams using centralized system/workflow,86%

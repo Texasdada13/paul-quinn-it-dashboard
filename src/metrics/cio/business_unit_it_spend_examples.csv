@@ -1,0 +1,113 @@
+Business_Unit,Metric,Description,Example
+Academic Affairs,Total IT Spend,Total annual IT expenditures by business unit,"$794,876"
+Student Affairs,Total IT Spend,Total annual IT expenditures by business unit,"$718,877"
+IT Operations,Total IT Spend,Total annual IT expenditures by business unit,"$728,095"
+Finance & Admin,Total IT Spend,Total annual IT expenditures by business unit,"$791,173"
+Registrar,Total IT Spend,Total annual IT expenditures by business unit,"$695,177"
+Institutional Research,Total IT Spend,Total annual IT expenditures by business unit,"$425,168"
+Library,Total IT Spend,Total annual IT expenditures by business unit,"$169,104"
+Athletics,Total IT Spend,Total annual IT expenditures by business unit,"$585,031"
+Academic Affairs,Operational Spend,Annual IT spending for regular operations per unit,"$116,861"
+Student Affairs,Operational Spend,Annual IT spending for regular operations per unit,"$83,758"
+IT Operations,Operational Spend,Annual IT spending for regular operations per unit,"$465,705"
+Finance & Admin,Operational Spend,Annual IT spending for regular operations per unit,"$746,752"
+Registrar,Operational Spend,Annual IT spending for regular operations per unit,"$279,012"
+Institutional Research,Operational Spend,Annual IT spending for regular operations per unit,"$336,437"
+Library,Operational Spend,Annual IT spending for regular operations per unit,"$418,246"
+Athletics,Operational Spend,Annual IT spending for regular operations per unit,"$384,113"
+Academic Affairs,Project Spend,Annual IT spending on major initiatives/projects per unit,"$544,182"
+Student Affairs,Project Spend,Annual IT spending on major initiatives/projects per unit,"$203,394"
+IT Operations,Project Spend,Annual IT spending on major initiatives/projects per unit,"$515,476"
+Finance & Admin,Project Spend,Annual IT spending on major initiatives/projects per unit,"$283,457"
+Registrar,Project Spend,Annual IT spending on major initiatives/projects per unit,"$781,010"
+Institutional Research,Project Spend,Annual IT spending on major initiatives/projects per unit,"$72,877"
+Library,Project Spend,Annual IT spending on major initiatives/projects per unit,"$435,833"
+Athletics,Project Spend,Annual IT spending on major initiatives/projects per unit,"$474,266"
+Academic Affairs,Spend Per FTE,Total IT spend divided by full-time equivalent staff/faculty in the unit,"$385,016"
+Student Affairs,Spend Per FTE,Total IT spend divided by full-time equivalent staff/faculty in the unit,"$91,036"
+IT Operations,Spend Per FTE,Total IT spend divided by full-time equivalent staff/faculty in the unit,"$729,940"
+Finance & Admin,Spend Per FTE,Total IT spend divided by full-time equivalent staff/faculty in the unit,"$171,358"
+Registrar,Spend Per FTE,Total IT spend divided by full-time equivalent staff/faculty in the unit,"$380,397"
+Institutional Research,Spend Per FTE,Total IT spend divided by full-time equivalent staff/faculty in the unit,"$548,297"
+Library,Spend Per FTE,Total IT spend divided by full-time equivalent staff/faculty in the unit,"$516,355"
+Athletics,Spend Per FTE,Total IT spend divided by full-time equivalent staff/faculty in the unit,"$628,178"
+Academic Affairs,Annual Spend Growth Rate,Year-over-year change in IT spend for the unit,"$650,864"
+Student Affairs,Annual Spend Growth Rate,Year-over-year change in IT spend for the unit,"$160,252"
+IT Operations,Annual Spend Growth Rate,Year-over-year change in IT spend for the unit,"$726,391"
+Finance & Admin,Annual Spend Growth Rate,Year-over-year change in IT spend for the unit,"$377,647"
+Registrar,Annual Spend Growth Rate,Year-over-year change in IT spend for the unit,"$442,170"
+Institutional Research,Annual Spend Growth Rate,Year-over-year change in IT spend for the unit,"$559,641"
+Library,Annual Spend Growth Rate,Year-over-year change in IT spend for the unit,"$537,554"
+Athletics,Annual Spend Growth Rate,Year-over-year change in IT spend for the unit,"$584,868"
+Academic Affairs,Budget Variance,Difference between actual and budgeted spend (percent),10.5%
+Student Affairs,Budget Variance,Difference between actual and budgeted spend (percent),42.6%
+IT Operations,Budget Variance,Difference between actual and budgeted spend (percent),44.9%
+Finance & Admin,Budget Variance,Difference between actual and budgeted spend (percent),38.5%
+Registrar,Budget Variance,Difference between actual and budgeted spend (percent),33.4%
+Institutional Research,Budget Variance,Difference between actual and budgeted spend (percent),-2.2%
+Library,Budget Variance,Difference between actual and budgeted spend (percent),15.1%
+Athletics,Budget Variance,Difference between actual and budgeted spend (percent),42.4%
+Academic Affairs,Capital vs Operational Ratio,Proportion of investment spend to operating costs,15.1%
+Student Affairs,Capital vs Operational Ratio,Proportion of investment spend to operating costs,4.3%
+IT Operations,Capital vs Operational Ratio,Proportion of investment spend to operating costs,19.3%
+Finance & Admin,Capital vs Operational Ratio,Proportion of investment spend to operating costs,40.4%
+Registrar,Capital vs Operational Ratio,Proportion of investment spend to operating costs,29.6%
+Institutional Research,Capital vs Operational Ratio,Proportion of investment spend to operating costs,25.6%
+Library,Capital vs Operational Ratio,Proportion of investment spend to operating costs,16.8%
+Athletics,Capital vs Operational Ratio,Proportion of investment spend to operating costs,0.3%
+Academic Affairs,Allocation to Innovation,Percent of unit IT budget dedicated to innovation/digital,35.5%
+Student Affairs,Allocation to Innovation,Percent of unit IT budget dedicated to innovation/digital,32.1%
+IT Operations,Allocation to Innovation,Percent of unit IT budget dedicated to innovation/digital,33.2%
+Finance & Admin,Allocation to Innovation,Percent of unit IT budget dedicated to innovation/digital,43.1%
+Registrar,Allocation to Innovation,Percent of unit IT budget dedicated to innovation/digital,24.2%
+Institutional Research,Allocation to Innovation,Percent of unit IT budget dedicated to innovation/digital,17.5%
+Library,Allocation to Innovation,Percent of unit IT budget dedicated to innovation/digital,31.4%
+Athletics,Allocation to Innovation,Percent of unit IT budget dedicated to innovation/digital,48.4%
+Academic Affairs,Demand Driver Index,"Index score based on campus usage, new programs, strategic drivers",0.6
+Student Affairs,Demand Driver Index,"Index score based on campus usage, new programs, strategic drivers",0.75
+IT Operations,Demand Driver Index,"Index score based on campus usage, new programs, strategic drivers",0.96
+Finance & Admin,Demand Driver Index,"Index score based on campus usage, new programs, strategic drivers",0.4
+Registrar,Demand Driver Index,"Index score based on campus usage, new programs, strategic drivers",0.77
+Institutional Research,Demand Driver Index,"Index score based on campus usage, new programs, strategic drivers",0.59
+Library,Demand Driver Index,"Index score based on campus usage, new programs, strategic drivers",0.88
+Athletics,Demand Driver Index,"Index score based on campus usage, new programs, strategic drivers",0.49
+Academic Affairs,Cost Efficiency Index,Efficiency score based on service delivery/output per dollar,0.56
+Student Affairs,Cost Efficiency Index,Efficiency score based on service delivery/output per dollar,0.73
+IT Operations,Cost Efficiency Index,Efficiency score based on service delivery/output per dollar,0.79
+Finance & Admin,Cost Efficiency Index,Efficiency score based on service delivery/output per dollar,0.89
+Registrar,Cost Efficiency Index,Efficiency score based on service delivery/output per dollar,0.61
+Institutional Research,Cost Efficiency Index,Efficiency score based on service delivery/output per dollar,0.96
+Library,Cost Efficiency Index,Efficiency score based on service delivery/output per dollar,0.85
+Athletics,Cost Efficiency Index,Efficiency score based on service delivery/output per dollar,0.42
+Academic Affairs,High-Cost Outlier Flag,Indicator for units above certain spend thresholds,Yes
+Student Affairs,High-Cost Outlier Flag,Indicator for units above certain spend thresholds,Yes
+IT Operations,High-Cost Outlier Flag,Indicator for units above certain spend thresholds,Yes
+Finance & Admin,High-Cost Outlier Flag,Indicator for units above certain spend thresholds,Yes
+Registrar,High-Cost Outlier Flag,Indicator for units above certain spend thresholds,Yes
+Institutional Research,High-Cost Outlier Flag,Indicator for units above certain spend thresholds,No
+Library,High-Cost Outlier Flag,Indicator for units above certain spend thresholds,Yes
+Athletics,High-Cost Outlier Flag,Indicator for units above certain spend thresholds,No
+Academic Affairs,Historical Spend Trend,"Multi-year spend trend (up, down, stable)","$147,992"
+Student Affairs,Historical Spend Trend,"Multi-year spend trend (up, down, stable)","$115,222"
+IT Operations,Historical Spend Trend,"Multi-year spend trend (up, down, stable)","$623,138"
+Finance & Admin,Historical Spend Trend,"Multi-year spend trend (up, down, stable)","$209,306"
+Registrar,Historical Spend Trend,"Multi-year spend trend (up, down, stable)","$760,593"
+Institutional Research,Historical Spend Trend,"Multi-year spend trend (up, down, stable)","$312,587"
+Library,Historical Spend Trend,"Multi-year spend trend (up, down, stable)","$624,006"
+Athletics,Historical Spend Trend,"Multi-year spend trend (up, down, stable)","$439,144"
+Academic Affairs,Proportion of Total IT Budget,Percentage of college-wide IT budget allocated to unit,36.2%
+Student Affairs,Proportion of Total IT Budget,Percentage of college-wide IT budget allocated to unit,47.6%
+IT Operations,Proportion of Total IT Budget,Percentage of college-wide IT budget allocated to unit,3.6%
+Finance & Admin,Proportion of Total IT Budget,Percentage of college-wide IT budget allocated to unit,30.6%
+Registrar,Proportion of Total IT Budget,Percentage of college-wide IT budget allocated to unit,11.5%
+Institutional Research,Proportion of Total IT Budget,Percentage of college-wide IT budget allocated to unit,5.7%
+Library,Proportion of Total IT Budget,Percentage of college-wide IT budget allocated to unit,13.6%
+Athletics,Proportion of Total IT Budget,Percentage of college-wide IT budget allocated to unit,35.4%
+Academic Affairs,Peer Benchmark Spend,Comparison of unit’s spend to similar units at other institutions,"$694,448"
+Student Affairs,Peer Benchmark Spend,Comparison of unit’s spend to similar units at other institutions,"$567,916"
+IT Operations,Peer Benchmark Spend,Comparison of unit’s spend to similar units at other institutions,"$244,876"
+Finance & Admin,Peer Benchmark Spend,Comparison of unit’s spend to similar units at other institutions,"$622,029"
+Registrar,Peer Benchmark Spend,Comparison of unit’s spend to similar units at other institutions,"$695,583"
+Institutional Research,Peer Benchmark Spend,Comparison of unit’s spend to similar units at other institutions,"$670,754"
+Library,Peer Benchmark Spend,Comparison of unit’s spend to similar units at other institutions,"$483,973"
+Athletics,Peer Benchmark Spend,Comparison of unit’s spend to similar units at other institutions,"$150,745"

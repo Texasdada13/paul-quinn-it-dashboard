@@ -1,0 +1,137 @@
+Service,Metric,Description,Example
+AWS EC2,Service/Resource,Cloud platform/instance or service,N/A
+AWS S3,Service/Resource,Cloud platform/instance or service,N/A
+Azure SQL,Service/Resource,Cloud platform/instance or service,N/A
+Google BigQuery,Service/Resource,Cloud platform/instance or service,N/A
+Zoom Cloud,Service/Resource,Cloud platform/instance or service,N/A
+Canvas LMS Cloud,Service/Resource,Cloud platform/instance or service,N/A
+Tableau Cloud,Service/Resource,Cloud platform/instance or service,N/A
+Dropbox Business,Service/Resource,Cloud platform/instance or service,N/A
+AWS EC2,Cloud Spend (monthly),Total monthly spend on cloud resources/services,"$11,162"
+AWS S3,Cloud Spend (monthly),Total monthly spend on cloud resources/services,"$17,441"
+Azure SQL,Cloud Spend (monthly),Total monthly spend on cloud resources/services,"$34,446"
+Google BigQuery,Cloud Spend (monthly),Total monthly spend on cloud resources/services,"$21,716"
+Zoom Cloud,Cloud Spend (monthly),Total monthly spend on cloud resources/services,"$34,111"
+Canvas LMS Cloud,Cloud Spend (monthly),Total monthly spend on cloud resources/services,"$18,038"
+Tableau Cloud,Cloud Spend (monthly),Total monthly spend on cloud resources/services,"$17,518"
+Dropbox Business,Cloud Spend (monthly),Total monthly spend on cloud resources/services,"$30,436"
+AWS EC2,Resource Utilization (%),Actual usage as percent of provisioned capacity,25.1%
+AWS S3,Resource Utilization (%),Actual usage as percent of provisioned capacity,31.1%
+Azure SQL,Resource Utilization (%),Actual usage as percent of provisioned capacity,22.6%
+Google BigQuery,Resource Utilization (%),Actual usage as percent of provisioned capacity,97.5%
+Zoom Cloud,Resource Utilization (%),Actual usage as percent of provisioned capacity,68.4%
+Canvas LMS Cloud,Resource Utilization (%),Actual usage as percent of provisioned capacity,87.4%
+Tableau Cloud,Resource Utilization (%),Actual usage as percent of provisioned capacity,63.9%
+Dropbox Business,Resource Utilization (%),Actual usage as percent of provisioned capacity,26.0%
+AWS EC2,Idle Resource Cost ($),Spend on underutilized or inactive assets,"$12,789"
+AWS S3,Idle Resource Cost ($),Spend on underutilized or inactive assets,"$9,264"
+Azure SQL,Idle Resource Cost ($),Spend on underutilized or inactive assets,"$19,585"
+Google BigQuery,Idle Resource Cost ($),Spend on underutilized or inactive assets,"$23,677"
+Zoom Cloud,Idle Resource Cost ($),Spend on underutilized or inactive assets,"$7,837"
+Canvas LMS Cloud,Idle Resource Cost ($),Spend on underutilized or inactive assets,"$8,686"
+Tableau Cloud,Idle Resource Cost ($),Spend on underutilized or inactive assets,"$14,949"
+Dropbox Business,Idle Resource Cost ($),Spend on underutilized or inactive assets,"$25,955"
+AWS EC2,Right-Sizing Status,Indicator if the resource is appropriately resized (Yes/No),Yes
+AWS S3,Right-Sizing Status,Indicator if the resource is appropriately resized (Yes/No),Yes
+Azure SQL,Right-Sizing Status,Indicator if the resource is appropriately resized (Yes/No),No
+Google BigQuery,Right-Sizing Status,Indicator if the resource is appropriately resized (Yes/No),No
+Zoom Cloud,Right-Sizing Status,Indicator if the resource is appropriately resized (Yes/No),Yes
+Canvas LMS Cloud,Right-Sizing Status,Indicator if the resource is appropriately resized (Yes/No),No
+Tableau Cloud,Right-Sizing Status,Indicator if the resource is appropriately resized (Yes/No),Yes
+Dropbox Business,Right-Sizing Status,Indicator if the resource is appropriately resized (Yes/No),Yes
+AWS EC2,Scheduled vs On-Demand Cost Ratio,Cost spent on scheduled vs dynamic allocations,"$23,608"
+AWS S3,Scheduled vs On-Demand Cost Ratio,Cost spent on scheduled vs dynamic allocations,"$22,271"
+Azure SQL,Scheduled vs On-Demand Cost Ratio,Cost spent on scheduled vs dynamic allocations,"$4,829"
+Google BigQuery,Scheduled vs On-Demand Cost Ratio,Cost spent on scheduled vs dynamic allocations,"$15,577"
+Zoom Cloud,Scheduled vs On-Demand Cost Ratio,Cost spent on scheduled vs dynamic allocations,"$17,920"
+Canvas LMS Cloud,Scheduled vs On-Demand Cost Ratio,Cost spent on scheduled vs dynamic allocations,"$7,935"
+Tableau Cloud,Scheduled vs On-Demand Cost Ratio,Cost spent on scheduled vs dynamic allocations,"$17,589"
+Dropbox Business,Scheduled vs On-Demand Cost Ratio,Cost spent on scheduled vs dynamic allocations,"$22,537"
+AWS EC2,Storage Utilization (%),Used storage as percent of allocated capacity,64.6%
+AWS S3,Storage Utilization (%),Used storage as percent of allocated capacity,48.7%
+Azure SQL,Storage Utilization (%),Used storage as percent of allocated capacity,35.3%
+Google BigQuery,Storage Utilization (%),Used storage as percent of allocated capacity,63.7%
+Zoom Cloud,Storage Utilization (%),Used storage as percent of allocated capacity,26.0%
+Canvas LMS Cloud,Storage Utilization (%),Used storage as percent of allocated capacity,85.6%
+Tableau Cloud,Storage Utilization (%),Used storage as percent of allocated capacity,76.8%
+Dropbox Business,Storage Utilization (%),Used storage as percent of allocated capacity,25.4%
+AWS EC2,CPU/GPU Utilization (%),Average CPU/GPU use over typical workday/week,27.9%
+AWS S3,CPU/GPU Utilization (%),Average CPU/GPU use over typical workday/week,22.8%
+Azure SQL,CPU/GPU Utilization (%),Average CPU/GPU use over typical workday/week,98.6%
+Google BigQuery,CPU/GPU Utilization (%),Average CPU/GPU use over typical workday/week,68.2%
+Zoom Cloud,CPU/GPU Utilization (%),Average CPU/GPU use over typical workday/week,35.8%
+Canvas LMS Cloud,CPU/GPU Utilization (%),Average CPU/GPU use over typical workday/week,50.1%
+Tableau Cloud,CPU/GPU Utilization (%),Average CPU/GPU use over typical workday/week,88.5%
+Dropbox Business,CPU/GPU Utilization (%),Average CPU/GPU use over typical workday/week,56.7%
+AWS EC2,Reserved vs Spot Instance Usage (%),Mix of long-term reserved and spot usage,96.8%
+AWS S3,Reserved vs Spot Instance Usage (%),Mix of long-term reserved and spot usage,32.4%
+Azure SQL,Reserved vs Spot Instance Usage (%),Mix of long-term reserved and spot usage,77.1%
+Google BigQuery,Reserved vs Spot Instance Usage (%),Mix of long-term reserved and spot usage,92.9%
+Zoom Cloud,Reserved vs Spot Instance Usage (%),Mix of long-term reserved and spot usage,94.0%
+Canvas LMS Cloud,Reserved vs Spot Instance Usage (%),Mix of long-term reserved and spot usage,94.1%
+Tableau Cloud,Reserved vs Spot Instance Usage (%),Mix of long-term reserved and spot usage,73.8%
+Dropbox Business,Reserved vs Spot Instance Usage (%),Mix of long-term reserved and spot usage,94.3%
+AWS EC2,Automated Cost Alert,Was budget or optimization alert triggered this period?,"$18,121"
+AWS S3,Automated Cost Alert,Was budget or optimization alert triggered this period?,"$6,642"
+Azure SQL,Automated Cost Alert,Was budget or optimization alert triggered this period?,"$18,111"
+Google BigQuery,Automated Cost Alert,Was budget or optimization alert triggered this period?,"$13,889"
+Zoom Cloud,Automated Cost Alert,Was budget or optimization alert triggered this period?,"$13,827"
+Canvas LMS Cloud,Automated Cost Alert,Was budget or optimization alert triggered this period?,"$32,288"
+Tableau Cloud,Automated Cost Alert,Was budget or optimization alert triggered this period?,"$27,464"
+Dropbox Business,Automated Cost Alert,Was budget or optimization alert triggered this period?,"$29,637"
+AWS EC2,Optimized Recommendation Savings ($),Potential savings identified by cloud optimizer tools,"$18,266"
+AWS S3,Optimized Recommendation Savings ($),Potential savings identified by cloud optimizer tools,"$1,649"
+Azure SQL,Optimized Recommendation Savings ($),Potential savings identified by cloud optimizer tools,"$24,613"
+Google BigQuery,Optimized Recommendation Savings ($),Potential savings identified by cloud optimizer tools,"$27,049"
+Zoom Cloud,Optimized Recommendation Savings ($),Potential savings identified by cloud optimizer tools,"$34,335"
+Canvas LMS Cloud,Optimized Recommendation Savings ($),Potential savings identified by cloud optimizer tools,"$24,747"
+Tableau Cloud,Optimized Recommendation Savings ($),Potential savings identified by cloud optimizer tools,"$14,864"
+Dropbox Business,Optimized Recommendation Savings ($),Potential savings identified by cloud optimizer tools,"$22,872"
+AWS EC2,Unused Service Count,Number of active subscriptions/services not used,3
+AWS S3,Unused Service Count,Number of active subscriptions/services not used,9
+Azure SQL,Unused Service Count,Number of active subscriptions/services not used,6
+Google BigQuery,Unused Service Count,Number of active subscriptions/services not used,9
+Zoom Cloud,Unused Service Count,Number of active subscriptions/services not used,8
+Canvas LMS Cloud,Unused Service Count,Number of active subscriptions/services not used,4
+Tableau Cloud,Unused Service Count,Number of active subscriptions/services not used,11
+Dropbox Business,Unused Service Count,Number of active subscriptions/services not used,9
+AWS EC2,Forecasted Growth Rate (%),Predicted month-over-month spend/infrastructure growth,42.7%
+AWS S3,Forecasted Growth Rate (%),Predicted month-over-month spend/infrastructure growth,89.5%
+Azure SQL,Forecasted Growth Rate (%),Predicted month-over-month spend/infrastructure growth,34.6%
+Google BigQuery,Forecasted Growth Rate (%),Predicted month-over-month spend/infrastructure growth,95.1%
+Zoom Cloud,Forecasted Growth Rate (%),Predicted month-over-month spend/infrastructure growth,52.8%
+Canvas LMS Cloud,Forecasted Growth Rate (%),Predicted month-over-month spend/infrastructure growth,72.3%
+Tableau Cloud,Forecasted Growth Rate (%),Predicted month-over-month spend/infrastructure growth,76.7%
+Dropbox Business,Forecasted Growth Rate (%),Predicted month-over-month spend/infrastructure growth,52.9%
+AWS EC2,Service Uptime (%),Availability of cloud service over last month,99.37%
+AWS S3,Service Uptime (%),Availability of cloud service over last month,93.38%
+Azure SQL,Service Uptime (%),Availability of cloud service over last month,96.46%
+Google BigQuery,Service Uptime (%),Availability of cloud service over last month,94.74%
+Zoom Cloud,Service Uptime (%),Availability of cloud service over last month,95.44%
+Canvas LMS Cloud,Service Uptime (%),Availability of cloud service over last month,98.18%
+Tableau Cloud,Service Uptime (%),Availability of cloud service over last month,95.52%
+Dropbox Business,Service Uptime (%),Availability of cloud service over last month,97.41%
+AWS EC2,Workload Distribution (Regions),List/count of cloud regions utilized,7
+AWS S3,Workload Distribution (Regions),List/count of cloud regions utilized,7
+Azure SQL,Workload Distribution (Regions),List/count of cloud regions utilized,3
+Google BigQuery,Workload Distribution (Regions),List/count of cloud regions utilized,6
+Zoom Cloud,Workload Distribution (Regions),List/count of cloud regions utilized,7
+Canvas LMS Cloud,Workload Distribution (Regions),List/count of cloud regions utilized,4
+Tableau Cloud,Workload Distribution (Regions),List/count of cloud regions utilized,5
+Dropbox Business,Workload Distribution (Regions),List/count of cloud regions utilized,6
+AWS EC2,Data Egress Cost ($),Spend on outbound data transfer,$609
+AWS S3,Data Egress Cost ($),Spend on outbound data transfer,"$31,617"
+Azure SQL,Data Egress Cost ($),Spend on outbound data transfer,"$15,653"
+Google BigQuery,Data Egress Cost ($),Spend on outbound data transfer,"$29,871"
+Zoom Cloud,Data Egress Cost ($),Spend on outbound data transfer,"$34,831"
+Canvas LMS Cloud,Data Egress Cost ($),Spend on outbound data transfer,"$13,612"
+Tableau Cloud,Data Egress Cost ($),Spend on outbound data transfer,"$27,669"
+Dropbox Business,Data Egress Cost ($),Spend on outbound data transfer,"$29,636"
+AWS EC2,License/Subscription Tier,Tier or plan assigned to each resource/service,Standard
+AWS S3,License/Subscription Tier,Tier or plan assigned to each resource/service,Enterprise
+Azure SQL,License/Subscription Tier,Tier or plan assigned to each resource/service,Standard
+Google BigQuery,License/Subscription Tier,Tier or plan assigned to each resource/service,Enterprise
+Zoom Cloud,License/Subscription Tier,Tier or plan assigned to each resource/service,Premium
+Canvas LMS Cloud,License/Subscription Tier,Tier or plan assigned to each resource/service,Business
+Tableau Cloud,License/Subscription Tier,Tier or plan assigned to each resource/service,Premium
+Dropbox Business,License/Subscription Tier,Tier or plan assigned to each resource/service,Standard

@@ -1,0 +1,153 @@
+Component,Metric,Description,Example
+Campus WiFi,Asset/Component,Infrastructure element tracked for capacity,N/A
+Data Analytics Cluster,Asset/Component,Infrastructure element tracked for capacity,N/A
+Email Platform,Asset/Component,Infrastructure element tracked for capacity,N/A
+Student Portal,Asset/Component,Infrastructure element tracked for capacity,N/A
+Core Network,Asset/Component,Infrastructure element tracked for capacity,N/A
+Virtual Desktop,Asset/Component,Infrastructure element tracked for capacity,N/A
+File Storage,Asset/Component,Infrastructure element tracked for capacity,N/A
+Meeting Platform,Asset/Component,Infrastructure element tracked for capacity,N/A
+Campus WiFi,Peak Utilization (%),Highest observed utilization for component/system,77.7%
+Data Analytics Cluster,Peak Utilization (%),Highest observed utilization for component/system,65.1%
+Email Platform,Peak Utilization (%),Highest observed utilization for component/system,32.4%
+Student Portal,Peak Utilization (%),Highest observed utilization for component/system,52.8%
+Core Network,Peak Utilization (%),Highest observed utilization for component/system,81.6%
+Virtual Desktop,Peak Utilization (%),Highest observed utilization for component/system,61.3%
+File Storage,Peak Utilization (%),Highest observed utilization for component/system,36.7%
+Meeting Platform,Peak Utilization (%),Highest observed utilization for component/system,87.0%
+Campus WiFi,Average Utilization (%),Mean utilization over selected time window,94.7%
+Data Analytics Cluster,Average Utilization (%),Mean utilization over selected time window,96.8%
+Email Platform,Average Utilization (%),Mean utilization over selected time window,37.5%
+Student Portal,Average Utilization (%),Mean utilization over selected time window,95.8%
+Core Network,Average Utilization (%),Mean utilization over selected time window,40.6%
+Virtual Desktop,Average Utilization (%),Mean utilization over selected time window,25.0%
+File Storage,Average Utilization (%),Mean utilization over selected time window,94.0%
+Meeting Platform,Average Utilization (%),Mean utilization over selected time window,92.1%
+Campus WiFi,Seasonal/Weekly Utilization Pattern,"Pattern or index for regular spikes/dips (e.g., semester start)",45.0%
+Data Analytics Cluster,Seasonal/Weekly Utilization Pattern,"Pattern or index for regular spikes/dips (e.g., semester start)",35.5%
+Email Platform,Seasonal/Weekly Utilization Pattern,"Pattern or index for regular spikes/dips (e.g., semester start)",52.7%
+Student Portal,Seasonal/Weekly Utilization Pattern,"Pattern or index for regular spikes/dips (e.g., semester start)",61.3%
+Core Network,Seasonal/Weekly Utilization Pattern,"Pattern or index for regular spikes/dips (e.g., semester start)",46.1%
+Virtual Desktop,Seasonal/Weekly Utilization Pattern,"Pattern or index for regular spikes/dips (e.g., semester start)",55.2%
+File Storage,Seasonal/Weekly Utilization Pattern,"Pattern or index for regular spikes/dips (e.g., semester start)",85.3%
+Meeting Platform,Seasonal/Weekly Utilization Pattern,"Pattern or index for regular spikes/dips (e.g., semester start)",65.2%
+Campus WiFi,Capacity Threshold (%),Pre-set upper utilization limit before scaling action,85.3%
+Data Analytics Cluster,Capacity Threshold (%),Pre-set upper utilization limit before scaling action,97.8%
+Email Platform,Capacity Threshold (%),Pre-set upper utilization limit before scaling action,47.9%
+Student Portal,Capacity Threshold (%),Pre-set upper utilization limit before scaling action,29.8%
+Core Network,Capacity Threshold (%),Pre-set upper utilization limit before scaling action,81.0%
+Virtual Desktop,Capacity Threshold (%),Pre-set upper utilization limit before scaling action,34.2%
+File Storage,Capacity Threshold (%),Pre-set upper utilization limit before scaling action,77.4%
+Meeting Platform,Capacity Threshold (%),Pre-set upper utilization limit before scaling action,94.6%
+Campus WiFi,Current Buffer Capacity (%),Percent available resource headroom (100%-Current Peak),28.5%
+Data Analytics Cluster,Current Buffer Capacity (%),Percent available resource headroom (100%-Current Peak),56.5%
+Email Platform,Current Buffer Capacity (%),Percent available resource headroom (100%-Current Peak),86.1%
+Student Portal,Current Buffer Capacity (%),Percent available resource headroom (100%-Current Peak),33.9%
+Core Network,Current Buffer Capacity (%),Percent available resource headroom (100%-Current Peak),80.4%
+Virtual Desktop,Current Buffer Capacity (%),Percent available resource headroom (100%-Current Peak),81.6%
+File Storage,Current Buffer Capacity (%),Percent available resource headroom (100%-Current Peak),73.6%
+Meeting Platform,Current Buffer Capacity (%),Percent available resource headroom (100%-Current Peak),32.9%
+Campus WiFi,Forecasted Utilization Growth (%),Projected increase based on historical/data trend,25.9%
+Data Analytics Cluster,Forecasted Utilization Growth (%),Projected increase based on historical/data trend,72.2%
+Email Platform,Forecasted Utilization Growth (%),Projected increase based on historical/data trend,41.8%
+Student Portal,Forecasted Utilization Growth (%),Projected increase based on historical/data trend,97.1%
+Core Network,Forecasted Utilization Growth (%),Projected increase based on historical/data trend,63.0%
+Virtual Desktop,Forecasted Utilization Growth (%),Projected increase based on historical/data trend,27.4%
+File Storage,Forecasted Utilization Growth (%),Projected increase based on historical/data trend,75.4%
+Meeting Platform,Forecasted Utilization Growth (%),Projected increase based on historical/data trend,70.0%
+Campus WiFi,Time-to-Threshold (days),Predicted days/resources until threshold likely exceeded,90.2%
+Data Analytics Cluster,Time-to-Threshold (days),Predicted days/resources until threshold likely exceeded,35.1%
+Email Platform,Time-to-Threshold (days),Predicted days/resources until threshold likely exceeded,68.8%
+Student Portal,Time-to-Threshold (days),Predicted days/resources until threshold likely exceeded,46.8%
+Core Network,Time-to-Threshold (days),Predicted days/resources until threshold likely exceeded,80.2%
+Virtual Desktop,Time-to-Threshold (days),Predicted days/resources until threshold likely exceeded,34.7%
+File Storage,Time-to-Threshold (days),Predicted days/resources until threshold likely exceeded,92.7%
+Meeting Platform,Time-to-Threshold (days),Predicted days/resources until threshold likely exceeded,60.3%
+Campus WiFi,Scaling Recommendation,"Advisory: scale-up, scale-out, maintain",Investigate Bottleneck
+Data Analytics Cluster,Scaling Recommendation,"Advisory: scale-up, scale-out, maintain",Maintain
+Email Platform,Scaling Recommendation,"Advisory: scale-up, scale-out, maintain",Scale Up
+Student Portal,Scaling Recommendation,"Advisory: scale-up, scale-out, maintain",Scale Up
+Core Network,Scaling Recommendation,"Advisory: scale-up, scale-out, maintain",Scale Up
+Virtual Desktop,Scaling Recommendation,"Advisory: scale-up, scale-out, maintain",Investigate Bottleneck
+File Storage,Scaling Recommendation,"Advisory: scale-up, scale-out, maintain",Maintain
+Meeting Platform,Scaling Recommendation,"Advisory: scale-up, scale-out, maintain",Investigate Bottleneck
+Campus WiFi,Physical/Virtual Capacity,"Actual installed/virtual resource limits (CPU, RAM, storage, bandwidth)",Storage: 185 units
+Data Analytics Cluster,Physical/Virtual Capacity,"Actual installed/virtual resource limits (CPU, RAM, storage, bandwidth)",Storage: 5268 units
+Email Platform,Physical/Virtual Capacity,"Actual installed/virtual resource limits (CPU, RAM, storage, bandwidth)",CPU: 4810 units
+Student Portal,Physical/Virtual Capacity,"Actual installed/virtual resource limits (CPU, RAM, storage, bandwidth)",CPU: 6835 units
+Core Network,Physical/Virtual Capacity,"Actual installed/virtual resource limits (CPU, RAM, storage, bandwidth)",CPU: 1863 units
+Virtual Desktop,Physical/Virtual Capacity,"Actual installed/virtual resource limits (CPU, RAM, storage, bandwidth)",RAM: 6781 units
+File Storage,Physical/Virtual Capacity,"Actual installed/virtual resource limits (CPU, RAM, storage, bandwidth)",Storage: 521 units
+Meeting Platform,Physical/Virtual Capacity,"Actual installed/virtual resource limits (CPU, RAM, storage, bandwidth)",CPU: 7109 units
+Campus WiFi,Scalability Score,Composite score for ease of scaling (1-10 scale),9.0
+Data Analytics Cluster,Scalability Score,Composite score for ease of scaling (1-10 scale),5.2
+Email Platform,Scalability Score,Composite score for ease of scaling (1-10 scale),9.5
+Student Portal,Scalability Score,Composite score for ease of scaling (1-10 scale),4.6
+Core Network,Scalability Score,Composite score for ease of scaling (1-10 scale),8.1
+Virtual Desktop,Scalability Score,Composite score for ease of scaling (1-10 scale),7.8
+File Storage,Scalability Score,Composite score for ease of scaling (1-10 scale),4.6
+Meeting Platform,Scalability Score,Composite score for ease of scaling (1-10 scale),5.4
+Campus WiFi,Auto-Scaling Event Count,Times infrastructure was automatically scaled in period,14
+Data Analytics Cluster,Auto-Scaling Event Count,Times infrastructure was automatically scaled in period,5
+Email Platform,Auto-Scaling Event Count,Times infrastructure was automatically scaled in period,13
+Student Portal,Auto-Scaling Event Count,Times infrastructure was automatically scaled in period,17
+Core Network,Auto-Scaling Event Count,Times infrastructure was automatically scaled in period,2
+Virtual Desktop,Auto-Scaling Event Count,Times infrastructure was automatically scaled in period,20
+File Storage,Auto-Scaling Event Count,Times infrastructure was automatically scaled in period,18
+Meeting Platform,Auto-Scaling Event Count,Times infrastructure was automatically scaled in period,11
+Campus WiFi,Resource Bottleneck Detector,Flag for elements causing performance bottleneck,13
+Data Analytics Cluster,Resource Bottleneck Detector,Flag for elements causing performance bottleneck,19
+Email Platform,Resource Bottleneck Detector,Flag for elements causing performance bottleneck,17
+Student Portal,Resource Bottleneck Detector,Flag for elements causing performance bottleneck,8
+Core Network,Resource Bottleneck Detector,Flag for elements causing performance bottleneck,13
+Virtual Desktop,Resource Bottleneck Detector,Flag for elements causing performance bottleneck,20
+File Storage,Resource Bottleneck Detector,Flag for elements causing performance bottleneck,24
+Meeting Platform,Resource Bottleneck Detector,Flag for elements causing performance bottleneck,4
+Campus WiFi,Utilization/Performance Variance,Standard deviation/variance from peak usage,90.2%
+Data Analytics Cluster,Utilization/Performance Variance,Standard deviation/variance from peak usage,78.3%
+Email Platform,Utilization/Performance Variance,Standard deviation/variance from peak usage,87.2%
+Student Portal,Utilization/Performance Variance,Standard deviation/variance from peak usage,84.5%
+Core Network,Utilization/Performance Variance,Standard deviation/variance from peak usage,87.9%
+Virtual Desktop,Utilization/Performance Variance,Standard deviation/variance from peak usage,51.7%
+File Storage,Utilization/Performance Variance,Standard deviation/variance from peak usage,68.9%
+Meeting Platform,Utilization/Performance Variance,Standard deviation/variance from peak usage,54.2%
+Campus WiFi,Pending Capacity Requests,Count of pending new requests for capacity from users/projects,10
+Data Analytics Cluster,Pending Capacity Requests,Count of pending new requests for capacity from users/projects,5
+Email Platform,Pending Capacity Requests,Count of pending new requests for capacity from users/projects,12
+Student Portal,Pending Capacity Requests,Count of pending new requests for capacity from users/projects,13
+Core Network,Pending Capacity Requests,Count of pending new requests for capacity from users/projects,15
+Virtual Desktop,Pending Capacity Requests,Count of pending new requests for capacity from users/projects,2
+File Storage,Pending Capacity Requests,Count of pending new requests for capacity from users/projects,3
+Meeting Platform,Pending Capacity Requests,Count of pending new requests for capacity from users/projects,8
+Campus WiFi,Capacity Used Per FTE ($),Annual cost/component used per full-time equivalent,3
+Data Analytics Cluster,Capacity Used Per FTE ($),Annual cost/component used per full-time equivalent,17
+Email Platform,Capacity Used Per FTE ($),Annual cost/component used per full-time equivalent,9
+Student Portal,Capacity Used Per FTE ($),Annual cost/component used per full-time equivalent,1
+Core Network,Capacity Used Per FTE ($),Annual cost/component used per full-time equivalent,24
+Virtual Desktop,Capacity Used Per FTE ($),Annual cost/component used per full-time equivalent,16
+File Storage,Capacity Used Per FTE ($),Annual cost/component used per full-time equivalent,4
+Meeting Platform,Capacity Used Per FTE ($),Annual cost/component used per full-time equivalent,14
+Campus WiFi,Capacity Utilization by Business Unit,"Usage per unit/group (e.g., labs, admin, students)",50.1%
+Data Analytics Cluster,Capacity Utilization by Business Unit,"Usage per unit/group (e.g., labs, admin, students)",40.8%
+Email Platform,Capacity Utilization by Business Unit,"Usage per unit/group (e.g., labs, admin, students)",30.9%
+Student Portal,Capacity Utilization by Business Unit,"Usage per unit/group (e.g., labs, admin, students)",41.4%
+Core Network,Capacity Utilization by Business Unit,"Usage per unit/group (e.g., labs, admin, students)",92.4%
+Virtual Desktop,Capacity Utilization by Business Unit,"Usage per unit/group (e.g., labs, admin, students)",49.9%
+File Storage,Capacity Utilization by Business Unit,"Usage per unit/group (e.g., labs, admin, students)",83.6%
+Meeting Platform,Capacity Utilization by Business Unit,"Usage per unit/group (e.g., labs, admin, students)",77.6%
+Campus WiFi,Service Impact Score,Rating of how scaling decisions impact service availability/performance,9.3
+Data Analytics Cluster,Service Impact Score,Rating of how scaling decisions impact service availability/performance,8.2
+Email Platform,Service Impact Score,Rating of how scaling decisions impact service availability/performance,8.0
+Student Portal,Service Impact Score,Rating of how scaling decisions impact service availability/performance,7.2
+Core Network,Service Impact Score,Rating of how scaling decisions impact service availability/performance,9.1
+Virtual Desktop,Service Impact Score,Rating of how scaling decisions impact service availability/performance,6.3
+File Storage,Service Impact Score,Rating of how scaling decisions impact service availability/performance,4.7
+Meeting Platform,Service Impact Score,Rating of how scaling decisions impact service availability/performance,4.7
+Campus WiFi,Redundancy/Failover Capacity (%),Percent of infrastructure maintained for backup/failover,55.5%
+Data Analytics Cluster,Redundancy/Failover Capacity (%),Percent of infrastructure maintained for backup/failover,68.9%
+Email Platform,Redundancy/Failover Capacity (%),Percent of infrastructure maintained for backup/failover,72.7%
+Student Portal,Redundancy/Failover Capacity (%),Percent of infrastructure maintained for backup/failover,71.8%
+Core Network,Redundancy/Failover Capacity (%),Percent of infrastructure maintained for backup/failover,37.3%
+Virtual Desktop,Redundancy/Failover Capacity (%),Percent of infrastructure maintained for backup/failover,50.2%
+File Storage,Redundancy/Failover Capacity (%),Percent of infrastructure maintained for backup/failover,50.5%
+Meeting Platform,Redundancy/Failover Capacity (%),Percent of infrastructure maintained for backup/failover,96.0%

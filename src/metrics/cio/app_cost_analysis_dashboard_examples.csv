@@ -1,0 +1,113 @@
+Application,Metric,Description,Example
+Office 365,Total Cost of Ownership (TCO),"Sum of initial, recurring, end-of-life costs over expected service period","$136,888"
+Canvas LMS,Total Cost of Ownership (TCO),"Sum of initial, recurring, end-of-life costs over expected service period","$116,736"
+Zoom,Total Cost of Ownership (TCO),"Sum of initial, recurring, end-of-life costs over expected service period","$48,815"
+Blackboard,Total Cost of Ownership (TCO),"Sum of initial, recurring, end-of-life costs over expected service period","$145,553"
+Cisco WebEx,Total Cost of Ownership (TCO),"Sum of initial, recurring, end-of-life costs over expected service period","$102,474"
+Google Workspace,Total Cost of Ownership (TCO),"Sum of initial, recurring, end-of-life costs over expected service period","$68,212"
+Slack,Total Cost of Ownership (TCO),"Sum of initial, recurring, end-of-life costs over expected service period","$101,200"
+Office 365,Annual License/Subscription Cost,Yearly direct spend on licenses/subscriptions,"$23,461"
+Canvas LMS,Annual License/Subscription Cost,Yearly direct spend on licenses/subscriptions,"$17,740"
+Zoom,Annual License/Subscription Cost,Yearly direct spend on licenses/subscriptions,"$21,648"
+Blackboard,Annual License/Subscription Cost,Yearly direct spend on licenses/subscriptions,"$124,218"
+Cisco WebEx,Annual License/Subscription Cost,Yearly direct spend on licenses/subscriptions,"$130,105"
+Google Workspace,Annual License/Subscription Cost,Yearly direct spend on licenses/subscriptions,"$61,159"
+Slack,Annual License/Subscription Cost,Yearly direct spend on licenses/subscriptions,"$86,762"
+Office 365,Support/Maintenance Cost,Annual cost for vendor or internal support,"$87,606"
+Canvas LMS,Support/Maintenance Cost,Annual cost for vendor or internal support,"$149,101"
+Zoom,Support/Maintenance Cost,Annual cost for vendor or internal support,"$120,899"
+Blackboard,Support/Maintenance Cost,Annual cost for vendor or internal support,"$21,293"
+Cisco WebEx,Support/Maintenance Cost,Annual cost for vendor or internal support,"$31,457"
+Google Workspace,Support/Maintenance Cost,Annual cost for vendor or internal support,"$27,984"
+Slack,Support/Maintenance Cost,Annual cost for vendor or internal support,"$106,206"
+Office 365,Implementation Cost,Total resource and consulting cost for rollout,"$124,078"
+Canvas LMS,Implementation Cost,Total resource and consulting cost for rollout,"$118,702"
+Zoom,Implementation Cost,Total resource and consulting cost for rollout,"$120,944"
+Blackboard,Implementation Cost,Total resource and consulting cost for rollout,"$33,495"
+Cisco WebEx,Implementation Cost,Total resource and consulting cost for rollout,"$73,699"
+Google Workspace,Implementation Cost,Total resource and consulting cost for rollout,"$41,949"
+Slack,Implementation Cost,Total resource and consulting cost for rollout,"$71,021"
+Office 365,Upgrade/Enhancement Cost,"Cost invested in customizations, upgrades, add-ons","$34,261"
+Canvas LMS,Upgrade/Enhancement Cost,"Cost invested in customizations, upgrades, add-ons","$111,907"
+Zoom,Upgrade/Enhancement Cost,"Cost invested in customizations, upgrades, add-ons","$75,406"
+Blackboard,Upgrade/Enhancement Cost,"Cost invested in customizations, upgrades, add-ons","$117,805"
+Cisco WebEx,Upgrade/Enhancement Cost,"Cost invested in customizations, upgrades, add-ons","$79,891"
+Google Workspace,Upgrade/Enhancement Cost,"Cost invested in customizations, upgrades, add-ons","$17,545"
+Slack,Upgrade/Enhancement Cost,"Cost invested in customizations, upgrades, add-ons","$48,380"
+Office 365,Utilization Rate (%),Percent of seats/features actively used versus provisioned,46.7%
+Canvas LMS,Utilization Rate (%),Percent of seats/features actively used versus provisioned,88.2%
+Zoom,Utilization Rate (%),Percent of seats/features actively used versus provisioned,93.9%
+Blackboard,Utilization Rate (%),Percent of seats/features actively used versus provisioned,83.0%
+Cisco WebEx,Utilization Rate (%),Percent of seats/features actively used versus provisioned,57.4%
+Google Workspace,Utilization Rate (%),Percent of seats/features actively used versus provisioned,67.2%
+Slack,Utilization Rate (%),Percent of seats/features actively used versus provisioned,97.8%
+Office 365,Redundancy Index,Count of alternative apps/services with overlapping capability,0.53
+Canvas LMS,Redundancy Index,Count of alternative apps/services with overlapping capability,0.72
+Zoom,Redundancy Index,Count of alternative apps/services with overlapping capability,0.68
+Blackboard,Redundancy Index,Count of alternative apps/services with overlapping capability,0.62
+Cisco WebEx,Redundancy Index,Count of alternative apps/services with overlapping capability,0.46
+Google Workspace,Redundancy Index,Count of alternative apps/services with overlapping capability,0.94
+Slack,Redundancy Index,Count of alternative apps/services with overlapping capability,0.73
+Office 365,Consolidation Potential,Yes/No if system eligible for replacement/merging,Yes
+Canvas LMS,Consolidation Potential,Yes/No if system eligible for replacement/merging,Yes
+Zoom,Consolidation Potential,Yes/No if system eligible for replacement/merging,No
+Blackboard,Consolidation Potential,Yes/No if system eligible for replacement/merging,Yes
+Cisco WebEx,Consolidation Potential,Yes/No if system eligible for replacement/merging,No
+Google Workspace,Consolidation Potential,Yes/No if system eligible for replacement/merging,No
+Slack,Consolidation Potential,Yes/No if system eligible for replacement/merging,No
+Office 365,Cost per Active User,Annual license/support cost divided by active user count,"$72,465"
+Canvas LMS,Cost per Active User,Annual license/support cost divided by active user count,"$55,015"
+Zoom,Cost per Active User,Annual license/support cost divided by active user count,"$88,252"
+Blackboard,Cost per Active User,Annual license/support cost divided by active user count,"$38,950"
+Cisco WebEx,Cost per Active User,Annual license/support cost divided by active user count,"$23,182"
+Google Workspace,Cost per Active User,Annual license/support cost divided by active user count,"$137,395"
+Slack,Cost per Active User,Annual license/support cost divided by active user count,"$67,774"
+Office 365,Feature Utilization Index,Percent of key features used versus available,84.8%
+Canvas LMS,Feature Utilization Index,Percent of key features used versus available,58.8%
+Zoom,Feature Utilization Index,Percent of key features used versus available,58.8%
+Blackboard,Feature Utilization Index,Percent of key features used versus available,57.9%
+Cisco WebEx,Feature Utilization Index,Percent of key features used versus available,50.8%
+Google Workspace,Feature Utilization Index,Percent of key features used versus available,54.8%
+Slack,Feature Utilization Index,Percent of key features used versus available,93.2%
+Office 365,Duplicate Functionality Detected,Key overlapping processes flagged (True/False),False
+Canvas LMS,Duplicate Functionality Detected,Key overlapping processes flagged (True/False),False
+Zoom,Duplicate Functionality Detected,Key overlapping processes flagged (True/False),True
+Blackboard,Duplicate Functionality Detected,Key overlapping processes flagged (True/False),True
+Cisco WebEx,Duplicate Functionality Detected,Key overlapping processes flagged (True/False),True
+Google Workspace,Duplicate Functionality Detected,Key overlapping processes flagged (True/False),True
+Slack,Duplicate Functionality Detected,Key overlapping processes flagged (True/False),False
+Office 365,Annual Downtime Loss ($),Dollar cost of lost productivity from outages,"$40,349"
+Canvas LMS,Annual Downtime Loss ($),Dollar cost of lost productivity from outages,"$30,238"
+Zoom,Annual Downtime Loss ($),Dollar cost of lost productivity from outages,"$49,570"
+Blackboard,Annual Downtime Loss ($),Dollar cost of lost productivity from outages,"$139,559"
+Cisco WebEx,Annual Downtime Loss ($),Dollar cost of lost productivity from outages,"$59,435"
+Google Workspace,Annual Downtime Loss ($),Dollar cost of lost productivity from outages,"$36,092"
+Slack,Annual Downtime Loss ($),Dollar cost of lost productivity from outages,"$49,809"
+Office 365,Compliance/Regulatory Cost,"Additional cost for audit, security, compliance","$16,173"
+Canvas LMS,Compliance/Regulatory Cost,"Additional cost for audit, security, compliance","$90,008"
+Zoom,Compliance/Regulatory Cost,"Additional cost for audit, security, compliance","$46,697"
+Blackboard,Compliance/Regulatory Cost,"Additional cost for audit, security, compliance","$93,509"
+Cisco WebEx,Compliance/Regulatory Cost,"Additional cost for audit, security, compliance","$93,792"
+Google Workspace,Compliance/Regulatory Cost,"Additional cost for audit, security, compliance","$47,225"
+Slack,Compliance/Regulatory Cost,"Additional cost for audit, security, compliance","$51,165"
+Office 365,Switching/Exit Cost,Estimated cost to transition away from application/service,"$88,465"
+Canvas LMS,Switching/Exit Cost,Estimated cost to transition away from application/service,"$51,193"
+Zoom,Switching/Exit Cost,Estimated cost to transition away from application/service,"$83,812"
+Blackboard,Switching/Exit Cost,Estimated cost to transition away from application/service,"$47,975"
+Cisco WebEx,Switching/Exit Cost,Estimated cost to transition away from application/service,"$134,397"
+Google Workspace,Switching/Exit Cost,Estimated cost to transition away from application/service,"$12,688"
+Slack,Switching/Exit Cost,Estimated cost to transition away from application/service,"$84,449"
+Office 365,ROI vs Peer Systems,Relative ROI compared to comparable platforms,0.8
+Canvas LMS,ROI vs Peer Systems,Relative ROI compared to comparable platforms,1.21
+Zoom,ROI vs Peer Systems,Relative ROI compared to comparable platforms,0.85
+Blackboard,ROI vs Peer Systems,Relative ROI compared to comparable platforms,0.72
+Cisco WebEx,ROI vs Peer Systems,Relative ROI compared to comparable platforms,1.14
+Google Workspace,ROI vs Peer Systems,Relative ROI compared to comparable platforms,1.37
+Slack,ROI vs Peer Systems,Relative ROI compared to comparable platforms,1.33
+Office 365,Risk Exposure for Redundancy,Score detailing risk if redundant system not addressed,False
+Canvas LMS,Risk Exposure for Redundancy,Score detailing risk if redundant system not addressed,True
+Zoom,Risk Exposure for Redundancy,Score detailing risk if redundant system not addressed,True
+Blackboard,Risk Exposure for Redundancy,Score detailing risk if redundant system not addressed,True
+Cisco WebEx,Risk Exposure for Redundancy,Score detailing risk if redundant system not addressed,True
+Google Workspace,Risk Exposure for Redundancy,Score detailing risk if redundant system not addressed,True
+Slack,Risk Exposure for Redundancy,Score detailing risk if redundant system not addressed,False

@@ -1,0 +1,20 @@
+Metric_Category,Specific_Metric,Calculation_Formula,Target_Benchmark,Alert_Thresholds
+Portfolio Balance,RGT Spend Distribution %,(Category Spend / Total IT Spend) * 100,"Run: 65%, Grow: 25%, Transform: 15% (HBCU optimized)","Run >80% or <50%, Transform <5% or >30%"
+Portfolio Balance,RGT Portfolio Drift,|Current % - Target %| for each category,<5% deviation from target allocation,>10% deviation from target
+Portfolio Balance,RGT Balance Score,Weighted score based on optimal balance targets,>8.0/10.0 portfolio balance score,<6.0/10.0 balance score
+Financial Analysis,Cost per Category ($/FTE),Category Total Spend / Full-Time Equivalents,Benchmark against peer institutions,>150% of peer average cost per FTE
+Financial Analysis,ROI by Category,(Financial Benefits - Investment) / Investment * 100,"Run: 5-15%, Grow: 15-25%, Transform: >20%","Run <5%, Grow <10%, Transform <15% ROI"
+Financial Analysis,Budget Variance by Category,(Actual Spend - Budget) / Budget * 100,"±10% variance acceptable, <5% optimal",>15% budget variance
+Financial Analysis,Total Cost of Ownership (TCO),Initial Cost + Operating Cost + End-of-Life Cost,Minimize while maintaining quality/performance,TCO growth >20% year-over-year
+Strategic Alignment,Strategic Initiative Alignment %,(Aligned Projects / Total Projects) * 100,>80% of projects aligned with strategy,<70% strategic alignment
+Strategic Alignment,Business Capability Coverage,(Supported Capabilities / Total Capabilities) * 100,>90% of critical capabilities supported,<80% capability coverage
+Strategic Alignment,Innovation Index,New Tech Adoption Rate + R&D Investment %,>15% of total IT spend on innovation,<10% innovation spending
+Risk Assessment,Portfolio Risk Score,Risk Score = Σ(Impact × Probability × Category Weight),<7.0/10.0 overall portfolio risk,>8.0/10.0 risk score
+Risk Assessment,Technology Debt by Category,Technical Debt Cost / Category Total Cost,<20% of category spend on tech debt,>30% tech debt ratio
+Risk Assessment,Compliance Gap Analysis,(Met Requirements / Total Requirements) * 100,>95% compliance across all categories,<90% compliance score
+Performance Tracking,Project Success Rate by Category,(Successful Projects / Total Projects) * 100,"Run: >95%, Grow: >85%, Transform: >60%",Success rate declining >10% year-over-year
+Performance Tracking,Time to Value by Category,Average time from project start to benefit realization,"Run: <6 months, Grow: <12 months, Transform: <24 months",Time to value increasing >25%
+Performance Tracking,Delivery Velocity by Category,Story points or features delivered per sprint/cycle,Continuous improvement trajectory,Velocity declining >15% quarter-over-quarter
+Value Realization,Benefits Realization %,(Realized Benefits / Planned Benefits) * 100,>90% of planned benefits realized within 2 years,<75% benefits realization
+Value Realization,Business Impact Score,Weighted impact on strategic objectives (1-10 scale),>7.5/10.0 average business impact,<6.0/10.0 business impact
+Value Realization,Stakeholder Satisfaction,Average satisfaction score from business stakeholders,>4.0/5.0 stakeholder satisfaction,<3.5/5.0 satisfaction

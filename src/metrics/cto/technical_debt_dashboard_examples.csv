@@ -1,0 +1,137 @@
+Component,Metric,Description,Example
+Student Portal,Asset/Component,System/component with technical debt,N/A
+Network Core,Asset/Component,System/component with technical debt,N/A
+Old ERP System,Asset/Component,System/component with technical debt,N/A
+Library Firewall,Asset/Component,System/component with technical debt,N/A
+Legacy Email Server,Asset/Component,System/component with technical debt,N/A
+Campus WiFi,Asset/Component,System/component with technical debt,N/A
+Data Analytics Stack,Asset/Component,System/component with technical debt,N/A
+Finance Integration,Asset/Component,System/component with technical debt,N/A
+Student Portal,Technical Debt Score,"Composite weighted metric (1-10, higher=worse)",9.3
+Network Core,Technical Debt Score,"Composite weighted metric (1-10, higher=worse)",7.2
+Old ERP System,Technical Debt Score,"Composite weighted metric (1-10, higher=worse)",8.0
+Library Firewall,Technical Debt Score,"Composite weighted metric (1-10, higher=worse)",3.4
+Legacy Email Server,Technical Debt Score,"Composite weighted metric (1-10, higher=worse)",3.0
+Campus WiFi,Technical Debt Score,"Composite weighted metric (1-10, higher=worse)",8.3
+Data Analytics Stack,Technical Debt Score,"Composite weighted metric (1-10, higher=worse)",4.8
+Finance Integration,Technical Debt Score,"Composite weighted metric (1-10, higher=worse)",6.4
+Student Portal,Outstanding Debt Items,Count of unresolved tech debt tasks/issues,4
+Network Core,Outstanding Debt Items,Count of unresolved tech debt tasks/issues,4
+Old ERP System,Outstanding Debt Items,Count of unresolved tech debt tasks/issues,15
+Library Firewall,Outstanding Debt Items,Count of unresolved tech debt tasks/issues,14
+Legacy Email Server,Outstanding Debt Items,Count of unresolved tech debt tasks/issues,15
+Campus WiFi,Outstanding Debt Items,Count of unresolved tech debt tasks/issues,10
+Data Analytics Stack,Outstanding Debt Items,Count of unresolved tech debt tasks/issues,7
+Finance Integration,Outstanding Debt Items,Count of unresolved tech debt tasks/issues,3
+Student Portal,Debt Age (days),Average age of unresolved debt,264
+Network Core,Debt Age (days),Average age of unresolved debt,384
+Old ERP System,Debt Age (days),Average age of unresolved debt,387
+Library Firewall,Debt Age (days),Average age of unresolved debt,303
+Legacy Email Server,Debt Age (days),Average age of unresolved debt,264
+Campus WiFi,Debt Age (days),Average age of unresolved debt,497
+Data Analytics Stack,Debt Age (days),Average age of unresolved debt,442
+Finance Integration,Debt Age (days),Average age of unresolved debt,139
+Student Portal,Debt Impact Rating,"Severity of impact on reliability/operations (Low, Medium, High, Critical)",Medium
+Network Core,Debt Impact Rating,"Severity of impact on reliability/operations (Low, Medium, High, Critical)",Critical
+Old ERP System,Debt Impact Rating,"Severity of impact on reliability/operations (Low, Medium, High, Critical)",Critical
+Library Firewall,Debt Impact Rating,"Severity of impact on reliability/operations (Low, Medium, High, Critical)",Medium
+Legacy Email Server,Debt Impact Rating,"Severity of impact on reliability/operations (Low, Medium, High, Critical)",Low
+Campus WiFi,Debt Impact Rating,"Severity of impact on reliability/operations (Low, Medium, High, Critical)",Low
+Data Analytics Stack,Debt Impact Rating,"Severity of impact on reliability/operations (Low, Medium, High, Critical)",Low
+Finance Integration,Debt Impact Rating,"Severity of impact on reliability/operations (Low, Medium, High, Critical)",Low
+Student Portal,Code Quality Index,Automated code assessment score (1-10),2.9
+Network Core,Code Quality Index,Automated code assessment score (1-10),4.9
+Old ERP System,Code Quality Index,Automated code assessment score (1-10),9.4
+Library Firewall,Code Quality Index,Automated code assessment score (1-10),9.1
+Legacy Email Server,Code Quality Index,Automated code assessment score (1-10),7.4
+Campus WiFi,Code Quality Index,Automated code assessment score (1-10),4.9
+Data Analytics Stack,Code Quality Index,Automated code assessment score (1-10),3.0
+Finance Integration,Code Quality Index,Automated code assessment score (1-10),6.2
+Student Portal,Documented Remediation Roadmap,Is roadmap for debt resolution available? (Yes/No),Yes
+Network Core,Documented Remediation Roadmap,Is roadmap for debt resolution available? (Yes/No),No
+Old ERP System,Documented Remediation Roadmap,Is roadmap for debt resolution available? (Yes/No),Yes
+Library Firewall,Documented Remediation Roadmap,Is roadmap for debt resolution available? (Yes/No),No
+Legacy Email Server,Documented Remediation Roadmap,Is roadmap for debt resolution available? (Yes/No),Yes
+Campus WiFi,Documented Remediation Roadmap,Is roadmap for debt resolution available? (Yes/No),Yes
+Data Analytics Stack,Documented Remediation Roadmap,Is roadmap for debt resolution available? (Yes/No),No
+Finance Integration,Documented Remediation Roadmap,Is roadmap for debt resolution available? (Yes/No),No
+Student Portal,Remediation Progress (%),Percent completed of debt remediation plan,43.2%
+Network Core,Remediation Progress (%),Percent completed of debt remediation plan,58.6%
+Old ERP System,Remediation Progress (%),Percent completed of debt remediation plan,81.7%
+Library Firewall,Remediation Progress (%),Percent completed of debt remediation plan,30.8%
+Legacy Email Server,Remediation Progress (%),Percent completed of debt remediation plan,61.9%
+Campus WiFi,Remediation Progress (%),Percent completed of debt remediation plan,11.4%
+Data Analytics Stack,Remediation Progress (%),Percent completed of debt remediation plan,29.1%
+Finance Integration,Remediation Progress (%),Percent completed of debt remediation plan,30.2%
+Student Portal,Remediation Completion ETA (days),Estimated days until debt resolved,297
+Network Core,Remediation Completion ETA (days),Estimated days until debt resolved,308
+Old ERP System,Remediation Completion ETA (days),Estimated days until debt resolved,54
+Library Firewall,Remediation Completion ETA (days),Estimated days until debt resolved,37
+Legacy Email Server,Remediation Completion ETA (days),Estimated days until debt resolved,242
+Campus WiFi,Remediation Completion ETA (days),Estimated days until debt resolved,261
+Data Analytics Stack,Remediation Completion ETA (days),Estimated days until debt resolved,393
+Finance Integration,Remediation Completion ETA (days),Estimated days until debt resolved,30
+Student Portal,Dependency Risk Score,Risk from dependencies on outdated tech (1-10),5.6
+Network Core,Dependency Risk Score,Risk from dependencies on outdated tech (1-10),9.3
+Old ERP System,Dependency Risk Score,Risk from dependencies on outdated tech (1-10),9.5
+Library Firewall,Dependency Risk Score,Risk from dependencies on outdated tech (1-10),4.2
+Legacy Email Server,Dependency Risk Score,Risk from dependencies on outdated tech (1-10),7.7
+Campus WiFi,Dependency Risk Score,Risk from dependencies on outdated tech (1-10),2.7
+Data Analytics Stack,Dependency Risk Score,Risk from dependencies on outdated tech (1-10),3.3
+Finance Integration,Dependency Risk Score,Risk from dependencies on outdated tech (1-10),6.1
+Student Portal,System Performance Penalty (%),Lost performance due to tech debt issues,51.2%
+Network Core,System Performance Penalty (%),Lost performance due to tech debt issues,28.4%
+Old ERP System,System Performance Penalty (%),Lost performance due to tech debt issues,12.6%
+Library Firewall,System Performance Penalty (%),Lost performance due to tech debt issues,22.4%
+Legacy Email Server,System Performance Penalty (%),Lost performance due to tech debt issues,74.6%
+Campus WiFi,System Performance Penalty (%),Lost performance due to tech debt issues,59.5%
+Data Analytics Stack,System Performance Penalty (%),Lost performance due to tech debt issues,86.9%
+Finance Integration,System Performance Penalty (%),Lost performance due to tech debt issues,27.8%
+Student Portal,Incident Occurrences Attributable,Count of outages/errors caused by tech debt,8
+Network Core,Incident Occurrences Attributable,Count of outages/errors caused by tech debt,10
+Old ERP System,Incident Occurrences Attributable,Count of outages/errors caused by tech debt,4
+Library Firewall,Incident Occurrences Attributable,Count of outages/errors caused by tech debt,16
+Legacy Email Server,Incident Occurrences Attributable,Count of outages/errors caused by tech debt,7
+Campus WiFi,Incident Occurrences Attributable,Count of outages/errors caused by tech debt,4
+Data Analytics Stack,Incident Occurrences Attributable,Count of outages/errors caused by tech debt,0
+Finance Integration,Incident Occurrences Attributable,Count of outages/errors caused by tech debt,9
+Student Portal,Resource Allocation to Remediation ($),Budget/hours allocated to debt activities,"$47,251"
+Network Core,Resource Allocation to Remediation ($),Budget/hours allocated to debt activities,"$4,677"
+Old ERP System,Resource Allocation to Remediation ($),Budget/hours allocated to debt activities,"$9,739"
+Library Firewall,Resource Allocation to Remediation ($),Budget/hours allocated to debt activities,"$23,288"
+Legacy Email Server,Resource Allocation to Remediation ($),Budget/hours allocated to debt activities,"$19,724"
+Campus WiFi,Resource Allocation to Remediation ($),Budget/hours allocated to debt activities,"$42,783"
+Data Analytics Stack,Resource Allocation to Remediation ($),Budget/hours allocated to debt activities,"$23,944"
+Finance Integration,Resource Allocation to Remediation ($),Budget/hours allocated to debt activities,"$13,990"
+Student Portal,Root Cause Recurrence Rate (%),Percent of errors re-occurring post-fix,12.1%
+Network Core,Root Cause Recurrence Rate (%),Percent of errors re-occurring post-fix,26.5%
+Old ERP System,Root Cause Recurrence Rate (%),Percent of errors re-occurring post-fix,72.7%
+Library Firewall,Root Cause Recurrence Rate (%),Percent of errors re-occurring post-fix,43.6%
+Legacy Email Server,Root Cause Recurrence Rate (%),Percent of errors re-occurring post-fix,13.2%
+Campus WiFi,Root Cause Recurrence Rate (%),Percent of errors re-occurring post-fix,8.4%
+Data Analytics Stack,Root Cause Recurrence Rate (%),Percent of errors re-occurring post-fix,84.5%
+Finance Integration,Root Cause Recurrence Rate (%),Percent of errors re-occurring post-fix,13.1%
+Student Portal,Stakeholder Priority Ranking,Rank (1=highest priority for resolution),5
+Network Core,Stakeholder Priority Ranking,Rank (1=highest priority for resolution),7
+Old ERP System,Stakeholder Priority Ranking,Rank (1=highest priority for resolution),3
+Library Firewall,Stakeholder Priority Ranking,Rank (1=highest priority for resolution),7
+Legacy Email Server,Stakeholder Priority Ranking,Rank (1=highest priority for resolution),4
+Campus WiFi,Stakeholder Priority Ranking,Rank (1=highest priority for resolution),6
+Data Analytics Stack,Stakeholder Priority Ranking,Rank (1=highest priority for resolution),2
+Finance Integration,Stakeholder Priority Ranking,Rank (1=highest priority for resolution),7
+Student Portal,Risk Acceptance Exception Flag,Is debt/risk formally accepted by leadership?,6.7
+Network Core,Risk Acceptance Exception Flag,Is debt/risk formally accepted by leadership?,8.0
+Old ERP System,Risk Acceptance Exception Flag,Is debt/risk formally accepted by leadership?,6.9
+Library Firewall,Risk Acceptance Exception Flag,Is debt/risk formally accepted by leadership?,9.2
+Legacy Email Server,Risk Acceptance Exception Flag,Is debt/risk formally accepted by leadership?,9.4
+Campus WiFi,Risk Acceptance Exception Flag,Is debt/risk formally accepted by leadership?,6.6
+Data Analytics Stack,Risk Acceptance Exception Flag,Is debt/risk formally accepted by leadership?,9.1
+Finance Integration,Risk Acceptance Exception Flag,Is debt/risk formally accepted by leadership?,4.7
+Student Portal,Decommissioning Target Date,Planned date for retiring/outdated tech,2027-01-27
+Network Core,Decommissioning Target Date,Planned date for retiring/outdated tech,2026-01-19
+Old ERP System,Decommissioning Target Date,Planned date for retiring/outdated tech,2026-03-10
+Library Firewall,Decommissioning Target Date,Planned date for retiring/outdated tech,2026-02-28
+Legacy Email Server,Decommissioning Target Date,Planned date for retiring/outdated tech,2026-02-11
+Campus WiFi,Decommissioning Target Date,Planned date for retiring/outdated tech,2025-09-07
+Data Analytics Stack,Decommissioning Target Date,Planned date for retiring/outdated tech,2026-10-11
+Finance Integration,Decommissioning Target Date,Planned date for retiring/outdated tech,2027-03-29

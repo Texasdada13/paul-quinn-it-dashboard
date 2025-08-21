@@ -1,0 +1,127 @@
+Asset,Metric,Description,Example
+Core Network,Asset/System,"System, application, or device being tracked",N/A
+Email Suite,Asset/System,"System, application, or device being tracked",N/A
+ERP System,Asset/System,"System, application, or device being tracked",N/A
+Website,Asset/System,"System, application, or device being tracked",N/A
+Student Portal,Asset/System,"System, application, or device being tracked",N/A
+Cloud Servers,Asset/System,"System, application, or device being tracked",N/A
+Campus WiFi,Asset/System,"System, application, or device being tracked",N/A
+Core Network,Open Vulnerabilities Count,"Active, unresolved security vulnerabilities",8
+Email Suite,Open Vulnerabilities Count,"Active, unresolved security vulnerabilities",21
+ERP System,Open Vulnerabilities Count,"Active, unresolved security vulnerabilities",12
+Website,Open Vulnerabilities Count,"Active, unresolved security vulnerabilities",5
+Student Portal,Open Vulnerabilities Count,"Active, unresolved security vulnerabilities",23
+Cloud Servers,Open Vulnerabilities Count,"Active, unresolved security vulnerabilities",0
+Campus WiFi,Open Vulnerabilities Count,"Active, unresolved security vulnerabilities",27
+Core Network,Critical Vulnerabilities %,Share of open vulnerabilities rated as critical or high,N/A
+Email Suite,Critical Vulnerabilities %,Share of open vulnerabilities rated as critical or high,N/A
+ERP System,Critical Vulnerabilities %,Share of open vulnerabilities rated as critical or high,N/A
+Website,Critical Vulnerabilities %,Share of open vulnerabilities rated as critical or high,N/A
+Student Portal,Critical Vulnerabilities %,Share of open vulnerabilities rated as critical or high,N/A
+Cloud Servers,Critical Vulnerabilities %,Share of open vulnerabilities rated as critical or high,N/A
+Campus WiFi,Critical Vulnerabilities %,Share of open vulnerabilities rated as critical or high,N/A
+Core Network,Average Vulnerability Age (days),Mean age of current open vulnerabilities,21.3
+Email Suite,Average Vulnerability Age (days),Mean age of current open vulnerabilities,39.1
+ERP System,Average Vulnerability Age (days),Mean age of current open vulnerabilities,23.4
+Website,Average Vulnerability Age (days),Mean age of current open vulnerabilities,23.3
+Student Portal,Average Vulnerability Age (days),Mean age of current open vulnerabilities,9.8
+Cloud Servers,Average Vulnerability Age (days),Mean age of current open vulnerabilities,19.5
+Campus WiFi,Average Vulnerability Age (days),Mean age of current open vulnerabilities,66.2
+Core Network,Patch Compliance Rate (%),Percent of risky vulnerabilities remediated within SLA,74.2%
+Email Suite,Patch Compliance Rate (%),Percent of risky vulnerabilities remediated within SLA,90.1%
+ERP System,Patch Compliance Rate (%),Percent of risky vulnerabilities remediated within SLA,95.3%
+Website,Patch Compliance Rate (%),Percent of risky vulnerabilities remediated within SLA,93.2%
+Student Portal,Patch Compliance Rate (%),Percent of risky vulnerabilities remediated within SLA,72.4%
+Cloud Servers,Patch Compliance Rate (%),Percent of risky vulnerabilities remediated within SLA,70.9%
+Campus WiFi,Patch Compliance Rate (%),Percent of risky vulnerabilities remediated within SLA,66.6%
+Core Network,Number of Security Incidents,"Detected breaches, malware, or suspicious events per period",N/A
+Email Suite,Number of Security Incidents,"Detected breaches, malware, or suspicious events per period",N/A
+ERP System,Number of Security Incidents,"Detected breaches, malware, or suspicious events per period",N/A
+Website,Number of Security Incidents,"Detected breaches, malware, or suspicious events per period",N/A
+Student Portal,Number of Security Incidents,"Detected breaches, malware, or suspicious events per period",N/A
+Cloud Servers,Number of Security Incidents,"Detected breaches, malware, or suspicious events per period",N/A
+Campus WiFi,Number of Security Incidents,"Detected breaches, malware, or suspicious events per period",N/A
+Core Network,Mean Time to Detect (MTTD),Average hours or days to discover new incident,4.8
+Email Suite,Mean Time to Detect (MTTD),Average hours or days to discover new incident,16.0
+ERP System,Mean Time to Detect (MTTD),Average hours or days to discover new incident,71.9
+Website,Mean Time to Detect (MTTD),Average hours or days to discover new incident,28.1
+Student Portal,Mean Time to Detect (MTTD),Average hours or days to discover new incident,55.2
+Cloud Servers,Mean Time to Detect (MTTD),Average hours or days to discover new incident,35.1
+Campus WiFi,Mean Time to Detect (MTTD),Average hours or days to discover new incident,37.7
+Core Network,Mean Time to Respond (MTTR),Average hours to contain or remediate incident,68.2
+Email Suite,Mean Time to Respond (MTTR),Average hours to contain or remediate incident,9.7
+ERP System,Mean Time to Respond (MTTR),Average hours to contain or remediate incident,34.6
+Website,Mean Time to Respond (MTTR),Average hours to contain or remediate incident,11.9
+Student Portal,Mean Time to Respond (MTTR),Average hours to contain or remediate incident,39.7
+Cloud Servers,Mean Time to Respond (MTTR),Average hours to contain or remediate incident,22.9
+Campus WiFi,Mean Time to Respond (MTTR),Average hours to contain or remediate incident,39.6
+Core Network,Incident Escalation Rate,Percent incidents requiring executive/third-party involvement,88.3%
+Email Suite,Incident Escalation Rate,Percent incidents requiring executive/third-party involvement,77.8%
+ERP System,Incident Escalation Rate,Percent incidents requiring executive/third-party involvement,86.8%
+Website,Incident Escalation Rate,Percent incidents requiring executive/third-party involvement,87.5%
+Student Portal,Incident Escalation Rate,Percent incidents requiring executive/third-party involvement,79.7%
+Cloud Servers,Incident Escalation Rate,Percent incidents requiring executive/third-party involvement,79.1%
+Campus WiFi,Incident Escalation Rate,Percent incidents requiring executive/third-party involvement,78.7%
+Core Network,User Account Compromises,Count per period,12
+Email Suite,User Account Compromises,Count per period,24
+ERP System,User Account Compromises,Count per period,14
+Website,User Account Compromises,Count per period,12
+Student Portal,User Account Compromises,Count per period,1
+Cloud Servers,User Account Compromises,Count per period,2
+Campus WiFi,User Account Compromises,Count per period,24
+Core Network,Phishing/Social Eng. Reports,User-reported phishing or social engineering events,12
+Email Suite,Phishing/Social Eng. Reports,User-reported phishing or social engineering events,19
+ERP System,Phishing/Social Eng. Reports,User-reported phishing or social engineering events,10
+Website,Phishing/Social Eng. Reports,User-reported phishing or social engineering events,17
+Student Portal,Phishing/Social Eng. Reports,User-reported phishing or social engineering events,19
+Cloud Servers,Phishing/Social Eng. Reports,User-reported phishing or social engineering events,23
+Campus WiFi,Phishing/Social Eng. Reports,User-reported phishing or social engineering events,2
+Core Network,Failed Login Attempts,Number per system per week or month,23
+Email Suite,Failed Login Attempts,Number per system per week or month,18
+ERP System,Failed Login Attempts,Number per system per week or month,26
+Website,Failed Login Attempts,Number per system per week or month,26
+Student Portal,Failed Login Attempts,Number per system per week or month,16
+Cloud Servers,Failed Login Attempts,Number per system per week or month,13
+Campus WiFi,Failed Login Attempts,Number per system per week or month,26
+Core Network,Policy Violation Rate,Percent systems/users violating security policy,72.5%
+Email Suite,Policy Violation Rate,Percent systems/users violating security policy,91.8%
+ERP System,Policy Violation Rate,Percent systems/users violating security policy,81.2%
+Website,Policy Violation Rate,Percent systems/users violating security policy,97.4%
+Student Portal,Policy Violation Rate,Percent systems/users violating security policy,76.8%
+Cloud Servers,Policy Violation Rate,Percent systems/users violating security policy,68.7%
+Campus WiFi,Policy Violation Rate,Percent systems/users violating security policy,95.4%
+Core Network,Endpoint Protection Coverage,Percent of endpoints with active/updated protection,93.6%
+Email Suite,Endpoint Protection Coverage,Percent of endpoints with active/updated protection,72.6%
+ERP System,Endpoint Protection Coverage,Percent of endpoints with active/updated protection,75.8%
+Website,Endpoint Protection Coverage,Percent of endpoints with active/updated protection,86.8%
+Student Portal,Endpoint Protection Coverage,Percent of endpoints with active/updated protection,83.9%
+Cloud Servers,Endpoint Protection Coverage,Percent of endpoints with active/updated protection,96.9%
+Campus WiFi,Endpoint Protection Coverage,Percent of endpoints with active/updated protection,74.8%
+Core Network,Security Training Completion Rate,Percent users completed training this cycle,85.9%
+Email Suite,Security Training Completion Rate,Percent users completed training this cycle,71.1%
+ERP System,Security Training Completion Rate,Percent users completed training this cycle,88.2%
+Website,Security Training Completion Rate,Percent users completed training this cycle,84.3%
+Student Portal,Security Training Completion Rate,Percent users completed training this cycle,76.5%
+Cloud Servers,Security Training Completion Rate,Percent users completed training this cycle,81.5%
+Campus WiFi,Security Training Completion Rate,Percent users completed training this cycle,67.3%
+Core Network,False Positive Alert Rate,Percent of alerts determined as non-issues,86.5%
+Email Suite,False Positive Alert Rate,Percent of alerts determined as non-issues,92.1%
+ERP System,False Positive Alert Rate,Percent of alerts determined as non-issues,98.7%
+Website,False Positive Alert Rate,Percent of alerts determined as non-issues,99.8%
+Student Portal,False Positive Alert Rate,Percent of alerts determined as non-issues,77.3%
+Cloud Servers,False Positive Alert Rate,Percent of alerts determined as non-issues,86.2%
+Campus WiFi,False Positive Alert Rate,Percent of alerts determined as non-issues,89.4%
+Core Network,Penetration Test Success Rate,Percent of pen-test findings addressed in-time,73.2%
+Email Suite,Penetration Test Success Rate,Percent of pen-test findings addressed in-time,70.2%
+ERP System,Penetration Test Success Rate,Percent of pen-test findings addressed in-time,66.9%
+Website,Penetration Test Success Rate,Percent of pen-test findings addressed in-time,97.9%
+Student Portal,Penetration Test Success Rate,Percent of pen-test findings addressed in-time,70.1%
+Cloud Servers,Penetration Test Success Rate,Percent of pen-test findings addressed in-time,86.6%
+Campus WiFi,Penetration Test Success Rate,Percent of pen-test findings addressed in-time,78.0%
+Core Network,Regulatory Compliance Score,Audited or self-reported alignment with key controls,87.9%
+Email Suite,Regulatory Compliance Score,Audited or self-reported alignment with key controls,75.0%
+ERP System,Regulatory Compliance Score,Audited or self-reported alignment with key controls,81.5%
+Website,Regulatory Compliance Score,Audited or self-reported alignment with key controls,66.7%
+Student Portal,Regulatory Compliance Score,Audited or self-reported alignment with key controls,87.7%
+Cloud Servers,Regulatory Compliance Score,Audited or self-reported alignment with key controls,89.1%
+Campus WiFi,Regulatory Compliance Score,Audited or self-reported alignment with key controls,98.6%

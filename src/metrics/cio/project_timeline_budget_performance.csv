@@ -1,0 +1,6 @@
+Project_ID,Project_Name,Status,Total_Budget,Spent_to_Date,Start_Date,End_Date,Duration_days,Elapsed_days,Timeline_Completion_%,Budget_Variance_%,Budget_Status,Time_Status
+PQC-001,Student Portal Upgrade,In Progress,250000,175000,2024-01-15,2024-08-30,228,582,100.0,-30.0,Under Budget,Unknown
+PQC-002,Cloud Migration Phase 1,Completed,450000,445000,2023-09-01,2024-03-15,196,718,100.0,-1.1,On Track,On Track
+PQC-003,Cybersecurity Enhancement,In Progress,300000,125000,2024-02-01,2024-12-31,334,565,100.0,-58.3,Under Budget,Unknown
+PQC-004,LMS Modernization,Planning,180000,25000,2024-06-01,2025-01-31,244,444,100.0,-86.1,Under Budget,Unknown
+PQC-005,Network Infrastructure,In Progress,220000,165000,2023-12-01,2024-09-30,304,627,100.0,-25.0,Under Budget,Unknown

@@ -1,0 +1,106 @@
+System,Metric,Description,Example
+Office 365,Total Licensed Seats,Number of paid licenses/seats provisioned for system,652
+Canvas LMS,Total Licensed Seats,Number of paid licenses/seats provisioned for system,319
+Zoom,Total Licensed Seats,Number of paid licenses/seats provisioned for system,366
+Blackboard,Total Licensed Seats,Number of paid licenses/seats provisioned for system,254
+Cisco WebEx,Total Licensed Seats,Number of paid licenses/seats provisioned for system,1019
+Tableau,Total Licensed Seats,Number of paid licenses/seats provisioned for system,285
+AWS Cloud,Total Licensed Seats,Number of paid licenses/seats provisioned for system,248
+Office 365,Active Users,Count of active users in the current month/period,181
+Canvas LMS,Active Users,Count of active users in the current month/period,526
+Zoom,Active Users,Count of active users in the current month/period,288
+Blackboard,Active Users,Count of active users in the current month/period,268
+Cisco WebEx,Active Users,Count of active users in the current month/period,371
+Tableau,Active Users,Count of active users in the current month/period,184
+AWS Cloud,Active Users,Count of active users in the current month/period,166
+Office 365,Utilization Rate (%),Active Users ÷ Total Licensed Seats × 100,66.4%
+Canvas LMS,Utilization Rate (%),Active Users ÷ Total Licensed Seats × 100,83.8%
+Zoom,Utilization Rate (%),Active Users ÷ Total Licensed Seats × 100,74.6%
+Blackboard,Utilization Rate (%),Active Users ÷ Total Licensed Seats × 100,76.4%
+Cisco WebEx,Utilization Rate (%),Active Users ÷ Total Licensed Seats × 100,54.1%
+Tableau,Utilization Rate (%),Active Users ÷ Total Licensed Seats × 100,46.6%
+AWS Cloud,Utilization Rate (%),Active Users ÷ Total Licensed Seats × 100,56.3%
+Office 365,Peak Utilization Rate (%),Peak active users ÷ licensed seats × 100,46.2%
+Canvas LMS,Peak Utilization Rate (%),Peak active users ÷ licensed seats × 100,79.3%
+Zoom,Peak Utilization Rate (%),Peak active users ÷ licensed seats × 100,57.1%
+Blackboard,Peak Utilization Rate (%),Peak active users ÷ licensed seats × 100,66.5%
+Cisco WebEx,Peak Utilization Rate (%),Peak active users ÷ licensed seats × 100,78.5%
+Tableau,Peak Utilization Rate (%),Peak active users ÷ licensed seats × 100,45.1%
+AWS Cloud,Peak Utilization Rate (%),Peak active users ÷ licensed seats × 100,46.9%
+Office 365,Unused Licenses,Licensed seats minus active users,166
+Canvas LMS,Unused Licenses,Licensed seats minus active users,142
+Zoom,Unused Licenses,Licensed seats minus active users,18
+Blackboard,Unused Licenses,Licensed seats minus active users,75
+Cisco WebEx,Unused Licenses,Licensed seats minus active users,26
+Tableau,Unused Licenses,Licensed seats minus active users,93
+AWS Cloud,Unused Licenses,Licensed seats minus active users,163
+Office 365,Unused License Cost,Cost for unused licenses this period,False
+Canvas LMS,Unused License Cost,Cost for unused licenses this period,False
+Zoom,Unused License Cost,Cost for unused licenses this period,False
+Blackboard,Unused License Cost,Cost for unused licenses this period,True
+Cisco WebEx,Unused License Cost,Cost for unused licenses this period,True
+Tableau,Unused License Cost,Cost for unused licenses this period,False
+AWS Cloud,Unused License Cost,Cost for unused licenses this period,True
+Office 365,Cost per Active User,Total license cost ÷ current active users,"$16,776"
+Canvas LMS,Cost per Active User,Total license cost ÷ current active users,"$38,188"
+Zoom,Cost per Active User,Total license cost ÷ current active users,"$10,855"
+Blackboard,Cost per Active User,Total license cost ÷ current active users,"$31,926"
+Cisco WebEx,Cost per Active User,Total license cost ÷ current active users,"$21,091"
+Tableau,Cost per Active User,Total license cost ÷ current active users,"$50,589"
+AWS Cloud,Cost per Active User,Total license cost ÷ current active users,"$58,564"
+Office 365,License Renewal Date,Next contract renewal date per system,2026-08-13
+Canvas LMS,License Renewal Date,Next contract renewal date per system,2026-06-26
+Zoom,License Renewal Date,Next contract renewal date per system,2026-01-16
+Blackboard,License Renewal Date,Next contract renewal date per system,2026-03-10
+Cisco WebEx,License Renewal Date,Next contract renewal date per system,2026-07-14
+Tableau,License Renewal Date,Next contract renewal date per system,2026-07-10
+AWS Cloud,License Renewal Date,Next contract renewal date per system,2025-10-31
+Office 365,License Expiry Alert,Flag if renewal within 90 days,No
+Canvas LMS,License Expiry Alert,Flag if renewal within 90 days,No
+Zoom,License Expiry Alert,Flag if renewal within 90 days,Yes
+Blackboard,License Expiry Alert,Flag if renewal within 90 days,Yes
+Cisco WebEx,License Expiry Alert,Flag if renewal within 90 days,No
+Tableau,License Expiry Alert,Flag if renewal within 90 days,No
+AWS Cloud,License Expiry Alert,Flag if renewal within 90 days,Yes
+Office 365,License Type Breakdown,"Count by user level: faculty, staff, student","Faculty: 22, Staff: 39, Student: 632"
+Canvas LMS,License Type Breakdown,"Count by user level: faculty, staff, student","Faculty: 34, Staff: 38, Student: 480"
+Zoom,License Type Breakdown,"Count by user level: faculty, staff, student","Faculty: 70, Staff: 50, Student: 202"
+Blackboard,License Type Breakdown,"Count by user level: faculty, staff, student","Faculty: 14, Staff: 21, Student: 463"
+Cisco WebEx,License Type Breakdown,"Count by user level: faculty, staff, student","Faculty: 70, Staff: 57, Student: 144"
+Tableau,License Type Breakdown,"Count by user level: faculty, staff, student","Faculty: 76, Staff: 39, Student: 250"
+AWS Cloud,License Type Breakdown,"Count by user level: faculty, staff, student","Faculty: 47, Staff: 51, Student: 321"
+Office 365,Feature Usage Index,Percent of features used vs. available in system,62.9%
+Canvas LMS,Feature Usage Index,Percent of features used vs. available in system,97.1%
+Zoom,Feature Usage Index,Percent of features used vs. available in system,58.5%
+Blackboard,Feature Usage Index,Percent of features used vs. available in system,58.0%
+Cisco WebEx,Feature Usage Index,Percent of features used vs. available in system,50.2%
+Tableau,Feature Usage Index,Percent of features used vs. available in system,78.1%
+AWS Cloud,Feature Usage Index,Percent of features used vs. available in system,73.0%
+Office 365,Overlapping Licenses Flag,Boolean if system duplicates other solutions,136
+Canvas LMS,Overlapping Licenses Flag,Boolean if system duplicates other solutions,45
+Zoom,Overlapping Licenses Flag,Boolean if system duplicates other solutions,200
+Blackboard,Overlapping Licenses Flag,Boolean if system duplicates other solutions,208
+Cisco WebEx,Overlapping Licenses Flag,Boolean if system duplicates other solutions,24
+Tableau,Overlapping Licenses Flag,Boolean if system duplicates other solutions,235
+AWS Cloud,Overlapping Licenses Flag,Boolean if system duplicates other solutions,9
+Office 365,License Compliance Rate,Percent of users properly licensed vs. in violation,48.5%
+Canvas LMS,License Compliance Rate,Percent of users properly licensed vs. in violation,90.6%
+Zoom,License Compliance Rate,Percent of users properly licensed vs. in violation,62.8%
+Blackboard,License Compliance Rate,Percent of users properly licensed vs. in violation,68.3%
+Cisco WebEx,License Compliance Rate,Percent of users properly licensed vs. in violation,59.2%
+Tableau,License Compliance Rate,Percent of users properly licensed vs. in violation,80.1%
+AWS Cloud,License Compliance Rate,Percent of users properly licensed vs. in violation,49.2%
+Office 365,Growth Trend in Usage (%),Month-over-month percent change in active users,50.8%
+Canvas LMS,Growth Trend in Usage (%),Month-over-month percent change in active users,60.4%
+Zoom,Growth Trend in Usage (%),Month-over-month percent change in active users,47.5%
+Blackboard,Growth Trend in Usage (%),Month-over-month percent change in active users,96.9%
+Cisco WebEx,Growth Trend in Usage (%),Month-over-month percent change in active users,45.9%
+Tableau,Growth Trend in Usage (%),Month-over-month percent change in active users,77.6%
+AWS Cloud,Growth Trend in Usage (%),Month-over-month percent change in active users,81.4%
+Office 365,User Satisfaction Score,Survey score for system effectiveness (1-5 scale),4.7
+Canvas LMS,User Satisfaction Score,Survey score for system effectiveness (1-5 scale),4.4
+Zoom,User Satisfaction Score,Survey score for system effectiveness (1-5 scale),3.9
+Blackboard,User Satisfaction Score,Survey score for system effectiveness (1-5 scale),3.6
+Cisco WebEx,User Satisfaction Score,Survey score for system effectiveness (1-5 scale),4.1
+Tableau,User Satisfaction Score,Survey score for system effectiveness (1-5 scale),3.9
+AWS Cloud,User Satisfaction Score,Survey score for system effectiveness (1-5 scale),4.2

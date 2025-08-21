@@ -1,0 +1,137 @@
+Asset,Metric,Description,Example
+Core Network Switch,Asset Name,Description of hardware/software asset,N/A
+Dell Server R740,Asset Name,Description of hardware/software asset,N/A
+Staff Laptop A14,Asset Name,Description of hardware/software asset,N/A
+HVAC Controller,Asset Name,Description of hardware/software asset,N/A
+Student Portal Application,Asset Name,Description of hardware/software asset,N/A
+Library Firewall,Asset Name,Description of hardware/software asset,N/A
+Cisco IP Phone,Asset Name,Description of hardware/software asset,N/A
+Facilities UPS,Asset Name,Description of hardware/software asset,N/A
+Core Network Switch,Asset Type,"Category: Server, Switch, Laptop, Application, HVAC, etc.",Firewall
+Dell Server R740,Asset Type,"Category: Server, Switch, Laptop, Application, HVAC, etc.",UPS
+Staff Laptop A14,Asset Type,"Category: Server, Switch, Laptop, Application, HVAC, etc.",Server
+HVAC Controller,Asset Type,"Category: Server, Switch, Laptop, Application, HVAC, etc.",Laptop
+Student Portal Application,Asset Type,"Category: Server, Switch, Laptop, Application, HVAC, etc.",Laptop
+Library Firewall,Asset Type,"Category: Server, Switch, Laptop, Application, HVAC, etc.",Switch
+Cisco IP Phone,Asset Type,"Category: Server, Switch, Laptop, Application, HVAC, etc.",Switch
+Facilities UPS,Asset Type,"Category: Server, Switch, Laptop, Application, HVAC, etc.",Application
+Core Network Switch,Purchase Date,Original procurement/acquisition date,2024-04-17
+Dell Server R740,Purchase Date,Original procurement/acquisition date,2020-12-07
+Staff Laptop A14,Purchase Date,Original procurement/acquisition date,2020-02-15
+HVAC Controller,Purchase Date,Original procurement/acquisition date,2024-09-12
+Student Portal Application,Purchase Date,Original procurement/acquisition date,2023-05-13
+Library Firewall,Purchase Date,Original procurement/acquisition date,2022-05-30
+Cisco IP Phone,Purchase Date,Original procurement/acquisition date,2024-10-03
+Facilities UPS,Purchase Date,Original procurement/acquisition date,2021-12-15
+Core Network Switch,Warranty Expiry,Warranty/support end date,2020-06-01
+Dell Server R740,Warranty Expiry,Warranty/support end date,2021-10-01
+Staff Laptop A14,Warranty Expiry,Warranty/support end date,2020-10-29
+HVAC Controller,Warranty Expiry,Warranty/support end date,2024-11-04
+Student Portal Application,Warranty Expiry,Warranty/support end date,2024-05-05
+Library Firewall,Warranty Expiry,Warranty/support end date,2022-06-13
+Cisco IP Phone,Warranty Expiry,Warranty/support end date,2021-12-28
+Facilities UPS,Warranty Expiry,Warranty/support end date,2022-03-28
+Core Network Switch,Current Condition,"Rating descriptor: New, Good, Fair, Poor",Fair
+Dell Server R740,Current Condition,"Rating descriptor: New, Good, Fair, Poor",Poor
+Staff Laptop A14,Current Condition,"Rating descriptor: New, Good, Fair, Poor",Poor
+HVAC Controller,Current Condition,"Rating descriptor: New, Good, Fair, Poor",Fair
+Student Portal Application,Current Condition,"Rating descriptor: New, Good, Fair, Poor",Good
+Library Firewall,Current Condition,"Rating descriptor: New, Good, Fair, Poor",New
+Cisco IP Phone,Current Condition,"Rating descriptor: New, Good, Fair, Poor",Poor
+Facilities UPS,Current Condition,"Rating descriptor: New, Good, Fair, Poor",Poor
+Core Network Switch,Maintenance Schedule,Next scheduled maintenance/check-up date,2021-01-05
+Dell Server R740,Maintenance Schedule,Next scheduled maintenance/check-up date,2020-06-04
+Staff Laptop A14,Maintenance Schedule,Next scheduled maintenance/check-up date,2024-09-12
+HVAC Controller,Maintenance Schedule,Next scheduled maintenance/check-up date,2020-04-19
+Student Portal Application,Maintenance Schedule,Next scheduled maintenance/check-up date,2022-12-19
+Library Firewall,Maintenance Schedule,Next scheduled maintenance/check-up date,2023-07-28
+Cisco IP Phone,Maintenance Schedule,Next scheduled maintenance/check-up date,2024-10-12
+Facilities UPS,Maintenance Schedule,Next scheduled maintenance/check-up date,2024-01-20
+Core Network Switch,Last Maintenance Date,Date of last routine or emergency service,2022-08-12
+Dell Server R740,Last Maintenance Date,Date of last routine or emergency service,2021-08-26
+Staff Laptop A14,Last Maintenance Date,Date of last routine or emergency service,2021-10-05
+HVAC Controller,Last Maintenance Date,Date of last routine or emergency service,2020-05-31
+Student Portal Application,Last Maintenance Date,Date of last routine or emergency service,2022-10-02
+Library Firewall,Last Maintenance Date,Date of last routine or emergency service,2020-11-02
+Cisco IP Phone,Last Maintenance Date,Date of last routine or emergency service,2021-06-22
+Facilities UPS,Last Maintenance Date,Date of last routine or emergency service,2024-02-23
+Core Network Switch,Usage Hours,Cumulative hours asset in use since purchase,5848
+Dell Server R740,Usage Hours,Cumulative hours asset in use since purchase,8671
+Staff Laptop A14,Usage Hours,Cumulative hours asset in use since purchase,12332
+HVAC Controller,Usage Hours,Cumulative hours asset in use since purchase,7237
+Student Portal Application,Usage Hours,Cumulative hours asset in use since purchase,10553
+Library Firewall,Usage Hours,Cumulative hours asset in use since purchase,14619
+Cisco IP Phone,Usage Hours,Cumulative hours asset in use since purchase,8218
+Facilities UPS,Usage Hours,Cumulative hours asset in use since purchase,4994
+Core Network Switch,Age (years),Asset age since purchase,4.6
+Dell Server R740,Age (years),Asset age since purchase,1.5
+Staff Laptop A14,Age (years),Asset age since purchase,6.1
+HVAC Controller,Age (years),Asset age since purchase,3.9
+Student Portal Application,Age (years),Asset age since purchase,0.7
+Library Firewall,Age (years),Asset age since purchase,3.1
+Cisco IP Phone,Age (years),Asset age since purchase,4.8
+Facilities UPS,Age (years),Asset age since purchase,1.7
+Core Network Switch,Replacement Threshold,Pre-defined age/condition required for replacement,3.4
+Dell Server R740,Replacement Threshold,Pre-defined age/condition required for replacement,0.9
+Staff Laptop A14,Replacement Threshold,Pre-defined age/condition required for replacement,5.6
+HVAC Controller,Replacement Threshold,Pre-defined age/condition required for replacement,3.1
+Student Portal Application,Replacement Threshold,Pre-defined age/condition required for replacement,2.8
+Library Firewall,Replacement Threshold,Pre-defined age/condition required for replacement,3.2
+Cisco IP Phone,Replacement Threshold,Pre-defined age/condition required for replacement,0.4
+Facilities UPS,Replacement Threshold,Pre-defined age/condition required for replacement,3.7
+Core Network Switch,Replacement Due Flag,Scheduled or recommended replacement status,Yes
+Dell Server R740,Replacement Due Flag,Scheduled or recommended replacement status,Yes
+Staff Laptop A14,Replacement Due Flag,Scheduled or recommended replacement status,No
+HVAC Controller,Replacement Due Flag,Scheduled or recommended replacement status,Yes
+Student Portal Application,Replacement Due Flag,Scheduled or recommended replacement status,Yes
+Library Firewall,Replacement Due Flag,Scheduled or recommended replacement status,No
+Cisco IP Phone,Replacement Due Flag,Scheduled or recommended replacement status,No
+Facilities UPS,Replacement Due Flag,Scheduled or recommended replacement status,No
+Core Network Switch,Expected Replacement Date,Planned replacement or retirement date,2023-10-18
+Dell Server R740,Expected Replacement Date,Planned replacement or retirement date,2024-02-11
+Staff Laptop A14,Expected Replacement Date,Planned replacement or retirement date,2024-06-11
+HVAC Controller,Expected Replacement Date,Planned replacement or retirement date,2024-10-15
+Student Portal Application,Expected Replacement Date,Planned replacement or retirement date,2022-02-16
+Library Firewall,Expected Replacement Date,Planned replacement or retirement date,2023-05-23
+Cisco IP Phone,Expected Replacement Date,Planned replacement or retirement date,2021-08-17
+Facilities UPS,Expected Replacement Date,Planned replacement or retirement date,2023-12-08
+Core Network Switch,Estimated Residual Value ($),Estimated resale or salvage value at end of life,$278
+Dell Server R740,Estimated Residual Value ($),Estimated resale or salvage value at end of life,"$14,133"
+Staff Laptop A14,Estimated Residual Value ($),Estimated resale or salvage value at end of life,"$6,733"
+HVAC Controller,Estimated Residual Value ($),Estimated resale or salvage value at end of life,"$1,969"
+Student Portal Application,Estimated Residual Value ($),Estimated resale or salvage value at end of life,$554
+Library Firewall,Estimated Residual Value ($),Estimated resale or salvage value at end of life,"$9,239"
+Cisco IP Phone,Estimated Residual Value ($),Estimated resale or salvage value at end of life,"$14,313"
+Facilities UPS,Estimated Residual Value ($),Estimated resale or salvage value at end of life,"$6,985"
+Core Network Switch,Maintenance Cost To Date,Total cost for all maintenance actions,"$14,666"
+Dell Server R740,Maintenance Cost To Date,Total cost for all maintenance actions,"$15,285"
+Staff Laptop A14,Maintenance Cost To Date,Total cost for all maintenance actions,"$8,010"
+HVAC Controller,Maintenance Cost To Date,Total cost for all maintenance actions,"$12,462"
+Student Portal Application,Maintenance Cost To Date,Total cost for all maintenance actions,"$7,326"
+Library Firewall,Maintenance Cost To Date,Total cost for all maintenance actions,"$7,539"
+Cisco IP Phone,Maintenance Cost To Date,Total cost for all maintenance actions,"$5,455"
+Facilities UPS,Maintenance Cost To Date,Total cost for all maintenance actions,"$13,230"
+Core Network Switch,Planned Maintenance Budget ($),Budget set aside for scheduled maintenance,"$13,944"
+Dell Server R740,Planned Maintenance Budget ($),Budget set aside for scheduled maintenance,"$3,772"
+Staff Laptop A14,Planned Maintenance Budget ($),Budget set aside for scheduled maintenance,$484
+HVAC Controller,Planned Maintenance Budget ($),Budget set aside for scheduled maintenance,"$13,188"
+Student Portal Application,Planned Maintenance Budget ($),Budget set aside for scheduled maintenance,"$13,531"
+Library Firewall,Planned Maintenance Budget ($),Budget set aside for scheduled maintenance,"$10,687"
+Cisco IP Phone,Planned Maintenance Budget ($),Budget set aside for scheduled maintenance,"$14,813"
+Facilities UPS,Planned Maintenance Budget ($),Budget set aside for scheduled maintenance,"$13,192"
+Core Network Switch,Failure Incident Count,Number of failures/outages to date,12
+Dell Server R740,Failure Incident Count,Number of failures/outages to date,35
+Staff Laptop A14,Failure Incident Count,Number of failures/outages to date,18
+HVAC Controller,Failure Incident Count,Number of failures/outages to date,9
+Student Portal Application,Failure Incident Count,Number of failures/outages to date,1
+Library Firewall,Failure Incident Count,Number of failures/outages to date,5
+Cisco IP Phone,Failure Incident Count,Number of failures/outages to date,33
+Facilities UPS,Failure Incident Count,Number of failures/outages to date,35
+Core Network Switch,Support Ticket Volume (12mo),Number of IT/work order tickets logged,26
+Dell Server R740,Support Ticket Volume (12mo),Number of IT/work order tickets logged,18
+Staff Laptop A14,Support Ticket Volume (12mo),Number of IT/work order tickets logged,24
+HVAC Controller,Support Ticket Volume (12mo),Number of IT/work order tickets logged,6
+Student Portal Application,Support Ticket Volume (12mo),Number of IT/work order tickets logged,9
+Library Firewall,Support Ticket Volume (12mo),Number of IT/work order tickets logged,6
+Cisco IP Phone,Support Ticket Volume (12mo),Number of IT/work order tickets logged,12
+Facilities UPS,Support Ticket Volume (12mo),Number of IT/work order tickets logged,7

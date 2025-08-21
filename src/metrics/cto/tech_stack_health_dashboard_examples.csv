@@ -1,0 +1,121 @@
+Component,Metric,Description,Example
+PostgreSQL DB,Stack Component,Name of core technology / platform,N/A
+Docker Platform,Stack Component,Name of core technology / platform,N/A
+Nginx Web Proxy,Stack Component,Name of core technology / platform,N/A
+Ubuntu Servers,Stack Component,Name of core technology / platform,N/A
+AWS S3 Storage,Stack Component,Name of core technology / platform,N/A
+Okta SSO,Stack Component,Name of core technology / platform,N/A
+Streamlit WebApp,Stack Component,Name of core technology / platform,N/A
+PowerBI Connector,Stack Component,Name of core technology / platform,N/A
+PostgreSQL DB,Version Deployed,Current software version in production,v11.3.9
+Docker Platform,Version Deployed,Current software version in production,v4.5.7
+Nginx Web Proxy,Version Deployed,Current software version in production,v13.3.5
+Ubuntu Servers,Version Deployed,Current software version in production,v5.8.2
+AWS S3 Storage,Version Deployed,Current software version in production,v14.3.4
+Okta SSO,Version Deployed,Current software version in production,v14.4.4
+Streamlit WebApp,Version Deployed,Current software version in production,v5.3.0
+PowerBI Connector,Version Deployed,Current software version in production,v13.8.3
+PostgreSQL DB,Patch/Update Status,Is component patched or behind (Yes/No),No
+Docker Platform,Patch/Update Status,Is component patched or behind (Yes/No),Yes
+Nginx Web Proxy,Patch/Update Status,Is component patched or behind (Yes/No),No
+Ubuntu Servers,Patch/Update Status,Is component patched or behind (Yes/No),No
+AWS S3 Storage,Patch/Update Status,Is component patched or behind (Yes/No),Yes
+Okta SSO,Patch/Update Status,Is component patched or behind (Yes/No),No
+Streamlit WebApp,Patch/Update Status,Is component patched or behind (Yes/No),Yes
+PowerBI Connector,Patch/Update Status,Is component patched or behind (Yes/No),Yes
+PostgreSQL DB,End-of-Life Risk Flag,Flag for impending vendor support expiration,No
+Docker Platform,End-of-Life Risk Flag,Flag for impending vendor support expiration,No
+Nginx Web Proxy,End-of-Life Risk Flag,Flag for impending vendor support expiration,No
+Ubuntu Servers,End-of-Life Risk Flag,Flag for impending vendor support expiration,Yes
+AWS S3 Storage,End-of-Life Risk Flag,Flag for impending vendor support expiration,No
+Okta SSO,End-of-Life Risk Flag,Flag for impending vendor support expiration,Yes
+Streamlit WebApp,End-of-Life Risk Flag,Flag for impending vendor support expiration,No
+PowerBI Connector,End-of-Life Risk Flag,Flag for impending vendor support expiration,Yes
+PostgreSQL DB,Performance Health Score,Composite score (1-10) based on response/errors/capacity,7.8
+Docker Platform,Performance Health Score,Composite score (1-10) based on response/errors/capacity,8.1
+Nginx Web Proxy,Performance Health Score,Composite score (1-10) based on response/errors/capacity,8.5
+Ubuntu Servers,Performance Health Score,Composite score (1-10) based on response/errors/capacity,6.7
+AWS S3 Storage,Performance Health Score,Composite score (1-10) based on response/errors/capacity,5.4
+Okta SSO,Performance Health Score,Composite score (1-10) based on response/errors/capacity,5.4
+Streamlit WebApp,Performance Health Score,Composite score (1-10) based on response/errors/capacity,6.3
+PowerBI Connector,Performance Health Score,Composite score (1-10) based on response/errors/capacity,7.9
+PostgreSQL DB,Recent Critical Incident Count,Number of P1/P2 issues in last 30-90 days,15
+Docker Platform,Recent Critical Incident Count,Number of P1/P2 issues in last 30-90 days,12
+Nginx Web Proxy,Recent Critical Incident Count,Number of P1/P2 issues in last 30-90 days,8
+Ubuntu Servers,Recent Critical Incident Count,Number of P1/P2 issues in last 30-90 days,3
+AWS S3 Storage,Recent Critical Incident Count,Number of P1/P2 issues in last 30-90 days,3
+Okta SSO,Recent Critical Incident Count,Number of P1/P2 issues in last 30-90 days,7
+Streamlit WebApp,Recent Critical Incident Count,Number of P1/P2 issues in last 30-90 days,4
+PowerBI Connector,Recent Critical Incident Count,Number of P1/P2 issues in last 30-90 days,0
+PostgreSQL DB,Availability/Uptime (%),Recent measured service uptime (30 days),94.57%
+Docker Platform,Availability/Uptime (%),Recent measured service uptime (30 days),98.44%
+Nginx Web Proxy,Availability/Uptime (%),Recent measured service uptime (30 days),92.57%
+Ubuntu Servers,Availability/Uptime (%),Recent measured service uptime (30 days),95.02%
+AWS S3 Storage,Availability/Uptime (%),Recent measured service uptime (30 days),98.82%
+Okta SSO,Availability/Uptime (%),Recent measured service uptime (30 days),93.07%
+Streamlit WebApp,Availability/Uptime (%),Recent measured service uptime (30 days),97.11%
+PowerBI Connector,Availability/Uptime (%),Recent measured service uptime (30 days),95.7%
+PostgreSQL DB,Integration Dependency Count,Number of other systems reliant on this stack component,5
+Docker Platform,Integration Dependency Count,Number of other systems reliant on this stack component,8
+Nginx Web Proxy,Integration Dependency Count,Number of other systems reliant on this stack component,13
+Ubuntu Servers,Integration Dependency Count,Number of other systems reliant on this stack component,14
+AWS S3 Storage,Integration Dependency Count,Number of other systems reliant on this stack component,2
+Okta SSO,Integration Dependency Count,Number of other systems reliant on this stack component,9
+Streamlit WebApp,Integration Dependency Count,Number of other systems reliant on this stack component,9
+PowerBI Connector,Integration Dependency Count,Number of other systems reliant on this stack component,6
+PostgreSQL DB,Security Vulnerability Score,CVSS or internal weighted score (1-10),6.9
+Docker Platform,Security Vulnerability Score,CVSS or internal weighted score (1-10),9.4
+Nginx Web Proxy,Security Vulnerability Score,CVSS or internal weighted score (1-10),9.9
+Ubuntu Servers,Security Vulnerability Score,CVSS or internal weighted score (1-10),9.6
+AWS S3 Storage,Security Vulnerability Score,CVSS or internal weighted score (1-10),7.3
+Okta SSO,Security Vulnerability Score,CVSS or internal weighted score (1-10),7.9
+Streamlit WebApp,Security Vulnerability Score,CVSS or internal weighted score (1-10),5.9
+PowerBI Connector,Security Vulnerability Score,CVSS or internal weighted score (1-10),6.2
+PostgreSQL DB,Automated Health Alert Status,Is alert triggered due to detected issues (Yes/No),Yes
+Docker Platform,Automated Health Alert Status,Is alert triggered due to detected issues (Yes/No),Yes
+Nginx Web Proxy,Automated Health Alert Status,Is alert triggered due to detected issues (Yes/No),Yes
+Ubuntu Servers,Automated Health Alert Status,Is alert triggered due to detected issues (Yes/No),No
+AWS S3 Storage,Automated Health Alert Status,Is alert triggered due to detected issues (Yes/No),No
+Okta SSO,Automated Health Alert Status,Is alert triggered due to detected issues (Yes/No),Yes
+Streamlit WebApp,Automated Health Alert Status,Is alert triggered due to detected issues (Yes/No),No
+PowerBI Connector,Automated Health Alert Status,Is alert triggered due to detected issues (Yes/No),No
+PostgreSQL DB,Scalability Readiness,Indicator for ability to scale with demand (score),5.6
+Docker Platform,Scalability Readiness,Indicator for ability to scale with demand (score),5.0
+Nginx Web Proxy,Scalability Readiness,Indicator for ability to scale with demand (score),9.4
+Ubuntu Servers,Scalability Readiness,Indicator for ability to scale with demand (score),7.1
+AWS S3 Storage,Scalability Readiness,Indicator for ability to scale with demand (score),8.9
+Okta SSO,Scalability Readiness,Indicator for ability to scale with demand (score),5.0
+Streamlit WebApp,Scalability Readiness,Indicator for ability to scale with demand (score),6.9
+PowerBI Connector,Scalability Readiness,Indicator for ability to scale with demand (score),6.5
+PostgreSQL DB,Resource Usage Efficiency,Percent of system resources efficiently utilized,96.79%
+Docker Platform,Resource Usage Efficiency,Percent of system resources efficiently utilized,93.42%
+Nginx Web Proxy,Resource Usage Efficiency,Percent of system resources efficiently utilized,92.45%
+Ubuntu Servers,Resource Usage Efficiency,Percent of system resources efficiently utilized,94.35%
+AWS S3 Storage,Resource Usage Efficiency,Percent of system resources efficiently utilized,96.05%
+Okta SSO,Resource Usage Efficiency,Percent of system resources efficiently utilized,93.31%
+Streamlit WebApp,Resource Usage Efficiency,Percent of system resources efficiently utilized,98.67%
+PowerBI Connector,Resource Usage Efficiency,Percent of system resources efficiently utilized,96.59%
+PostgreSQL DB,Incident Resolution SLA (%),Percent resolved within SLA targets,99.14%
+Docker Platform,Incident Resolution SLA (%),Percent resolved within SLA targets,91.73%
+Nginx Web Proxy,Incident Resolution SLA (%),Percent resolved within SLA targets,93.08%
+Ubuntu Servers,Incident Resolution SLA (%),Percent resolved within SLA targets,97.87%
+AWS S3 Storage,Incident Resolution SLA (%),Percent resolved within SLA targets,92.66%
+Okta SSO,Incident Resolution SLA (%),Percent resolved within SLA targets,95.78%
+Streamlit WebApp,Incident Resolution SLA (%),Percent resolved within SLA targets,99.21%
+PowerBI Connector,Incident Resolution SLA (%),Percent resolved within SLA targets,95.23%
+PostgreSQL DB,Known Bugs Open,Count of unresolved bugs/defects,9
+Docker Platform,Known Bugs Open,Count of unresolved bugs/defects,8
+Nginx Web Proxy,Known Bugs Open,Count of unresolved bugs/defects,16
+Ubuntu Servers,Known Bugs Open,Count of unresolved bugs/defects,4
+AWS S3 Storage,Known Bugs Open,Count of unresolved bugs/defects,14
+Okta SSO,Known Bugs Open,Count of unresolved bugs/defects,5
+Streamlit WebApp,Known Bugs Open,Count of unresolved bugs/defects,2
+PowerBI Connector,Known Bugs Open,Count of unresolved bugs/defects,17
+PostgreSQL DB,Change Volume (last 90d),Number of production code/config changes,3
+Docker Platform,Change Volume (last 90d),Number of production code/config changes,4
+Nginx Web Proxy,Change Volume (last 90d),Number of production code/config changes,11
+Ubuntu Servers,Change Volume (last 90d),Number of production code/config changes,3
+AWS S3 Storage,Change Volume (last 90d),Number of production code/config changes,7
+Okta SSO,Change Volume (last 90d),Number of production code/config changes,12
+Streamlit WebApp,Change Volume (last 90d),Number of production code/config changes,0
+PowerBI Connector,Change Volume (last 90d),Number of production code/config changes,4

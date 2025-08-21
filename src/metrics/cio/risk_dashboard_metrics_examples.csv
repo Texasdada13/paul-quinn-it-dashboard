@@ -1,0 +1,89 @@
+Project,Metric,Description,Example
+Student Portal Upgrade,Risk Exposure Level,Severity × Probability aggregate across all risks,7
+Cybersecurity Enhancement,Risk Exposure Level,Severity × Probability aggregate across all risks,4
+Cloud Migration,Risk Exposure Level,Severity × Probability aggregate across all risks,8
+Network Infrastructure,Risk Exposure Level,Severity × Probability aggregate across all risks,5
+Student Portal Upgrade,Risk Heat Map Category,Risk classified as Low/Medium/High/Critical,High
+Cybersecurity Enhancement,Risk Heat Map Category,Risk classified as Low/Medium/High/Critical,Medium
+Cloud Migration,Risk Heat Map Category,Risk classified as Low/Medium/High/Critical,High
+Network Infrastructure,Risk Heat Map Category,Risk classified as Low/Medium/High/Critical,High
+Student Portal Upgrade,Number of Active Risks,Total issues currently open,2
+Cybersecurity Enhancement,Number of Active Risks,Total issues currently open,2
+Cloud Migration,Number of Active Risks,Total issues currently open,7
+Network Infrastructure,Number of Active Risks,Total issues currently open,4
+Student Portal Upgrade,Risk Severity Distribution,Count of risks by criticality,4
+Cybersecurity Enhancement,Risk Severity Distribution,Count of risks by criticality,8
+Cloud Migration,Risk Severity Distribution,Count of risks by criticality,8
+Network Infrastructure,Risk Severity Distribution,Count of risks by criticality,3
+Student Portal Upgrade,Risk Trend Over Time,Change in risk count/severity over the last quarter,+2 in last 90 days
+Cybersecurity Enhancement,Risk Trend Over Time,Change in risk count/severity over the last quarter,+1 in last 90 days
+Cloud Migration,Risk Trend Over Time,Change in risk count/severity over the last quarter,+2 in last 90 days
+Network Infrastructure,Risk Trend Over Time,Change in risk count/severity over the last quarter,+4 in last 90 days
+Student Portal Upgrade,Risk by Project,Total issues open per project,N/A
+Cybersecurity Enhancement,Risk by Project,Total issues open per project,N/A
+Cloud Migration,Risk by Project,Total issues open per project,N/A
+Network Infrastructure,Risk by Project,Total issues open per project,N/A
+Student Portal Upgrade,Risk Response Status,Mitigation stage: Open/In Progress/Resolved,In Progress
+Cybersecurity Enhancement,Risk Response Status,Mitigation stage: Open/In Progress/Resolved,In Progress
+Cloud Migration,Risk Response Status,Mitigation stage: Open/In Progress/Resolved,In Progress
+Network Infrastructure,Risk Response Status,Mitigation stage: Open/In Progress/Resolved,Open
+Student Portal Upgrade,Time to Risk Closure (days),Average days to close risk,33
+Cybersecurity Enhancement,Time to Risk Closure (days),Average days to close risk,12
+Cloud Migration,Time to Risk Closure (days),Average days to close risk,22
+Network Infrastructure,Time to Risk Closure (days),Average days to close risk,44
+Student Portal Upgrade,Mitigation Progress,Percent risks resolved out of total identified,Open
+Cybersecurity Enhancement,Mitigation Progress,Percent risks resolved out of total identified,Open
+Cloud Migration,Mitigation Progress,Percent risks resolved out of total identified,Resolved
+Network Infrastructure,Mitigation Progress,Percent risks resolved out of total identified,Resolved
+Student Portal Upgrade,Control Effectiveness,Score/percent of mitigations successfully preventing recurrence,79%
+Cybersecurity Enhancement,Control Effectiveness,Score/percent of mitigations successfully preventing recurrence,97%
+Cloud Migration,Control Effectiveness,Score/percent of mitigations successfully preventing recurrence,97%
+Network Infrastructure,Control Effectiveness,Score/percent of mitigations successfully preventing recurrence,85%
+Student Portal Upgrade,Residual Risk Level,Current risk after mitigations apply,3
+Cybersecurity Enhancement,Residual Risk Level,Current risk after mitigations apply,7
+Cloud Migration,Residual Risk Level,Current risk after mitigations apply,4
+Network Infrastructure,Residual Risk Level,Current risk after mitigations apply,9
+Student Portal Upgrade,Incident Response Time (hours),Average time to respond to new/incidents,3
+Cybersecurity Enhancement,Incident Response Time (hours),Average time to respond to new/incidents,37
+Cloud Migration,Incident Response Time (hours),Average time to respond to new/incidents,7
+Network Infrastructure,Incident Response Time (hours),Average time to respond to new/incidents,21
+Student Portal Upgrade,Escalated Risk Count,Number of issues escalated to executive oversight,0
+Cybersecurity Enhancement,Escalated Risk Count,Number of issues escalated to executive oversight,6
+Cloud Migration,Escalated Risk Count,Number of issues escalated to executive oversight,1
+Network Infrastructure,Escalated Risk Count,Number of issues escalated to executive oversight,3
+Student Portal Upgrade,Compliance Adherence (%),Percent of projects meeting regulatory standards,94%
+Cybersecurity Enhancement,Compliance Adherence (%),Percent of projects meeting regulatory standards,97%
+Cloud Migration,Compliance Adherence (%),Percent of projects meeting regulatory standards,83%
+Network Infrastructure,Compliance Adherence (%),Percent of projects meeting regulatory standards,87%
+Student Portal Upgrade,Financial Impact Estimate ($),Estimated dollar cost if risk occurs,"$44,001"
+Cybersecurity Enhancement,Financial Impact Estimate ($),Estimated dollar cost if risk occurs,"$12,016"
+Cloud Migration,Financial Impact Estimate ($),Estimated dollar cost if risk occurs,"$24,897"
+Network Infrastructure,Financial Impact Estimate ($),Estimated dollar cost if risk occurs,"$3,612"
+Student Portal Upgrade,Risk Owner Activity,Score or count of mitigations closed by owner,2
+Cybersecurity Enhancement,Risk Owner Activity,Score or count of mitigations closed by owner,4
+Cloud Migration,Risk Owner Activity,Score or count of mitigations closed by owner,4
+Network Infrastructure,Risk Owner Activity,Score or count of mitigations closed by owner,4
+Student Portal Upgrade,Project Milestone Risk Mapping,"Link of risk to milestone, e.g., Implementation/Go-Live",Development
+Cybersecurity Enhancement,Project Milestone Risk Mapping,"Link of risk to milestone, e.g., Implementation/Go-Live",Go-Live
+Cloud Migration,Project Milestone Risk Mapping,"Link of risk to milestone, e.g., Implementation/Go-Live",Initiation
+Network Infrastructure,Project Milestone Risk Mapping,"Link of risk to milestone, e.g., Implementation/Go-Live",Go-Live
+Student Portal Upgrade,Risks by Project Phase,"Open issues per phase (planning, execution, closing)",2
+Cybersecurity Enhancement,Risks by Project Phase,"Open issues per phase (planning, execution, closing)",0
+Cloud Migration,Risks by Project Phase,"Open issues per phase (planning, execution, closing)",3
+Network Infrastructure,Risks by Project Phase,"Open issues per phase (planning, execution, closing)",1
+Student Portal Upgrade,Risk Mitigation Effectiveness (%),Change in risk exposure after intervention,77%
+Cybersecurity Enhancement,Risk Mitigation Effectiveness (%),Change in risk exposure after intervention,73%
+Cloud Migration,Risk Mitigation Effectiveness (%),Change in risk exposure after intervention,71%
+Network Infrastructure,Risk Mitigation Effectiveness (%),Change in risk exposure after intervention,99%
+Student Portal Upgrade,KRI (Key Risk Indicator),Leading metric such as incident frequency or cost overruns,Cost Overrun
+Cybersecurity Enhancement,KRI (Key Risk Indicator),Leading metric such as incident frequency or cost overruns,Cost Overrun
+Cloud Migration,KRI (Key Risk Indicator),Leading metric such as incident frequency or cost overruns,Cost Overrun
+Network Infrastructure,KRI (Key Risk Indicator),Leading metric such as incident frequency or cost overruns,Cost Overrun
+Student Portal Upgrade,Risk Register Update Frequency,Days/weeks since last update,13 days ago
+Cybersecurity Enhancement,Risk Register Update Frequency,Days/weeks since last update,2 days ago
+Cloud Migration,Risk Register Update Frequency,Days/weeks since last update,10 days ago
+Network Infrastructure,Risk Register Update Frequency,Days/weeks since last update,12 days ago
+Student Portal Upgrade,Stakeholder Risk Satisfaction,Avg survey rating on confidence in controls,71%
+Cybersecurity Enhancement,Stakeholder Risk Satisfaction,Avg survey rating on confidence in controls,79%
+Cloud Migration,Stakeholder Risk Satisfaction,Avg survey rating on confidence in controls,99%
+Network Infrastructure,Stakeholder Risk Satisfaction,Avg survey rating on confidence in controls,73%

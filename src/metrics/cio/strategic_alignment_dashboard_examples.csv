@@ -1,0 +1,76 @@
+Initiative,Metric,Description,Example
+Student Portal Upgrade,Strategic Alignment Score,Degree to which initiative aligns with institutional strategic priorities (1-10 scale),7.7
+AI Tutoring,Strategic Alignment Score,Degree to which initiative aligns with institutional strategic priorities (1-10 scale),9.3
+LMS Modernization,Strategic Alignment Score,Degree to which initiative aligns with institutional strategic priorities (1-10 scale),8.9
+Mobile App Development,Strategic Alignment Score,Degree to which initiative aligns with institutional strategic priorities (1-10 scale),9.5
+Library Digital Access,Strategic Alignment Score,Degree to which initiative aligns with institutional strategic priorities (1-10 scale),7.5
+Student Portal Upgrade,Mission Relevance Rating,How well the initiative supports core college mission (1-5 scale),5.0
+AI Tutoring,Mission Relevance Rating,How well the initiative supports core college mission (1-5 scale),4.8
+LMS Modernization,Mission Relevance Rating,How well the initiative supports core college mission (1-5 scale),3.4
+Mobile App Development,Mission Relevance Rating,How well the initiative supports core college mission (1-5 scale),4.5
+Library Digital Access,Mission Relevance Rating,How well the initiative supports core college mission (1-5 scale),4.3
+Student Portal Upgrade,Student Experience Impact,Estimated impact on student success or engagement (1-10 scale),9.4
+AI Tutoring,Student Experience Impact,Estimated impact on student success or engagement (1-10 scale),9.3
+LMS Modernization,Student Experience Impact,Estimated impact on student success or engagement (1-10 scale),8.7
+Mobile App Development,Student Experience Impact,Estimated impact on student success or engagement (1-10 scale),9.4
+Library Digital Access,Student Experience Impact,Estimated impact on student success or engagement (1-10 scale),5.9
+Student Portal Upgrade,Underserved Population Benefit Index,Relative benefit delivered specifically to underserved groups (0-1 scale),0.53
+AI Tutoring,Underserved Population Benefit Index,Relative benefit delivered specifically to underserved groups (0-1 scale),0.56
+LMS Modernization,Underserved Population Benefit Index,Relative benefit delivered specifically to underserved groups (0-1 scale),0.86
+Mobile App Development,Underserved Population Benefit Index,Relative benefit delivered specifically to underserved groups (0-1 scale),0.41
+Library Digital Access,Underserved Population Benefit Index,Relative benefit delivered specifically to underserved groups (0-1 scale),0.42
+Student Portal Upgrade,Equity Advancement Score,Degree to which initiative closes access gaps (1-10 scale),6.3
+AI Tutoring,Equity Advancement Score,Degree to which initiative closes access gaps (1-10 scale),7.2
+LMS Modernization,Equity Advancement Score,Degree to which initiative closes access gaps (1-10 scale),9.1
+Mobile App Development,Equity Advancement Score,Degree to which initiative closes access gaps (1-10 scale),6.7
+Library Digital Access,Equity Advancement Score,Degree to which initiative closes access gaps (1-10 scale),6.3
+Student Portal Upgrade,Learning Outcomes Improvement,Expected improvement in key student learning metrics (%),7.0
+AI Tutoring,Learning Outcomes Improvement,Expected improvement in key student learning metrics (%),1.8
+LMS Modernization,Learning Outcomes Improvement,Expected improvement in key student learning metrics (%),6.0
+Mobile App Development,Learning Outcomes Improvement,Expected improvement in key student learning metrics (%),4.2
+Library Digital Access,Learning Outcomes Improvement,Expected improvement in key student learning metrics (%),5.1
+Student Portal Upgrade,Digital Inclusion Rating,Extent of technology access expansion (1-5 scale),3.4
+AI Tutoring,Digital Inclusion Rating,Extent of technology access expansion (1-5 scale),4.5
+LMS Modernization,Digital Inclusion Rating,Extent of technology access expansion (1-5 scale),4.7
+Mobile App Development,Digital Inclusion Rating,Extent of technology access expansion (1-5 scale),4.9
+Library Digital Access,Digital Inclusion Rating,Extent of technology access expansion (1-5 scale),4.5
+Student Portal Upgrade,Retention/Uplift Projection,Projected increase in retention or graduation rate (%),4.8
+AI Tutoring,Retention/Uplift Projection,Projected increase in retention or graduation rate (%),4.9
+LMS Modernization,Retention/Uplift Projection,Projected increase in retention or graduation rate (%),5.9
+Mobile App Development,Retention/Uplift Projection,Projected increase in retention or graduation rate (%),0.8
+Library Digital Access,Retention/Uplift Projection,Projected increase in retention or graduation rate (%),1.2
+Student Portal Upgrade,Community Engagement Level,Score for outreach or partnership value (1-10 scale),9.8
+AI Tutoring,Community Engagement Level,Score for outreach or partnership value (1-10 scale),7.9
+LMS Modernization,Community Engagement Level,Score for outreach or partnership value (1-10 scale),5.5
+Mobile App Development,Community Engagement Level,Score for outreach or partnership value (1-10 scale),5.1
+Library Digital Access,Community Engagement Level,Score for outreach or partnership value (1-10 scale),9.2
+Student Portal Upgrade,Grant/Funder Mission Fit,Alignment with grant or funding source priorities (1-5 scale),4.8
+AI Tutoring,Grant/Funder Mission Fit,Alignment with grant or funding source priorities (1-5 scale),4.4
+LMS Modernization,Grant/Funder Mission Fit,Alignment with grant or funding source priorities (1-5 scale),3.8
+Mobile App Development,Grant/Funder Mission Fit,Alignment with grant or funding source priorities (1-5 scale),4.4
+Library Digital Access,Grant/Funder Mission Fit,Alignment with grant or funding source priorities (1-5 scale),4.8
+Student Portal Upgrade,Faculty/Staff Support Level,Stakeholder survey rating of initiative support (1-5 scale),3.6
+AI Tutoring,Faculty/Staff Support Level,Stakeholder survey rating of initiative support (1-5 scale),4.4
+LMS Modernization,Faculty/Staff Support Level,Stakeholder survey rating of initiative support (1-5 scale),4.0
+Mobile App Development,Faculty/Staff Support Level,Stakeholder survey rating of initiative support (1-5 scale),4.8
+Library Digital Access,Faculty/Staff Support Level,Stakeholder survey rating of initiative support (1-5 scale),4.8
+Student Portal Upgrade,Sustainability Factor,Initiative’s ability to deliver lasting value (1-10 scale),7.4
+AI Tutoring,Sustainability Factor,Initiative’s ability to deliver lasting value (1-10 scale),8.0
+LMS Modernization,Sustainability Factor,Initiative’s ability to deliver lasting value (1-10 scale),6.3
+Mobile App Development,Sustainability Factor,Initiative’s ability to deliver lasting value (1-10 scale),10.0
+Library Digital Access,Sustainability Factor,Initiative’s ability to deliver lasting value (1-10 scale),6.1
+Student Portal Upgrade,Accessibility Rating,Extent of ADA/accessibility compliance (1-5 scale),4.2
+AI Tutoring,Accessibility Rating,Extent of ADA/accessibility compliance (1-5 scale),4.3
+LMS Modernization,Accessibility Rating,Extent of ADA/accessibility compliance (1-5 scale),4.8
+Mobile App Development,Accessibility Rating,Extent of ADA/accessibility compliance (1-5 scale),3.2
+Library Digital Access,Accessibility Rating,Extent of ADA/accessibility compliance (1-5 scale),4.4
+Student Portal Upgrade,Holistic Support Integration,Quality of wraparound/holistic support services enabled (1-10 scale),4.5
+AI Tutoring,Holistic Support Integration,Quality of wraparound/holistic support services enabled (1-10 scale),4.8
+LMS Modernization,Holistic Support Integration,Quality of wraparound/holistic support services enabled (1-10 scale),3.5
+Mobile App Development,Holistic Support Integration,Quality of wraparound/holistic support services enabled (1-10 scale),5.0
+Library Digital Access,Holistic Support Integration,Quality of wraparound/holistic support services enabled (1-10 scale),3.6
+Student Portal Upgrade,Cost per Student Benefited,Operational cost divided by impacted student count ($),$193
+AI Tutoring,Cost per Student Benefited,Operational cost divided by impacted student count ($),$117
+LMS Modernization,Cost per Student Benefited,Operational cost divided by impacted student count ($),$36
+Mobile App Development,Cost per Student Benefited,Operational cost divided by impacted student count ($),$188
+Library Digital Access,Cost per Student Benefited,Operational cost divided by impacted student count ($),$117

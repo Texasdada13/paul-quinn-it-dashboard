@@ -1,0 +1,86 @@
+Initiative,Metric,Description,Example
+Online BA in Psychology,Digital Transformation Maturity,"Stage of transformation: Ad hoc, Basic, Established, Leading",Established
+Hybrid MBA,Digital Transformation Maturity,"Stage of transformation: Ad hoc, Basic, Established, Leading",Leading
+Virtual STEM Labs,Digital Transformation Maturity,"Stage of transformation: Ad hoc, Basic, Established, Leading",Ad hoc
+AI Tutoring Platform,Digital Transformation Maturity,"Stage of transformation: Ad hoc, Basic, Established, Leading",Established
+Learning Analytics Implementation,Digital Transformation Maturity,"Stage of transformation: Ad hoc, Basic, Established, Leading",Established
+Online BA in Psychology,Online Learning Adoption Rate,Percent of courses/programs delivered online or hybrid,73.6%
+Hybrid MBA,Online Learning Adoption Rate,Percent of courses/programs delivered online or hybrid,75.6%
+Virtual STEM Labs,Online Learning Adoption Rate,Percent of courses/programs delivered online or hybrid,59.0%
+AI Tutoring Platform,Online Learning Adoption Rate,Percent of courses/programs delivered online or hybrid,52.1%
+Learning Analytics Implementation,Online Learning Adoption Rate,Percent of courses/programs delivered online or hybrid,90.5%
+Online BA in Psychology,Student Participation In Digital Learning (%),Percent of enrolled students actively participating,91.5%
+Hybrid MBA,Student Participation In Digital Learning (%),Percent of enrolled students actively participating,86.0%
+Virtual STEM Labs,Student Participation In Digital Learning (%),Percent of enrolled students actively participating,46.2%
+AI Tutoring Platform,Student Participation In Digital Learning (%),Percent of enrolled students actively participating,85.9%
+Learning Analytics Implementation,Student Participation In Digital Learning (%),Percent of enrolled students actively participating,71.3%
+Online BA in Psychology,Faculty Participation In Digital Learning (%),Percent of faculty involved in online/hybrid delivery,53.5%
+Hybrid MBA,Faculty Participation In Digital Learning (%),Percent of faculty involved in online/hybrid delivery,47.5%
+Virtual STEM Labs,Faculty Participation In Digital Learning (%),Percent of faculty involved in online/hybrid delivery,79.7%
+AI Tutoring Platform,Faculty Participation In Digital Learning (%),Percent of faculty involved in online/hybrid delivery,94.6%
+Learning Analytics Implementation,Faculty Participation In Digital Learning (%),Percent of faculty involved in online/hybrid delivery,47.1%
+Online BA in Psychology,Technology Platform Utilization,Frequency/percentage usage of key EdTech platforms,60.8% utilization
+Hybrid MBA,Technology Platform Utilization,Frequency/percentage usage of key EdTech platforms,75.4% utilization
+Virtual STEM Labs,Technology Platform Utilization,Frequency/percentage usage of key EdTech platforms,72.4% utilization
+AI Tutoring Platform,Technology Platform Utilization,Frequency/percentage usage of key EdTech platforms,52.1% utilization
+Learning Analytics Implementation,Technology Platform Utilization,Frequency/percentage usage of key EdTech platforms,80.3% utilization
+Online BA in Psychology,Digital Literacy Index - Students,Average score assessing student technology readiness,4.0
+Hybrid MBA,Digital Literacy Index - Students,Average score assessing student technology readiness,3.4
+Virtual STEM Labs,Digital Literacy Index - Students,Average score assessing student technology readiness,4.4
+AI Tutoring Platform,Digital Literacy Index - Students,Average score assessing student technology readiness,3.7
+Learning Analytics Implementation,Digital Literacy Index - Students,Average score assessing student technology readiness,3.1
+Online BA in Psychology,Digital Literacy Index - Faculty,Average score assessing faculty readiness,4.6
+Hybrid MBA,Digital Literacy Index - Faculty,Average score assessing faculty readiness,4.6
+Virtual STEM Labs,Digital Literacy Index - Faculty,Average score assessing faculty readiness,4.0
+AI Tutoring Platform,Digital Literacy Index - Faculty,Average score assessing faculty readiness,3.7
+Learning Analytics Implementation,Digital Literacy Index - Faculty,Average score assessing faculty readiness,3.9
+Online BA in Psychology,Content Accessibility Compliance,"Percent of digital content meeting accessibility (ADA, WCAG) standards",94% ADA/Section508
+Hybrid MBA,Content Accessibility Compliance,"Percent of digital content meeting accessibility (ADA, WCAG) standards",95% ADA/Section508
+Virtual STEM Labs,Content Accessibility Compliance,"Percent of digital content meeting accessibility (ADA, WCAG) standards",92% ADA/Section508
+AI Tutoring Platform,Content Accessibility Compliance,"Percent of digital content meeting accessibility (ADA, WCAG) standards",98% ADA/Section508
+Learning Analytics Implementation,Content Accessibility Compliance,"Percent of digital content meeting accessibility (ADA, WCAG) standards",96% ADA/Section508
+Online BA in Psychology,Online Program Completion Rate (%),Percent of students completing digital/hybrid programs,52.9%
+Hybrid MBA,Online Program Completion Rate (%),Percent of students completing digital/hybrid programs,68.7%
+Virtual STEM Labs,Online Program Completion Rate (%),Percent of students completing digital/hybrid programs,43.8%
+AI Tutoring Platform,Online Program Completion Rate (%),Percent of students completing digital/hybrid programs,45.0%
+Learning Analytics Implementation,Online Program Completion Rate (%),Percent of students completing digital/hybrid programs,44.6%
+Online BA in Psychology,Student Success Metrics in Digital Courses,Comparison of performance in online vs in-person courses,Online GPA: 2.89 vs In-person: 3.59
+Hybrid MBA,Student Success Metrics in Digital Courses,Comparison of performance in online vs in-person courses,Online GPA: 3.5 vs In-person: 3.4
+Virtual STEM Labs,Student Success Metrics in Digital Courses,Comparison of performance in online vs in-person courses,Online GPA: 3.06 vs In-person: 3.54
+AI Tutoring Platform,Student Success Metrics in Digital Courses,Comparison of performance in online vs in-person courses,Online GPA: 2.84 vs In-person: 2.6
+Learning Analytics Implementation,Student Success Metrics in Digital Courses,Comparison of performance in online vs in-person courses,Online GPA: 2.68 vs In-person: 3.09
+Online BA in Psychology,Satisfaction With Digital Learning,Student/faculty satisfaction survey score (1-5 scale),3.5
+Hybrid MBA,Satisfaction With Digital Learning,Student/faculty satisfaction survey score (1-5 scale),3.5
+Virtual STEM Labs,Satisfaction With Digital Learning,Student/faculty satisfaction survey score (1-5 scale),3.0
+AI Tutoring Platform,Satisfaction With Digital Learning,Student/faculty satisfaction survey score (1-5 scale),4.0
+Learning Analytics Implementation,Satisfaction With Digital Learning,Student/faculty satisfaction survey score (1-5 scale),4.3
+Online BA in Psychology,EdTech Support Ticket Resolution,Average time to resolve support requests for digital platforms,12 hours
+Hybrid MBA,EdTech Support Ticket Resolution,Average time to resolve support requests for digital platforms,19 hours
+Virtual STEM Labs,EdTech Support Ticket Resolution,Average time to resolve support requests for digital platforms,6 hours
+AI Tutoring Platform,EdTech Support Ticket Resolution,Average time to resolve support requests for digital platforms,23 hours
+Learning Analytics Implementation,EdTech Support Ticket Resolution,Average time to resolve support requests for digital platforms,7 hours
+Online BA in Psychology,Virtual Engagement Rate,Student participation in virtual office hours/events,67.9%
+Hybrid MBA,Virtual Engagement Rate,Student participation in virtual office hours/events,48.5%
+Virtual STEM Labs,Virtual Engagement Rate,Student participation in virtual office hours/events,43.8%
+AI Tutoring Platform,Virtual Engagement Rate,Student participation in virtual office hours/events,65.4%
+Learning Analytics Implementation,Virtual Engagement Rate,Student participation in virtual office hours/events,55.8%
+Online BA in Psychology,Remote Faculty/Staff Enablement,Percent of faculty/staff with full remote access to systems,47.5%
+Hybrid MBA,Remote Faculty/Staff Enablement,Percent of faculty/staff with full remote access to systems,76.3%
+Virtual STEM Labs,Remote Faculty/Staff Enablement,Percent of faculty/staff with full remote access to systems,64.7%
+AI Tutoring Platform,Remote Faculty/Staff Enablement,Percent of faculty/staff with full remote access to systems,75.1%
+Learning Analytics Implementation,Remote Faculty/Staff Enablement,Percent of faculty/staff with full remote access to systems,41.5%
+Online BA in Psychology,Innovation Milestone Achievements,Count or completion rate of major digital transformation milestones,5 milestones completed
+Hybrid MBA,Innovation Milestone Achievements,Count or completion rate of major digital transformation milestones,1 milestones completed
+Virtual STEM Labs,Innovation Milestone Achievements,Count or completion rate of major digital transformation milestones,5 milestones completed
+AI Tutoring Platform,Innovation Milestone Achievements,Count or completion rate of major digital transformation milestones,4 milestones completed
+Learning Analytics Implementation,Innovation Milestone Achievements,Count or completion rate of major digital transformation milestones,2 milestones completed
+Online BA in Psychology,Budget Allocation For Digital Initiatives (%),Proportion of IT/academic budget for transformation,89.3%
+Hybrid MBA,Budget Allocation For Digital Initiatives (%),Proportion of IT/academic budget for transformation,92.2%
+Virtual STEM Labs,Budget Allocation For Digital Initiatives (%),Proportion of IT/academic budget for transformation,51.7%
+AI Tutoring Platform,Budget Allocation For Digital Initiatives (%),Proportion of IT/academic budget for transformation,52.9%
+Learning Analytics Implementation,Budget Allocation For Digital Initiatives (%),Proportion of IT/academic budget for transformation,91.7%
+Online BA in Psychology,Digital Credential/Certificate Volume,Total digital credentials/certificates issued annually,815
+Hybrid MBA,Digital Credential/Certificate Volume,Total digital credentials/certificates issued annually,576
+Virtual STEM Labs,Digital Credential/Certificate Volume,Total digital credentials/certificates issued annually,823
+AI Tutoring Platform,Digital Credential/Certificate Volume,Total digital credentials/certificates issued annually,809
+Learning Analytics Implementation,Digital Credential/Certificate Volume,Total digital credentials/certificates issued annually,310

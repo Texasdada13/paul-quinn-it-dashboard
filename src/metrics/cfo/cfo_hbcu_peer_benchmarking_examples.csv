@@ -1,0 +1,16 @@
+"('Metric Category', 'Area or line item compared')","('Fiscal Year', 'Year of comparison')","('College', 'Institution name (Paul Quinn, Peer HBCU, Non-HBCU)')","('IT Spend Per Student', 'Total IT spend divided by student enrollment')","('Total IT Budget', 'Annual IT budget')","('Instructional Spend Ratio', 'Instruction spend ÷ total revenue')","('Academic Technology %', 'Share of IT budget on academic/teaching tech')","('IT FTE Ratio', 'IT staff divided by student enrollment')","('Benchmark Peer Median', 'Median value for comparable peer colleges')","('PQ Delta to Peer (%)', '% difference Paul Quinn to peer median')","('Budget Justification Flag', 'Yes/No indicator if PQ higher/lower than peer')"
+IT Spend Per Student,2023,Paul Quinn,623.98,2507142,1.03,30.4,0.004,623.98,0.0,No
+IT Spend Per Student,2023,Peer HBCU 1,2863.72,5484023,0.86,12.4,0.0104,623.98,358.9,Yes
+IT Spend Per Student,2023,Peer HBCU 2,4405.5,6621463,0.88,27.7,0.0053,1743.85,152.6,Yes
+IT Spend Per Student,2023,Private College,4657.33,5206895,1.0,19.1,0.0143,2863.72,62.6,Yes
+IT Spend Per Student,2023,Public University,3366.02,6338219,0.96,25.2,0.0027,3634.6099999999997,-7.4,No
+IT Spend Per Student,2024,Paul Quinn,1380.42,5919259,1.07,25.7,0.0042,1380.42,0.0,No
+IT Spend Per Student,2024,Peer HBCU 1,2866.99,4380760,1.17,29.4,0.0039,1380.42,107.7,Yes
+IT Spend Per Student,2024,Peer HBCU 2,1958.66,6011136,1.19,17.7,0.0078,2123.705,-7.8,No
+IT Spend Per Student,2024,Private College,765.94,2085658,1.18,14.6,0.0022,1958.66,-60.9,Yes
+IT Spend Per Student,2024,Public University,4899.22,6413078,0.92,17.7,0.0206,1669.54,193.4,Yes
+IT Spend Per Student,2025,Paul Quinn,566.38,2338583,1.04,24.0,0.0041,566.38,0.0,No
+IT Spend Per Student,2025,Peer HBCU 1,1966.35,2393042,1.19,29.2,0.0099,566.38,247.2,Yes
+IT Spend Per Student,2025,Peer HBCU 2,2121.16,4876542,0.9,32.0,0.0109,1266.365,67.5,Yes
+IT Spend Per Student,2025,Private College,2667.41,3552987,1.15,12.5,0.0128,1966.35,35.7,Yes
+IT Spend Per Student,2025,Public University,1631.36,2879342,0.86,17.1,0.0068,2043.7549999999999,-20.2,Yes

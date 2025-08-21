@@ -1,0 +1,120 @@
+Infrastructure,Metric,Description,Example
+Network,System Uptime (%),Percent of time system/network is available and operational,92.02%
+WiFi,System Uptime (%),Percent of time system/network is available and operational,99.76%
+Campus Servers,System Uptime (%),Percent of time system/network is available and operational,97.55%
+Cloud Storage,System Uptime (%),Percent of time system/network is available and operational,94.16%
+VPN Gateway,System Uptime (%),Percent of time system/network is available and operational,97.36%
+Firewall,System Uptime (%),Percent of time system/network is available and operational,98.19%
+VoIP Phones,System Uptime (%),Percent of time system/network is available and operational,96.8%
+Network,Scheduled Downtime (hrs),Planned outages for upgrades/maintenance (per month/year),29.97
+WiFi,Scheduled Downtime (hrs),Planned outages for upgrades/maintenance (per month/year),50.89
+Campus Servers,Scheduled Downtime (hrs),Planned outages for upgrades/maintenance (per month/year),17.91
+Cloud Storage,Scheduled Downtime (hrs),Planned outages for upgrades/maintenance (per month/year),18.58
+VPN Gateway,Scheduled Downtime (hrs),Planned outages for upgrades/maintenance (per month/year),1.92
+Firewall,Scheduled Downtime (hrs),Planned outages for upgrades/maintenance (per month/year),7.29
+VoIP Phones,Scheduled Downtime (hrs),Planned outages for upgrades/maintenance (per month/year),21.77
+Network,Unplanned Downtime (hrs),Unscheduled outages in service window,46.21
+WiFi,Unplanned Downtime (hrs),Unscheduled outages in service window,23.33
+Campus Servers,Unplanned Downtime (hrs),Unscheduled outages in service window,13.52
+Cloud Storage,Unplanned Downtime (hrs),Unscheduled outages in service window,66.05
+VPN Gateway,Unplanned Downtime (hrs),Unscheduled outages in service window,19.65
+Firewall,Unplanned Downtime (hrs),Unscheduled outages in service window,19.84
+VoIP Phones,Unplanned Downtime (hrs),Unscheduled outages in service window,68.73
+Network,Mean Time to Recovery (MTTR),Average time to restore full service after outage,9.33
+WiFi,Mean Time to Recovery (MTTR),Average time to restore full service after outage,53.85
+Campus Servers,Mean Time to Recovery (MTTR),Average time to restore full service after outage,0.58
+Cloud Storage,Mean Time to Recovery (MTTR),Average time to restore full service after outage,61.72
+VPN Gateway,Mean Time to Recovery (MTTR),Average time to restore full service after outage,50.17
+Firewall,Mean Time to Recovery (MTTR),Average time to restore full service after outage,39.91
+VoIP Phones,Mean Time to Recovery (MTTR),Average time to restore full service after outage,67.35
+Network,Mean Time Between Failures (MTBF),Average operating time between system failures,37.01
+WiFi,Mean Time Between Failures (MTBF),Average operating time between system failures,12.95
+Campus Servers,Mean Time Between Failures (MTBF),Average operating time between system failures,38.75
+Cloud Storage,Mean Time Between Failures (MTBF),Average operating time between system failures,21.27
+VPN Gateway,Mean Time Between Failures (MTBF),Average operating time between system failures,0.96
+Firewall,Mean Time Between Failures (MTBF),Average operating time between system failures,63.66
+VoIP Phones,Mean Time Between Failures (MTBF),Average operating time between system failures,47.33
+Network,Peak/Mean Response Time (ms),Average time to process user/system requests,67.85
+WiFi,Peak/Mean Response Time (ms),Average time to process user/system requests,53.69
+Campus Servers,Peak/Mean Response Time (ms),Average time to process user/system requests,19.39
+Cloud Storage,Peak/Mean Response Time (ms),Average time to process user/system requests,26.18
+VPN Gateway,Peak/Mean Response Time (ms),Average time to process user/system requests,38.0
+Firewall,Peak/Mean Response Time (ms),Average time to process user/system requests,39.47
+VoIP Phones,Peak/Mean Response Time (ms),Average time to process user/system requests,18.77
+Network,Critical Incident Count,Number of P1/P2 incidents reported per period,33
+WiFi,Critical Incident Count,Number of P1/P2 incidents reported per period,36
+Campus Servers,Critical Incident Count,Number of P1/P2 incidents reported per period,31
+Cloud Storage,Critical Incident Count,Number of P1/P2 incidents reported per period,48
+VPN Gateway,Critical Incident Count,Number of P1/P2 incidents reported per period,15
+Firewall,Critical Incident Count,Number of P1/P2 incidents reported per period,25
+VoIP Phones,Critical Incident Count,Number of P1/P2 incidents reported per period,26
+Network,Error Rate (%),Percent failed transactions/processes,91.71%
+WiFi,Error Rate (%),Percent failed transactions/processes,94.9%
+Campus Servers,Error Rate (%),Percent failed transactions/processes,94.12%
+Cloud Storage,Error Rate (%),Percent failed transactions/processes,94.31%
+VPN Gateway,Error Rate (%),Percent failed transactions/processes,98.16%
+Firewall,Error Rate (%),Percent failed transactions/processes,99.96%
+VoIP Phones,Error Rate (%),Percent failed transactions/processes,99.89%
+Network,Capacity Utilization (%),Percent utilization versus installed/system capacity,98.44%
+WiFi,Capacity Utilization (%),Percent utilization versus installed/system capacity,93.72%
+Campus Servers,Capacity Utilization (%),Percent utilization versus installed/system capacity,99.83%
+Cloud Storage,Capacity Utilization (%),Percent utilization versus installed/system capacity,97.66%
+VPN Gateway,Capacity Utilization (%),Percent utilization versus installed/system capacity,97.74%
+Firewall,Capacity Utilization (%),Percent utilization versus installed/system capacity,97.2%
+VoIP Phones,Capacity Utilization (%),Percent utilization versus installed/system capacity,93.49%
+Network,Resource Scalability Index,Score/indicator of infrastructure elasticity,0.52
+WiFi,Resource Scalability Index,Score/indicator of infrastructure elasticity,0.94
+Campus Servers,Resource Scalability Index,Score/indicator of infrastructure elasticity,0.95
+Cloud Storage,Resource Scalability Index,Score/indicator of infrastructure elasticity,0.65
+VPN Gateway,Resource Scalability Index,Score/indicator of infrastructure elasticity,0.5
+Firewall,Resource Scalability Index,Score/indicator of infrastructure elasticity,0.78
+VoIP Phones,Resource Scalability Index,Score/indicator of infrastructure elasticity,0.98
+Network,Security Incident Rate,Number of security event detections per month/quarter,22
+WiFi,Security Incident Rate,Number of security event detections per month/quarter,33
+Campus Servers,Security Incident Rate,Number of security event detections per month/quarter,39
+Cloud Storage,Security Incident Rate,Number of security event detections per month/quarter,54
+VPN Gateway,Security Incident Rate,Number of security event detections per month/quarter,16
+Firewall,Security Incident Rate,Number of security event detections per month/quarter,14
+VoIP Phones,Security Incident Rate,Number of security event detections per month/quarter,49
+Network,Patch/Update Success Rate (%),Percent systems successfully updated,97.78%
+WiFi,Patch/Update Success Rate (%),Percent systems successfully updated,97.96%
+Campus Servers,Patch/Update Success Rate (%),Percent systems successfully updated,98.9%
+Cloud Storage,Patch/Update Success Rate (%),Percent systems successfully updated,95.33%
+VPN Gateway,Patch/Update Success Rate (%),Percent systems successfully updated,93.72%
+Firewall,Patch/Update Success Rate (%),Percent systems successfully updated,94.98%
+VoIP Phones,Patch/Update Success Rate (%),Percent systems successfully updated,95.75%
+Network,Support Ticket Volume,Number of IT/service requests per period,40
+WiFi,Support Ticket Volume,Number of IT/service requests per period,29
+Campus Servers,Support Ticket Volume,Number of IT/service requests per period,22
+Cloud Storage,Support Ticket Volume,Number of IT/service requests per period,34
+VPN Gateway,Support Ticket Volume,Number of IT/service requests per period,19
+Firewall,Support Ticket Volume,Number of IT/service requests per period,29
+VoIP Phones,Support Ticket Volume,Number of IT/service requests per period,43
+Network,Service Desk Response Time (min),Average time to acknowledge a user issue,60.17
+WiFi,Service Desk Response Time (min),Average time to acknowledge a user issue,6.33
+Campus Servers,Service Desk Response Time (min),Average time to acknowledge a user issue,35.26
+Cloud Storage,Service Desk Response Time (min),Average time to acknowledge a user issue,64.84
+VPN Gateway,Service Desk Response Time (min),Average time to acknowledge a user issue,66.04
+Firewall,Service Desk Response Time (min),Average time to acknowledge a user issue,15.77
+VoIP Phones,Service Desk Response Time (min),Average time to acknowledge a user issue,28.96
+Network,Backlog Volume,Number of unresolved incidents/issues,11
+WiFi,Backlog Volume,Number of unresolved incidents/issues,44
+Campus Servers,Backlog Volume,Number of unresolved incidents/issues,54
+Cloud Storage,Backlog Volume,Number of unresolved incidents/issues,34
+VPN Gateway,Backlog Volume,Number of unresolved incidents/issues,46
+Firewall,Backlog Volume,Number of unresolved incidents/issues,49
+VoIP Phones,Backlog Volume,Number of unresolved incidents/issues,3
+Network,Availability Zone Redundancy,Count of independent availability zones/backup systems,28
+WiFi,Availability Zone Redundancy,Count of independent availability zones/backup systems,38
+Campus Servers,Availability Zone Redundancy,Count of independent availability zones/backup systems,30
+Cloud Storage,Availability Zone Redundancy,Count of independent availability zones/backup systems,24
+VPN Gateway,Availability Zone Redundancy,Count of independent availability zones/backup systems,52
+Firewall,Availability Zone Redundancy,Count of independent availability zones/backup systems,22
+VoIP Phones,Availability Zone Redundancy,Count of independent availability zones/backup systems,6
+Network,Energy Efficiency Rating,Score reflecting sustainable power usage,0.69
+WiFi,Energy Efficiency Rating,Score reflecting sustainable power usage,0.92
+Campus Servers,Energy Efficiency Rating,Score reflecting sustainable power usage,0.8
+Cloud Storage,Energy Efficiency Rating,Score reflecting sustainable power usage,0.73
+VPN Gateway,Energy Efficiency Rating,Score reflecting sustainable power usage,0.88
+Firewall,Energy Efficiency Rating,Score reflecting sustainable power usage,0.59
+VoIP Phones,Energy Efficiency Rating,Score reflecting sustainable power usage,0.42

@@ -1,0 +1,15 @@
+Vendor,System/Product,Contract Start Date,Contract End Date,Annual Spend,Contract Status,Days Until Expiry,Expiration Alert,Renewal Option,Negotiation Recommended,Last Negotiation Date
+Microsoft,Network,2023-09-09,2024-12-27,447406,Expired,-235,No,Auto-Renew,No,2023-11-14
+Microsoft,Cloud Storage,2024-01-19,2025-08-09,328477,Expired,-10,No,Manual,Yes,2024-07-09
+AWS,Email,2021-09-29,2023-04-21,347725,Expired,-851,No,Manual,Yes,2022-02-24
+AWS,ERP,2023-03-22,2024-04-20,246707,Expired,-486,No,Manual,Yes,2023-07-08
+Adobe,ERP,2024-04-01,2026-03-28,269350,Active,221,No,Manual,Yes,2024-09-17
+Adobe,Email,2023-02-26,2025-02-01,339455,Expired,-199,No,Manual,Yes,2023-03-30
+Blackboard,Network,2023-04-20,2024-10-18,422065,Expired,-305,No,Auto-Renew,No,2023-07-17
+Blackboard,Email,2021-12-01,2023-08-01,280795,Expired,-749,No,Negotiation Required,Yes,2021-12-04
+Cisco,Cloud Storage,2023-04-12,2025-01-09,233131,Expired,-222,No,Manual,Yes,2023-07-14
+Cisco,ERP,2020-08-24,2022-03-15,413597,Expired,-1253,No,Auto-Renew,No,2020-11-27
+Zoom,Network,2023-01-23,2024-05-30,90842,Expired,-446,No,Manual,Yes,2023-05-02
+Zoom,LMS,2021-12-08,2022-12-07,462174,Expired,-986,No,Auto-Renew,No,2022-06-12
+Oracle,Cloud Storage,2023-05-06,2025-02-20,399516,Expired,-180,No,Manual,Yes,2023-11-07
+Oracle,ERP,2020-08-04,2021-08-26,401409,Expired,-1454,No,Negotiation Required,Yes,2020-09-28

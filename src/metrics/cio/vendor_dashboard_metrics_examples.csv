@@ -1,0 +1,129 @@
+Vendor,Metric,Description,Example
+Microsoft,Vendor Satisfaction Score,"Average rating from end user, CIO, or stakeholder surveys (1-5 scale)",3.3
+Adobe,Vendor Satisfaction Score,"Average rating from end user, CIO, or stakeholder surveys (1-5 scale)",3.7
+AWS,Vendor Satisfaction Score,"Average rating from end user, CIO, or stakeholder surveys (1-5 scale)",4.4
+Blackboard,Vendor Satisfaction Score,"Average rating from end user, CIO, or stakeholder surveys (1-5 scale)",3.2
+Cisco,Vendor Satisfaction Score,"Average rating from end user, CIO, or stakeholder surveys (1-5 scale)",3.6
+Zoom,Vendor Satisfaction Score,"Average rating from end user, CIO, or stakeholder surveys (1-5 scale)",3.3
+Oracle,Vendor Satisfaction Score,"Average rating from end user, CIO, or stakeholder surveys (1-5 scale)",3.7
+Salesforce,Vendor Satisfaction Score,"Average rating from end user, CIO, or stakeholder surveys (1-5 scale)",4.3
+Microsoft,Service Level Agreement (SLA) Compliance,Percent of time vendor met all SLAs,97%
+Adobe,Service Level Agreement (SLA) Compliance,Percent of time vendor met all SLAs,98%
+AWS,Service Level Agreement (SLA) Compliance,Percent of time vendor met all SLAs,98%
+Blackboard,Service Level Agreement (SLA) Compliance,Percent of time vendor met all SLAs,94%
+Cisco,Service Level Agreement (SLA) Compliance,Percent of time vendor met all SLAs,98%
+Zoom,Service Level Agreement (SLA) Compliance,Percent of time vendor met all SLAs,91%
+Oracle,Service Level Agreement (SLA) Compliance,Percent of time vendor met all SLAs,95%
+Salesforce,Service Level Agreement (SLA) Compliance,Percent of time vendor met all SLAs,85%
+Microsoft,Contract Renewal Rate,Percentage of contracts renewed versus terminated per year,89%
+Adobe,Contract Renewal Rate,Percentage of contracts renewed versus terminated per year,79%
+AWS,Contract Renewal Rate,Percentage of contracts renewed versus terminated per year,81%
+Blackboard,Contract Renewal Rate,Percentage of contracts renewed versus terminated per year,95%
+Cisco,Contract Renewal Rate,Percentage of contracts renewed versus terminated per year,95%
+Zoom,Contract Renewal Rate,Percentage of contracts renewed versus terminated per year,98%
+Oracle,Contract Renewal Rate,Percentage of contracts renewed versus terminated per year,87%
+Salesforce,Contract Renewal Rate,Percentage of contracts renewed versus terminated per year,99%
+Microsoft,Contract Value vs Delivered Value,Ratio of perceived benefit or savings to cost,0.91
+Adobe,Contract Value vs Delivered Value,Ratio of perceived benefit or savings to cost,1.03
+AWS,Contract Value vs Delivered Value,Ratio of perceived benefit or savings to cost,1.0
+Blackboard,Contract Value vs Delivered Value,Ratio of perceived benefit or savings to cost,0.92
+Cisco,Contract Value vs Delivered Value,Ratio of perceived benefit or savings to cost,1.03
+Zoom,Contract Value vs Delivered Value,Ratio of perceived benefit or savings to cost,1.15
+Oracle,Contract Value vs Delivered Value,Ratio of perceived benefit or savings to cost,1.17
+Salesforce,Contract Value vs Delivered Value,Ratio of perceived benefit or savings to cost,1.18
+Microsoft,Response Time to Incidents,Average time (in hours) for vendor to respond to support issues,28
+Adobe,Response Time to Incidents,Average time (in hours) for vendor to respond to support issues,34
+AWS,Response Time to Incidents,Average time (in hours) for vendor to respond to support issues,13
+Blackboard,Response Time to Incidents,Average time (in hours) for vendor to respond to support issues,19
+Cisco,Response Time to Incidents,Average time (in hours) for vendor to respond to support issues,16
+Zoom,Response Time to Incidents,Average time (in hours) for vendor to respond to support issues,7
+Oracle,Response Time to Incidents,Average time (in hours) for vendor to respond to support issues,21
+Salesforce,Response Time to Incidents,Average time (in hours) for vendor to respond to support issues,27
+Microsoft,Resolution Time for Issues,Average days to fully resolve critical issues,29
+Adobe,Resolution Time for Issues,Average days to fully resolve critical issues,10
+AWS,Resolution Time for Issues,Average days to fully resolve critical issues,17
+Blackboard,Resolution Time for Issues,Average days to fully resolve critical issues,1
+Cisco,Resolution Time for Issues,Average days to fully resolve critical issues,6
+Zoom,Resolution Time for Issues,Average days to fully resolve critical issues,6
+Oracle,Resolution Time for Issues,Average days to fully resolve critical issues,5
+Salesforce,Resolution Time for Issues,Average days to fully resolve critical issues,13
+Microsoft,Penalty/Fee Occurrences,Count of penalty clauses invoked (e.g. for downtime),2
+Adobe,Penalty/Fee Occurrences,Count of penalty clauses invoked (e.g. for downtime),2
+AWS,Penalty/Fee Occurrences,Count of penalty clauses invoked (e.g. for downtime),0
+Blackboard,Penalty/Fee Occurrences,Count of penalty clauses invoked (e.g. for downtime),2
+Cisco,Penalty/Fee Occurrences,Count of penalty clauses invoked (e.g. for downtime),1
+Zoom,Penalty/Fee Occurrences,Count of penalty clauses invoked (e.g. for downtime),0
+Oracle,Penalty/Fee Occurrences,Count of penalty clauses invoked (e.g. for downtime),2
+Salesforce,Penalty/Fee Occurrences,Count of penalty clauses invoked (e.g. for downtime),2
+Microsoft,Dispute Frequency,Number of formal contract disputes in last year,2
+Adobe,Dispute Frequency,Number of formal contract disputes in last year,0
+AWS,Dispute Frequency,Number of formal contract disputes in last year,0
+Blackboard,Dispute Frequency,Number of formal contract disputes in last year,3
+Cisco,Dispute Frequency,Number of formal contract disputes in last year,1
+Zoom,Dispute Frequency,Number of formal contract disputes in last year,3
+Oracle,Dispute Frequency,Number of formal contract disputes in last year,1
+Salesforce,Dispute Frequency,Number of formal contract disputes in last year,2
+Microsoft,Innovation Contribution,Stakeholder rating of vendor-led innovation (1-5 scale),3.6
+Adobe,Innovation Contribution,Stakeholder rating of vendor-led innovation (1-5 scale),4.7
+AWS,Innovation Contribution,Stakeholder rating of vendor-led innovation (1-5 scale),4.5
+Blackboard,Innovation Contribution,Stakeholder rating of vendor-led innovation (1-5 scale),3.9
+Cisco,Innovation Contribution,Stakeholder rating of vendor-led innovation (1-5 scale),4.6
+Zoom,Innovation Contribution,Stakeholder rating of vendor-led innovation (1-5 scale),3.2
+Oracle,Innovation Contribution,Stakeholder rating of vendor-led innovation (1-5 scale),3.7
+Salesforce,Innovation Contribution,Stakeholder rating of vendor-led innovation (1-5 scale),4.4
+Microsoft,Cost Variance,Percent difference (actual vs. contract spend),N/A
+Adobe,Cost Variance,Percent difference (actual vs. contract spend),N/A
+AWS,Cost Variance,Percent difference (actual vs. contract spend),N/A
+Blackboard,Cost Variance,Percent difference (actual vs. contract spend),N/A
+Cisco,Cost Variance,Percent difference (actual vs. contract spend),N/A
+Zoom,Cost Variance,Percent difference (actual vs. contract spend),N/A
+Oracle,Cost Variance,Percent difference (actual vs. contract spend),N/A
+Salesforce,Cost Variance,Percent difference (actual vs. contract spend),N/A
+Microsoft,Uptime/Availability (%),Measured service availability vs. contract guarantee,98.13%
+Adobe,Uptime/Availability (%),Measured service availability vs. contract guarantee,98.79%
+AWS,Uptime/Availability (%),Measured service availability vs. contract guarantee,99.19%
+Blackboard,Uptime/Availability (%),Measured service availability vs. contract guarantee,97.84%
+Cisco,Uptime/Availability (%),Measured service availability vs. contract guarantee,98.78%
+Zoom,Uptime/Availability (%),Measured service availability vs. contract guarantee,98.50%
+Oracle,Uptime/Availability (%),Measured service availability vs. contract guarantee,97.40%
+Salesforce,Uptime/Availability (%),Measured service availability vs. contract guarantee,98.90%
+Microsoft,Contract Breach Incidents,Count of contract compliance failures,1
+Adobe,Contract Breach Incidents,Count of contract compliance failures,0
+AWS,Contract Breach Incidents,Count of contract compliance failures,3
+Blackboard,Contract Breach Incidents,Count of contract compliance failures,1
+Cisco,Contract Breach Incidents,Count of contract compliance failures,3
+Zoom,Contract Breach Incidents,Count of contract compliance failures,1
+Oracle,Contract Breach Incidents,Count of contract compliance failures,3
+Salesforce,Contract Breach Incidents,Count of contract compliance failures,1
+Microsoft,Vendor Longevity,Years as a college vendor (relationship health),7
+Adobe,Vendor Longevity,Years as a college vendor (relationship health),1
+AWS,Vendor Longevity,Years as a college vendor (relationship health),3
+Blackboard,Vendor Longevity,Years as a college vendor (relationship health),7
+Cisco,Vendor Longevity,Years as a college vendor (relationship health),3
+Zoom,Vendor Longevity,Years as a college vendor (relationship health),6
+Oracle,Vendor Longevity,Years as a college vendor (relationship health),2
+Salesforce,Vendor Longevity,Years as a college vendor (relationship health),2
+Microsoft,Discounts/Savings Realized,Total cost savings delivered versus expectations,"$7,558"
+Adobe,Discounts/Savings Realized,Total cost savings delivered versus expectations,"$5,067"
+AWS,Discounts/Savings Realized,Total cost savings delivered versus expectations,"$32,137"
+Blackboard,Discounts/Savings Realized,Total cost savings delivered versus expectations,"$38,345"
+Cisco,Discounts/Savings Realized,Total cost savings delivered versus expectations,"$11,351"
+Zoom,Discounts/Savings Realized,Total cost savings delivered versus expectations,"$50,217"
+Oracle,Discounts/Savings Realized,Total cost savings delivered versus expectations,"$29,625"
+Salesforce,Discounts/Savings Realized,Total cost savings delivered versus expectations,"$35,987"
+Microsoft,Annual Spend Growth Rate,Year-over-year change in vendor spend,88%
+Adobe,Annual Spend Growth Rate,Year-over-year change in vendor spend,97%
+AWS,Annual Spend Growth Rate,Year-over-year change in vendor spend,96%
+Blackboard,Annual Spend Growth Rate,Year-over-year change in vendor spend,98%
+Cisco,Annual Spend Growth Rate,Year-over-year change in vendor spend,80%
+Zoom,Annual Spend Growth Rate,Year-over-year change in vendor spend,79%
+Oracle,Annual Spend Growth Rate,Year-over-year change in vendor spend,97%
+Salesforce,Annual Spend Growth Rate,Year-over-year change in vendor spend,92%
+Microsoft,Compliance With College Standards,Audited vendor compliance to HBCU/IT standards,94%
+Adobe,Compliance With College Standards,Audited vendor compliance to HBCU/IT standards,98%
+AWS,Compliance With College Standards,Audited vendor compliance to HBCU/IT standards,96%
+Blackboard,Compliance With College Standards,Audited vendor compliance to HBCU/IT standards,86%
+Cisco,Compliance With College Standards,Audited vendor compliance to HBCU/IT standards,97%
+Zoom,Compliance With College Standards,Audited vendor compliance to HBCU/IT standards,88%
+Oracle,Compliance With College Standards,Audited vendor compliance to HBCU/IT standards,99%
+Salesforce,Compliance With College Standards,Audited vendor compliance to HBCU/IT standards,91%

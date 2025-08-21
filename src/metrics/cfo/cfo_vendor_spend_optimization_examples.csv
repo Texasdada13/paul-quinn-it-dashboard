@@ -1,0 +1,22 @@
+Vendor,System/Product,Annual Spend,Total Licenses/Seats,Active Users,Utilization Rate (%),Unused License Count,Unused License Cost,Subscription Type,Overlapping Subscription Flag,Potential Savings ($),Renewal Date,Satisfaction Score
+Microsoft,Network Mgmt,383395,649,467,72.0,182,107516.01,Std,False,107516.01,2026-01-10,4.3
+Microsoft,BI Analytics,116507,362,146,40.3,216,69517.99,Faculty,False,69517.99,2025-12-05,3.3
+Microsoft,Canvas LMS,197057,547,163,29.8,384,138336.18,Faculty,False,138336.18,2026-03-17,3.1
+AWS,BI Analytics,124187,883,164,18.6,719,101121.69,Student,False,101121.69,2026-01-09,3.4
+AWS,Office 365,213491,400,174,43.5,226,120622.41,Student,False,120622.41,2026-05-16,3.5
+AWS,Cloud Storage,274140,623,562,90.2,61,26841.96,Premium,False,26841.96,2025-12-01,3.6
+Zoom,Canvas LMS,276498,593,80,13.5,513,239196.41,Std,True,274509.41,2026-04-22,3.5
+Zoom,Student Portal,441581,378,287,75.9,91,106306.54,Student,True,112984.54,2026-06-09,4.5
+Zoom,Network Mgmt,194861,133,114,85.7,19,27837.29,Staff,False,27837.29,2026-07-15,4.6
+Adobe,Network Mgmt,412322,237,193,81.4,44,76549.23,Edu,True,77044.23,2026-03-25,3.3
+Adobe,Canvas LMS,303072,245,177,72.2,68,84117.94,Premium,True,91657.94,2026-01-10,3.2
+Adobe,Video Conferencing,539044,542,231,42.6,311,309303.85,Edu,True,338001.85,2026-04-15,4.7
+Blackboard,Cloud Storage,162545,293,163,55.6,130,72118.94,Std,False,72118.94,2026-03-03,3.2
+Blackboard,Canvas LMS,358347,860,59,6.9,801,333762.73,Adv,False,333762.73,2025-12-03,3.3
+Blackboard,Video Conferencing,307637,281,275,97.9,6,6568.76,Faculty,False,6568.76,2026-02-01,4.4
+Tableau,BI Analytics,427675,197,109,55.3,88,191042.64,Faculty,False,191042.64,2026-04-04,4.6
+Tableau,Network Mgmt,365069,437,54,12.4,383,319957.5,Premium,False,319957.5,2026-02-03,4.1
+Tableau,Student Portal,527074,440,353,80.2,87,104216.9,Adv,False,104216.9,2025-09-27,4.7
+Cisco,BI Analytics,338519,682,620,90.9,62,30774.45,Edu,True,31325.45,2026-06-29,3.1
+Cisco,Office 365,163172,391,179,45.8,212,88471.77,Staff,True,96320.77,2026-03-28,3.2
+Cisco,Student Portal,380184,783,475,60.7,308,149548.75,Staff,False,149548.75,2025-12-04,3.8

@@ -1,9 +1,10 @@
 ﻿[theme]
-primaryColor = "#003366"
-backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F0F2F6"
-textColor = "#262730"
-font = "sans serif"
+primaryColor = '#1e3d59'
+backgroundColor = '#FFFFFF'
+secondaryBackgroundColor = '#f0f2f6'
+textColor = '#262730'
+font = 'sans serif'
 
 [server]
-maxUploadSize = 200
+headless = true
+port = 8501

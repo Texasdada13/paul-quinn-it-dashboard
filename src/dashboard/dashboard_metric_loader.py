@@ -301,7 +301,7 @@ class DashboardMetricLoader:
                 if len(numeric_cols) >= 2:
                     fig = px.scatter(data, x=numeric_cols[0], y=numeric_cols[1], 
                                    title=f"{numeric_cols[0]} vs {numeric_cols[1]}")
-                    st.plotly_chart(fig, use_container_width=True)
+                    st.plotly_chart(fig, use_container_width=True, key=f"{persona}_{metric_name}_chart")
             else:
                 st.info(f"No data available for {metric_name}")
 

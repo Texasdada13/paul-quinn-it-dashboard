@@ -18,11 +18,22 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 # Import our metric registry and loader
 try:
     from metric_registry import metric_registry, cfo_metrics, cio_metrics, cto_metrics
-    from dashboard_metric_loader import dashboard_loader
+    from dashboard_metric_loader import dashboard_loader, PM_METRICS_AVAILABLE, PM_METRICS
     METRICS_AVAILABLE = True
 except ImportError as e:
     print(f"Warning: Could not import metric modules: {e}")
     METRICS_AVAILABLE = False
+    PM_METRICS_AVAILABLE = False
+    PM_METRICS = {}
+
+try:
+    from hbcu_metrics_integration import HBCUMetricsIntegrator, integrate_hbcu_metrics_into_persona
+    HBCU_INTEGRATION_AVAILABLE = True
+except ImportError as e:
+    print(f"Warning: Could not import HBCU integration: {e}")
+    HBCU_INTEGRATION_AVAILABLE = False
+    
+print(f"HBCU_INTEGRATION_AVAILABLE: {HBCU_INTEGRATION_AVAILABLE}")
 
 # Page configuration
 st.set_page_config(
@@ -85,6 +96,13 @@ if 'current_persona' not in st.session_state:
 
 if 'metrics_loaded' not in st.session_state:
     st.session_state.metrics_loaded = False
+    
+# Initialize HBCU integrator
+if HBCU_INTEGRATION_AVAILABLE:
+    hbcu_integrator = HBCUMetricsIntegrator()
+else:
+    hbcu_integrator = None
+
 
 # Sidebar navigation
 st.sidebar.markdown("### 🎓 Paul Quinn College")
@@ -95,7 +113,13 @@ st.sidebar.markdown("---")
 # Persona selection
 persona = st.sidebar.selectbox(
     "Select Persona View",
-    ["CFO - Financial Steward", "CIO - Strategic Partner", "CTO - Technology Operator", "Project Manager View"]
+    [
+        "CFO - Financial Steward", 
+        "CIO - Strategic Partner", 
+        "CTO - Technology Operator", 
+        "Project Manager View",
+        "HBCU Institutional View"
+    ]
 )
 
 # Extract persona key
@@ -129,6 +153,19 @@ if st.sidebar.button("📊 Generate Report"):
 
 if st.sidebar.button("📧 Email Dashboard"):
     st.sidebar.success("Dashboard emailed!")
+
+# Add HBCU quick stats
+if HBCU_INTEGRATION_AVAILABLE and hbcu_integrator:
+    st.sidebar.markdown("---")
+    st.sidebar.markdown("### HBCU Quick Stats")
+    
+    col1 = st.sidebar.columns(1)[0]
+    with col1:
+        st.metric("Students Served", "5,800", "↑ 3.2%")
+        st.metric("Cost/Student", "$8,224", "↓ $426") 
+        st.metric("Grant Compliance", "94%", "↑ 2%")
+        st.metric("Tech Graduation", "78%", "↑ 5%")
+
 
 # Main content
 st.markdown("<h1 class='main-header'>🎓 Paul Quinn College IT Analytics Suite <span class='integrated-badge'>FULLY INTEGRATED</span></h1>", 
@@ -237,14 +274,28 @@ if persona == "CFO - Financial Steward":
                     st.markdown("---")
                     st.subheader("All Available CFO Metrics")
                     
+                    # Define metrics already shown in other tabs
+                    shown_metrics = [
+                        "cfo_budget_vs_actual", "cfo_total_it_spend_breakdown",
+                        "cfo_contract_expiration_alerts", "cfo_vendor_spend_optimization",
+                        "cfo_grant_compliance", "cfo_student_success_roi", "cfo_hbcu_peer_benchmarking"
+                    ]
+                    
+                    # Only show metrics not already displayed
+
                     for metric in available_metrics:
-                        with st.expander(f"📊 {metric.replace('_', ' ').title()}"):
-                            dashboard_loader.display_generic_metric('cfo', metric, st.container())
+                        if metric not in shown_metrics:
+                            with st.expander(f"📊 {metric.replace('_', ' ').title()}"):
+                                dashboard_loader.display_generic_metric('cfo', metric, st.container())
     else:
         # Fallback to static content if metrics not available
         st.warning("Metric system not available. Showing demo content.")
         tabs = st.tabs(["📊 Budget Analysis", "💰 Cost Optimization", "📈 Benchmarking", "📑 Reports"])
 
+    if HBCU_INTEGRATION_AVAILABLE and hbcu_integrator:
+        st.markdown("---")
+        hbcu_integrator.render_hbcu_dashboard_section('cfo')
+        
 elif persona == "CIO - Strategic Partner":
     st.markdown("### CIO Dashboard - Strategic IT Portfolio Management")
     
@@ -288,6 +339,11 @@ elif persona == "CIO - Strategic Partner":
                             dashboard_loader.display_generic_metric('cio', metric, st.container())
                             st.markdown("---")
 
+    # Add this after your existing CIO tabs
+    if HBCU_INTEGRATION_AVAILABLE and hbcu_integrator:
+        st.markdown("---")
+        hbcu_integrator.render_hbcu_dashboard_section('cio')
+        
 elif persona == "CTO - Technology Operator":
     st.markdown("### CTO Dashboard - Technical Operations & Infrastructure")
     
@@ -333,44 +389,90 @@ elif persona == "CTO - Technology Operator":
                             dashboard_loader.display_generic_metric('cto', metric, st.container())
                             st.markdown("---")
 
+    # Add this after your existing CTO tabs
+    if HBCU_INTEGRATION_AVAILABLE and hbcu_integrator:
+        st.markdown("---")
+        hbcu_integrator.render_hbcu_dashboard_section('cto')
+
 elif persona == "Project Manager View":
     st.markdown("### Project Management Dashboard")
     
-    # Project metrics
+
+    # Key metrics
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.metric("Active Projects", "5", "", help="Currently in progress")
+        st.metric("Active Projects", "8", "", help="Currently in progress")
     with col2:
-        st.metric("On Schedule", "80%", "+10%", help="Projects on track")
+        st.metric("On Schedule", "87%", "+5%", help="Projects on track")
     with col3:
-        st.metric("Resource Utilization", "85%", "+5%", help="Team capacity")
+        st.metric("Resource Utilization", "92%", "+3%", help="Team capacity")
     with col4:
-        st.metric("Budget Variance", "-2.3%", "", help="Under budget")
+        st.metric("Portfolio Health", "8.1/10", "+0.3", help="Overall health score")
     
-    # Standard PM tabs (not dynamically loaded from metrics)
-    tabs = st.tabs(["📋 Project Overview", "📊 RAID Log", "👥 Resources", "📈 Reports"])
+    # Dynamic tabs for PM
+    if METRICS_AVAILABLE:
+        # First fix the persona_key mapping
+        pm_persona = 'pm'  # Map to PM
+        
+        tab_config = [
+            ("📊 Project Portfolio", ["project_charter_metrics", "project_portfolio_dashboard_metrics"]),
+            ("📈 Performance & Budget", ["project_timeline_budget_performance"]),
+            ("📋 Requirements & RAID", ["requirements_traceability_matrix", "raid_log_metrics"]),
+            ("👥 Resources & Communication", ["resource_allocation_metrics", "stakeholder_communication_metrics"]),
+            ("📋 All Metrics", [])
+        ]
+        
+        tab_names = [config[0] for config in tab_config]
+        tabs = st.tabs(tab_names)
+        
+        # Get available PM metrics
+        available_pm_metrics = list(PM_METRICS.keys()) if PM_METRICS_AVAILABLE else []
+        
+        for tab, (tab_name, metrics_list) in zip(tabs, tab_config):
+            with tab:
+                if tab_name == "📋 All Metrics":
+                    if PM_METRICS_AVAILABLE:
+                        st.subheader("All Available PM Metrics")
+                        for metric in available_pm_metrics:
+                            with st.expander(f"📊 {metric.replace('_', ' ').title()}"):
+                                dashboard_loader.display_generic_metric('pm', metric, st.container())
+                    else:
+                        st.warning("PM metrics not available")
+                else:
+                    for metric in metrics_list:
+                        if PM_METRICS_AVAILABLE and metric in available_pm_metrics:
+                            dashboard_loader.display_generic_metric('pm', metric, st.container())
+                            st.markdown("---")
+                        else:
+                            st.info(f"Metric {metric} not available")
+    else:
+        st.warning("Metric system not available. Please check PM module integration.")
+
+elif persona == "HBCU Institutional View":
+    if HBCU_INTEGRATION_AVAILABLE and hbcu_integrator:
+        hbcu_integrator.render_institutional_hbcu_view()
+        
+        # Additional institutional analysis
+        st.markdown("---")
+        st.markdown("## Institutional Benchmarking")
+        
+        # Benchmark comparison tabs
+        tab1, tab2, tab3 = st.tabs(["Mission Alignment", "Financial Efficiency", "Student Outcomes"])
+        
+        with tab1:
+            st.markdown("### Mission-Critical Investment Analysis")
+            st.info("Mission alignment analysis would go here")
+        
+        with tab2:
+            st.markdown("### Financial Efficiency vs Peer HBCUs")
+            st.info("Financial efficiency analysis would go here")
+        
+        with tab3:
+            st.markdown("### Technology Impact on Student Success")
+            st.info("Student outcomes analysis would go here")
+    else:
+        st.error("HBCU integration module not available")
     
-    with tabs[0]:
-        st.subheader("Project Portfolio Status")
-        
-        # Sample project data
-        projects_data = pd.DataFrame({
-            'Project': ['Student Portal Upgrade', 'Cloud Migration', 'Security Enhancement', 
-                       'LMS Modernization', 'Network Upgrade'],
-            'Status': ['In Progress', 'Completed', 'In Progress', 'Planning', 'In Progress'],
-            'Progress': [70, 100, 40, 10, 75],
-            'Budget': [250000, 180000, 300000, 150000, 200000],
-            'Risk': ['Medium', 'Low', 'High', 'Low', 'Medium']
-        })
-        
-        # Progress chart
-        fig = px.bar(projects_data, x='Progress', y='Project', orientation='h',
-                    color='Risk', color_discrete_map={'Low': 'green', 'Medium': 'yellow', 'High': 'red'},
-                    title="Project Progress Overview")
-        st.plotly_chart(fig, use_container_width=True)
-        
-        # Project details table
-        st.dataframe(projects_data, use_container_width=True)
 
 # Footer with metrics summary
 st.markdown("---")

@@ -1,0 +1,9 @@
+project_id,project_name,status,total_budget,spent_to_date,start_date,target_end_date,current_end_date,duration_days,elapsed_days,timeline_completion_pct,budget_variance_pct,budget_status,schedule_status,health_score,team_size,deliverables_completed,deliverables_total,last_updated
+PQC-001,Student Portal Upgrade,Completed,250000,250000.0,2024-01-15,2024-08-30,2024-08-30,228,228,100,0.0,On Track,On Track,8.816734307889973,10,7,7,2025-08-28 02:00:46.662469
+PQC-002,Cloud Migration Phase 1,Completed,450000,450000.0,2023-09-01,2024-03-15,2024-03-15,196,196,100,0.0,On Track,On Track,8.687021504122962,3,2,9,2025-08-28 02:00:46.662999
+PQC-003,Cybersecurity Enhancement,Completed,300000,300000.0,2024-02-01,2024-12-31,2024-12-31,334,334,100,0.0,On Track,On Track,8.453231076505833,9,0,12,2025-08-28 02:00:46.663512
+PQC-004,LMS Modernization,Completed,180000,176360.44853795064,2024-06-01,2025-01-31,2025-01-31,244,244,100,-2.0219730344718685,On Track,On Track,6.786230349471234,9,6,12,2025-08-28 02:00:46.664163
+PQC-005,Network Infrastructure,Completed,220000,220000.0,2023-12-01,2024-09-30,2024-09-30,304,304,100,0.0,On Track,On Track,8.273893363123182,8,2,7,2025-08-28 02:00:46.664895
+PQC-006,AI Tutoring System,Completed,400000,395554.3880259119,2024-07-01,2025-03-31,2025-03-31,273,273,100,-1.1114029935220315,On Track,On Track,6.858782737814905,5,0,9,2025-08-28 02:00:46.665360
+PQC-007,Campus WiFi Expansion,Completed,150000,150000.0,2023-08-15,2023-12-31,2023-12-31,138,138,100,0.0,On Track,On Track,8.812901539863683,9,2,13,2025-08-28 02:00:46.665823
+PQC-008,Data Analytics Platform,Completed,350000,350000.0,2024-03-01,2024-11-30,2024-11-30,274,274,100,0.0,On Track,On Track,6.832672462435494,5,6,11,2025-08-28 02:00:46.666239

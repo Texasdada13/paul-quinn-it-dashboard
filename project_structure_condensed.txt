@@ -1,0 +1,94 @@
+CONDENSED PROJECT STRUCTURE - Paul-Quinn-IT-Spend-GitHub
+Generated: 2025-08-28 01:54:24
+============================================================
+
+Paul-Quinn-IT-Spend-GitHub/
+├── data/
+│   ├── archive/
+│   ├── mock/
+│   │   ├── PQC_Robust_Mock_Data.xlsx
+│   │   ├── PQC_Usage_Efficiency_ROI_Data.xlsx
+│   ├── processed/
+│   │   ├── clean_projects.csv
+│   │   ├── clean_vendors.csv
+│   │   ├── executive_summary.csv
+├── src/
+│   ├── dashboard/
+│   │   ├── __init__.py
+│   │   ├── app.py
+│   │   ├── dashboard_corporate.py
+│   │   ├── dashboard_metric_loader.py
+│   │   ├── dashboard_metric_loader_working for CFO.py
+│   ├── metrics/
+│   │   ├── cfo/
+│   │   │   ├── __init__.py
+│   │   │   ├── cfo_budget_vs_actual_module.py
+│   │   │   ├── cfo_budget_vs_actual_script.py
+│   │   │   ├── cfo_contract_expiration_alerts_module.py
+│   │   │   ├── cfo_contract_expiration_alerts_script.py
+│   │   │   ├── cfo_budget_vs_actual_examples.csv
+│   │   │   ├── cfo_contract_expiration_alerts_examples.csv
+│   │   │   ├── cfo_grant_compliance_examples.csv
+│   │   ├── cio/
+│   │   │   ├── Project timeline and budget performanc script.py
+│   │   │   ├── RGT Data Structure.py
+│   │   │   ├── RunGrowTransform Script.py
+│   │   │   ├── __init__.py
+│   │   │   ├── app_cost_analysis_metrics script.py
+│   │   │   ├── app_cost_analysis_dashboard_examples_backup.csv
+│   │   │   ├── app_cost_analysis_metrics.csv
+│   │   │   ├── business_unit_it_spend.csv
+│   │   ├── cto/
+│   │   │   ├── __init__.py
+│   │   │   ├── asset_lifecycle_management_metrics script.py
+│   │   │   ├── asset_lifecycle_management_metrics_module.py
+│   │   │   ├── capacity_planning_metrics script.py
+│   │   │   ├── capacity_planning_metrics_module.py
+│   │   │   ├── asset_lifecycle_management_dashboard_examples.csv
+│   │   │   ├── asset_lifecycle_management_metrics.csv
+│   │   │   ├── capacity_planning_dashboard_examples.csv
+│   │   ├── hbcu/
+│   │   │   ├── __init__.py
+│   │   │   ├── hbcu_cost_efficiency_metrics_module.py
+│   │   │   ├── hbcu_cost_per_student_served script.py
+│   │   │   ├── hbcu_grant_compliance_metrics_module.py
+│   │   │   ├── hbcu_grant_compliance_tracking script.py
+│   │   │   ├── hbcu_cost_per_student_served_examples.csv
+│   │   │   ├── hbcu_grant_compliance_tracking_examples.csv
+│   │   │   ├── hbcu_resource_maximization_examples.csv
+│   │   ├── __init__.py
+│   ├── archive/
+│   ├── data_processing/
+│   │   ├── __init__.py
+│   │   ├── analyze_robust_data.py
+│   │   ├── create_summary.py
+│   │   ├── data_requirements_checklist.py
+│   │   ├── export_analytics.py
+│   ├── tests/
+│   │   ├── __init__.py
+│   │   ├── app_test.py
+│   │   ├── debug_paths.py
+│   │   ├── simple_etl_test.py
+│   │   ├── simple_project_etl.py
+│   ├── __init__.py
+├── .streamlit/
+├── archive/
+├── config/
+│   ├── config.toml
+├── README.md
+├── requirements.txt
+├── check_csv_columns.py
+├── create_init_files.py
+├── create_review_template.py
+├── debug_file_locations.py
+├── diagnose_cio_issue.py
+├── Dashboard_Review_Template.xlsx
+
+============================================================
+KEY FILES FOUND:
+============================================================
+
+FILE TYPE SUMMARY:
+Python files: 5422
+CSV files: 81
+Excel files: 4

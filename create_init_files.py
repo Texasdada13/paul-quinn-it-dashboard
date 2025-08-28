@@ -15,13 +15,15 @@ def create_init_files():
         'src/metrics/cfo',
         'src/metrics/cio', 
         'src/metrics/cto',
-        'src/metrics/hbcu',
         'src/dashboard',
         'src/data_processing',
         'src/utils',
         'src/tests',
-        'src/hbcu_modules'
+        'src/hbcu_modules'  # This is where your HBCU metrics actually are
     ]
+    
+    # Remove the empty hbcu folder if you want
+    # directories.remove('src/metrics/hbcu')
     
     for directory in directories:
         dir_path = Path(directory)

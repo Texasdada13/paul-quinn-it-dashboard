@@ -1,9 +1,7 @@
 """
 Dashboard Metric Loader
 Dynamically loads and displays metrics based on available modules
-Updated to properly integrate CIO metrics with new data format
 """
-
 
 import streamlit as st
 import pandas as pd
@@ -12,78 +10,12 @@ import plotly.graph_objects as go
 from typing import Dict, List, Tuple, Optional, Any
 import logging
 from datetime import datetime
-import os
-import sys
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Try to import CIO metrics if available
-try:
-    # Since dashboard and metrics are both in src, we need to go up one level
-    current_dir = os.path.dirname(os.path.abspath(__file__))  # This is src/dashboard
-    src_dir = os.path.dirname(current_dir)  # This is src
-    if src_dir not in sys.path:
-        sys.path.insert(0, src_dir)
-    
-    from metrics.cio import (
-        display_app_cost_analysis_metrics,
-        display_business_unit_it_spend,
-        display_digital_transformation_metrics,
-        display_risk_metrics,
-        display_strategic_alignment_metrics,
-        display_vendor_metrics,
-        CIO_METRICS
-    )
-    CIO_METRICS_AVAILABLE = True
-    logger.info("CIO metrics module loaded successfully")
-except ImportError as e:
-    logger.warning(f"Could not import CIO metrics: {e}")
-    CIO_METRICS_AVAILABLE = False
-    CIO_METRICS = {}
-
-# ADD CTO IMPORTS HERE (no indentation)
-try:
-    from metrics.cto import (
-        display_asset_lifecycle_management_metrics,
-        display_capacity_planning_metrics,
-        display_cloud_cost_optimization_metrics,
-        display_infrastructure_performance_metrics,
-        display_security_metrics,
-        display_system_utilization_metrics,
-        display_technical_debt_metrics,
-        CTO_METRICS
-    )
-    CTO_METRICS_AVAILABLE = True
-    logger.info("CTO metrics module loaded successfully")
-except ImportError as e:
-    logger.warning(f"Could not import CTO metrics: {e}")
-    CTO_METRICS_AVAILABLE = False
-    CTO_METRICS = {}
-
-# ADD PM IMPORTS HERE
-try:
-    from metrics.pm import (
-        display_project_charter_metrics,
-        display_project_timeline_budget_performance,
-        display_requirements_traceability_matrix,
-        display_raid_log_metrics,
-        display_resource_allocation_metrics,
-        display_stakeholder_communication_metrics,
-        display_project_portfolio_dashboard_metrics,
-        PM_METRICS
-    )
-    PM_METRICS_AVAILABLE = True
-    logger.info("PM metrics module loaded successfully")
-except ImportError as e:
-    logger.warning(f"Could not import PM metrics: {e}")
-    PM_METRICS_AVAILABLE = False
-    PM_METRICS = {}
-
-
-
-class DashboardMetricLoader:  # Class starts here
+class DashboardMetricLoader:
     """Loads and displays metrics dynamically in Streamlit dashboard"""
     
     def __init__(self):
@@ -99,14 +31,10 @@ class DashboardMetricLoader:  # Class starts here
             st.error("Failed to load metric registries. Please check your installation.")
             raise
     
-    # ============================================
-    # CFO METRICS - PRESERVE EXISTING FUNCTIONALITY
-    # ============================================
-    
     def display_cfo_budget_variance(self, tab):
-        """Display CFO Budget Variance Analysis - UNCHANGED"""
+        """Display CFO Budget Variance Analysis"""
         with tab:
-            st.subheader("Budget vs Actual Analysis with Variance Alerts")
+            st.subheader("📊 Budget vs Actual Analysis with Variance Alerts")
             
             try:
                 data, module = self.cfo.get_budget_variance_data()
@@ -179,9 +107,9 @@ class DashboardMetricLoader:  # Class starts here
                 st.error(f"Error loading budget variance data: {str(e)}")
     
     def display_cfo_contract_alerts(self, tab):
-        """Display CFO Contract Expiration Alerts - UNCHANGED"""
+        """Display CFO Contract Expiration Alerts"""
         with tab:
-            st.subheader("Contract Expiration Alerts")
+            st.subheader("🎯 Contract Expiration Alerts")
             
             try:
                 data, module = self.cfo.get_contract_alerts()
@@ -264,7 +192,7 @@ class DashboardMetricLoader:  # Class starts here
                 st.error(f"Error loading contract data: {str(e)}")
     
     def display_cfo_grant_compliance(self, tab):
-        """Display CFO Grant Compliance Dashboard - UNCHANGED"""
+        """Display CFO Grant Compliance Dashboard"""
         with tab:
             st.subheader("🏛️ Grant Compliance Dashboard")
             
@@ -330,133 +258,6 @@ class DashboardMetricLoader:  # Class starts here
                 logger.error(f"Error displaying grant compliance: {e}")
                 st.error(f"Error loading grant compliance data: {str(e)}")
     
-    # ============================================
-    # GENERIC METRIC DISPLAY - UPDATED FOR CIO
-    # ============================================
-    
-    def display_generic_metric(self, persona: str, metric_name: str, container, tab_name: str = ""):
-        """Generic metric display with special handling for CIO and CTO metrics"""
-        
-        # Special handling for CIO metrics if the module is available
-        if persona == 'cio' and CIO_METRICS_AVAILABLE:
-            # Clean metric name (remove persona prefix if present)
-            clean_name = metric_name.replace('cio_', '') if metric_name.startswith('cio_') else metric_name
-            
-            # Check if we have a specific display function for this metric
-            if clean_name in CIO_METRICS:
-                with container:
-                    try:
-                        logger.info(f"Using CIO display function for: {clean_name}")
-                        CIO_METRICS[clean_name]()
-                        return
-                    except Exception as e:
-                        logger.error(f"Error in CIO display function for {clean_name}: {e}")
-                        st.error(f"Error displaying {clean_name}: {str(e)}")
-                        return
-
-        # Special handling for CTO metrics if the module is available
-        if persona == 'cto' and CTO_METRICS_AVAILABLE:
-            # Clean metric name (remove persona prefix if present)
-            clean_name = metric_name.replace('cto_', '') if metric_name.startswith('cto_') else metric_name
-            
-            # Check if we have a specific display function for this metric
-            if clean_name in CTO_METRICS:
-                with container:
-                    try:
-                        logger.info(f"Using CTO display function for: {clean_name}")
-                        CTO_METRICS[clean_name]()
-                        return
-                    except Exception as e:
-                        logger.error(f"Error in CTO display function for {clean_name}: {e}")
-                        st.error(f"Error displaying {clean_name}: {str(e)}")
-                        return
-        # Special handling for PM  metrics if the module is available
-        if persona == 'pm' and PM_METRICS_AVAILABLE:
-            # Clean metric name (remove persona prefix if present)
-            clean_name = metric_name.replace('pm_', '') if metric_name.startswith('pm_') else metric_name
-            
-            # Check if we have a specific display function for this metric
-            if clean_name in PM_METRICS:
-                with container:
-                    try:
-                        logger.info(f"Using PM display function for: {clean_name}")
-                        PM_METRICS[clean_name]()
-                        return
-                    except Exception as e:
-                        logger.error(f"Error in PM display function for {clean_name}: {e}")
-                        st.error(f"Error displaying {clean_name}: {str(e)}")
-                        return
-
-            
-        
-        # Fall back to generic display for other personas or if modules not available
-        with container:
-            logger.info(f"Generic display for: persona='{persona}', metric='{metric_name}'")
-            st.subheader(f"📊 {metric_name.replace('_', ' ').title()}")
-            
-            try:
-                # Try to load data through registry
-                data = self.registry.load_metric_data(persona, metric_name)
-                
-                if data is not None and not data.empty:
-                    # Display summary stats
-                    st.write(f"**Total Records:** {len(data):,}")
-                    
-                    # Display first few rows
-                    with st.expander("View Sample Data", expanded=False):
-                        st.dataframe(data.head(10), use_container_width=True)
-                    
-                    # Try to create a simple visualization
-                    numeric_cols = data.select_dtypes(include=['float64', 'int64']).columns.tolist()
-                    
-                    if len(numeric_cols) >= 1:
-                        # Create visualization options
-                        viz_col1, viz_col2 = st.columns([2, 1])
-                        
-                        # Create unique key prefix
-                        clean_metric_name = metric_name.replace(f"{persona}_", "") if metric_name.startswith(f"{persona}_") else metric_name
-                        key_prefix = f"{persona}_{clean_metric_name}_{tab_name}" if tab_name else f"{persona}_{clean_metric_name}"
-                        
-                        with viz_col2:
-                            chart_type = st.selectbox(
-                                "Chart Type", 
-                                ["Bar", "Line", "Scatter", "Box"],
-                                key=f"{key_prefix}_chart_type"
-                            )
-                        
-                        with viz_col1:
-                            if len(numeric_cols) >= 2 and chart_type in ["Scatter", "Line"]:
-                                x_col = st.selectbox("X-axis", numeric_cols, key=f"{key_prefix}_x")
-                                y_col = st.selectbox("Y-axis", [c for c in numeric_cols if c != x_col], key=f"{key_prefix}_y")
-                                
-                                if chart_type == "Scatter":
-                                    fig = px.scatter(data, x=x_col, y=y_col, title=f"{x_col} vs {y_col}")
-                                else:
-                                    fig = px.line(data, x=x_col, y=y_col, title=f"{x_col} vs {y_col}")
-                            else:
-                                col = st.selectbox("Select Column", numeric_cols, key=f"{key_prefix}_col")
-                                
-                                if chart_type == "Bar":
-                                    fig = px.bar(data, y=col, title=f"Distribution of {col}")
-                                elif chart_type == "Box":
-                                    fig = px.box(data, y=col, title=f"Box Plot of {col}")
-                                else:
-                                    fig = px.line(data.reset_index(), x='index', y=col, title=f"Trend of {col}")
-                            
-                            st.plotly_chart(fig, use_container_width=True, key=f"{key_prefix}_chart_{chart_type}")
-                    else:
-                        st.info("No numeric columns available for visualization")
-                    
-                    # Show basic statistics
-                    if numeric_cols:
-                        with st.expander("View Statistics", expanded=False):
-                            st.dataframe(data[numeric_cols].describe(), use_container_width=True)
-                else:
-                    st.info(f"No data available for {metric_name.replace('_', ' ').title()}")
-            except Exception as e:
-                logger.error(f"Error displaying generic metric {metric_name}: {e}")
-                st.error(f"Error loading {metric_name}: {str(e)}")
-    
     def display_metric_summary(self, persona: str):
         """Display a summary of all available metrics for a persona"""
         st.subheader(f"📋 Available {persona.upper()} Metrics")
@@ -464,55 +265,16 @@ class DashboardMetricLoader:  # Class starts here
         try:
             metrics = self.registry.get_available_metrics(persona)
             
-            # Add CIO metrics from the module if available
-            if persona == 'cio' and CIO_METRICS_AVAILABLE:
-                cio_module_metrics = list(CIO_METRICS.keys())
-                for metric in cio_module_metrics:
-                    if metric not in metrics:
-                        metrics.append(metric)
-            
-            # Add CTO metrics from the module if available
-            if persona == 'cto' and CTO_METRICS_AVAILABLE:
-                cto_module_metrics = list(CTO_METRICS.keys())
-                for metric in cto_module_metrics:
-                    if metric not in metrics:
-                        metrics.append(metric)
-            
             if metrics:
                 # Create a summary dataframe
                 summary_data = []
                 for metric in metrics:
                     info = self.registry.get_metric_info(persona, metric)
-                    
-                    # Special check for CIO metrics
-                    if persona == 'cio' and CIO_METRICS_AVAILABLE:
-                        clean_name = metric.replace('cio_', '') if metric.startswith('cio_') else metric
-                        if clean_name in CIO_METRICS:
-                            summary_data.append({
-                                'Metric': metric.replace('_', ' ').title(),
-                                'Data Available': '✅',
-                                'Module Ready': '✅',
-                                'Display Function': '✅'
-                            })
-                            continue
-                    
-                    # Special check for CTO metrics
-                    if persona == 'cto' and CTO_METRICS_AVAILABLE:
-                        clean_name = metric.replace('cto_', '') if metric.startswith('cto_') else metric
-                        if clean_name in CTO_METRICS:
-                            summary_data.append({
-                                'Metric': metric.replace('_', ' ').title(),
-                                'Data Available': '✅',
-                                'Module Ready': '✅',
-                                'Display Function': '✅'
-                            })
-                            continue
-                    
                     summary_data.append({
                         'Metric': metric.replace('_', ' ').title(),
                         'Data Available': '✅' if info.get('data_path') else '❌',
                         'Module Ready': '✅' if info.get('module_path') else '❌',
-                        'Display Function': '❌'
+                        'Script Available': '✅' if info.get('script_path') else '❌'
                     })
                 
                 summary_df = pd.DataFrame(summary_data)
@@ -522,7 +284,7 @@ class DashboardMetricLoader:  # Class starts here
                 for idx, row in summary_df.iterrows():
                     col = cols[idx % 3]
                     with col:
-                        status = "🟢" if row.get('Display Function', '') == '✅' or (row['Data Available'] == '✅' and row['Module Ready'] == '✅') else "🟡"
+                        status = "🟢" if row['Data Available'] == '✅' and row['Module Ready'] == '✅' else "🟡"
                         st.info(f"{status} **{row['Metric']}**")
             else:
                 st.warning(f"No metrics found for {persona}")
@@ -534,12 +296,6 @@ class DashboardMetricLoader:  # Class starts here
         """Create tabs dynamically based on available metrics"""
         try:
             available_metrics = self.registry.get_available_metrics(persona)
-            
-            # Add CIO metrics if available
-            if persona == 'cio' and CIO_METRICS_AVAILABLE:
-                for metric in CIO_METRICS.keys():
-                    if metric not in available_metrics:
-                        available_metrics.append(metric)
             
             if not available_metrics:
                 st.warning(f"No metrics available for {persona}")
@@ -597,11 +353,85 @@ class DashboardMetricLoader:  # Class starts here
                         elif metric == 'grant_compliance' and persona == 'cfo':
                             self.display_cfo_grant_compliance(st.container())
                         else:
-                            # Use generic display (which will check for CIO functions)
+                            # Generic display for other metrics
                             self.display_generic_metric(persona, metric, st.container(), tab_name)
         except Exception as e:
             logger.error(f"Error creating dynamic tabs: {e}")
             st.error(f"Error loading dashboard tabs: {str(e)}")
+    
+    def display_generic_metric(self, persona: str, metric_name: str, container, tab_name: str = ""):
+        """Generic metric display for metrics without specific handlers"""
+        with container:
+            # Add debug logging
+            logger.info(f"Displaying metric: persona='{persona}', metric_name='{metric_name}', tab_name='{tab_name}'")
+            st.subheader(f"📊 {metric_name.replace('_', ' ').title()}")
+            
+            try:
+                # Try to load data
+                data = self.registry.load_metric_data(persona, metric_name)
+                
+                if data is not None and not data.empty:
+                    # Display summary stats
+                    st.write(f"**Total Records:** {len(data):,}")
+                    
+                    # Display first few rows
+                    with st.expander("View Sample Data", expanded=False):
+                        st.dataframe(data.head(10), use_container_width=True)
+                    
+                    # Try to create a simple visualization
+                    numeric_cols = data.select_dtypes(include=['float64', 'int64']).columns.tolist()
+                    
+                    if len(numeric_cols) >= 1:
+                        # Create visualization options
+                        viz_col1, viz_col2 = st.columns([2, 1])
+                        
+                        # Remove any persona prefix from metric_name if it exists
+                        clean_metric_name = metric_name
+                        if metric_name.startswith(f"{persona}_"):
+                            clean_metric_name = metric_name[len(persona)+1:]
+                            
+                        # Create a unique key prefix including tab name
+                        key_prefix = f"{persona}_{clean_metric_name}_{tab_name}" if tab_name else f"{persona}_{clean_metric_name}"
+                        
+                        with viz_col2:
+                            chart_type = st.selectbox(
+                                "Chart Type", 
+                                ["Bar", "Line", "Scatter", "Box"],
+                                key=f"{key_prefix}_chart_type"
+                            )                        
+                        with viz_col1:
+                            if len(numeric_cols) >= 2 and chart_type in ["Scatter", "Line"]:
+                                x_col = st.selectbox("X-axis", numeric_cols, key=f"{key_prefix}_x")
+                                y_col = st.selectbox("Y-axis", [c for c in numeric_cols if c != x_col], key=f"{key_prefix}_y")
+                                
+                                if chart_type == "Scatter":
+                                    fig = px.scatter(data, x=x_col, y=y_col, title=f"{x_col} vs {y_col}")
+                                else:
+                                    fig = px.line(data, x=x_col, y=y_col, title=f"{x_col} vs {y_col}")
+                            else:
+                                # For single numeric column or bar/box charts
+                                col = st.selectbox("Select Column", numeric_cols, key=f"{key_prefix}_col")
+                                
+                                if chart_type == "Bar":
+                                    fig = px.bar(data, y=col, title=f"Distribution of {col}")
+                                elif chart_type == "Box":
+                                    fig = px.box(data, y=col, title=f"Box Plot of {col}")
+                                else:
+                                    fig = px.line(data.reset_index(), x='index', y=col, title=f"Trend of {col}")
+                            
+                            st.plotly_chart(fig, use_container_width=True, key=f"{key_prefix}_chart_{chart_type}")
+                    else:
+                        st.info("No numeric columns available for visualization")
+                        
+                    # Show basic statistics
+                    if numeric_cols:
+                        with st.expander("View Statistics", expanded=False):
+                            st.dataframe(data[numeric_cols].describe(), use_container_width=True)
+                else:
+                    st.info(f"No data available for {metric_name.replace('_', ' ').title()}")
+            except Exception as e:
+                logger.error(f"Error displaying generic metric {metric_name}: {e}")
+                st.error(f"Error loading {metric_name}: {str(e)}")
 
 # Create a singleton instance
 dashboard_loader = DashboardMetricLoader()

@@ -1,0 +1,122 @@
+project_id,project_name,requirement_id,requirement_name,requirement_type,priority,status,source,owner,completion_pct,test_coverage_pct,date_identified,target_completion,effort_estimate_hours,actual_effort_hours,complexity_score,risk_level
+PQC-001,Student Portal Upgrade,PQC-001-REQ-001,Requirement 1,Technical,Medium,Testing,Business User,Carol Kim,60.44173792778172,48.58569821715058,2024-02-12,2024-06-26,20,75,3,Low
+PQC-001,Student Portal Upgrade,PQC-001-REQ-002,Requirement 2,Non-Functional,Medium,Approved,Business User,Bob Rodriguez,45.653457048291024,19.659639349515025,2024-02-03,2024-07-02,69,79,7,High
+PQC-001,Student Portal Upgrade,PQC-001-REQ-003,Requirement 3,Functional,High,Testing,Business User,David Thompson,35.2568856334169,27.430313234222613,2024-01-20,2024-07-24,34,141,5,Medium
+PQC-001,Student Portal Upgrade,PQC-001-REQ-004,Requirement 4,Non-Functional,High,Completed,Technical Team,David Thompson,51.87906217433661,63.27170630056601,2024-03-03,2024-06-13,65,56,7,Low
+PQC-001,Student Portal Upgrade,PQC-001-REQ-005,Requirement 5,Functional,Critical,Completed,Compliance,Alice Chen,97.66149558326529,36.99333119864082,2024-02-06,2024-06-25,103,133,3,Medium
+PQC-001,Student Portal Upgrade,PQC-001-REQ-006,Requirement 6,Compliance,High,Completed,Stakeholder,Carol Kim,67.21355474058785,68.54576537958458,2024-03-13,2024-07-15,45,28,5,Medium
+PQC-001,Student Portal Upgrade,PQC-001-REQ-007,Requirement 7,Business,Medium,Testing,Business User,David Thompson,50.81987767407187,62.62315261117937,2024-01-17,2024-07-12,66,94,3,High
+PQC-001,Student Portal Upgrade,PQC-001-REQ-008,Requirement 8,Technical,Medium,Approved,Business User,David Thompson,38.67353463005374,84.30569898630611,2024-01-15,2024-07-21,99,46,3,Low
+PQC-001,Student Portal Upgrade,PQC-001-REQ-009,Requirement 9,Non-Functional,Low,In Development,Business User,Bob Rodriguez,99.62536997579244,86.88774161599143,2024-01-19,2024-06-25,39,13,9,Low
+PQC-001,Student Portal Upgrade,PQC-001-REQ-010,Requirement 10,Business,Medium,In Development,Business User,David Thompson,85.09284487675127,84.20714947988527,2024-02-19,2024-06-24,111,88,3,Low
+PQC-001,Student Portal Upgrade,PQC-001-REQ-011,Requirement 11,Functional,Medium,Identified,Stakeholder,Bob Rodriguez,54.87337893665861,62.27056779234239,2024-01-30,2024-06-21,107,72,1,Low
+PQC-001,Student Portal Upgrade,PQC-001-REQ-012,Requirement 12,Technical,High,Testing,Compliance,Alice Chen,30.80607918523892,48.82862074994094,2024-03-13,2024-06-11,93,123,6,Low
+PQC-001,Student Portal Upgrade,PQC-001-REQ-013,Requirement 13,Compliance,High,Completed,Compliance,Bob Rodriguez,35.00784076946757,58.05930258275084,2024-03-01,2024-06-29,76,65,3,Medium
+PQC-001,Student Portal Upgrade,PQC-001-REQ-014,Requirement 14,Functional,Critical,Completed,Technical Team,Alice Chen,27.95603417967586,79.5144620039633,2024-03-14,2024-06-21,44,28,1,Medium
+PQC-001,Student Portal Upgrade,PQC-001-REQ-015,Requirement 15,Business,Low,Identified,Business User,Alice Chen,19.091103115034603,24.162737120114112,2024-01-17,2024-07-14,32,58,3,Medium
+PQC-001,Student Portal Upgrade,PQC-001-REQ-016,Requirement 16,Non-Functional,Medium,Completed,Technical Team,Carol Kim,51.832965236373674,78.96357647351599,2024-01-31,2024-06-22,40,141,6,Low
+PQC-001,Student Portal Upgrade,PQC-001-REQ-017,Requirement 17,Compliance,High,In Development,Technical Team,Alice Chen,61.15137108656805,7.343476236021632,2024-01-21,2024-06-05,43,24,1,Low
+PQC-001,Student Portal Upgrade,PQC-001-REQ-018,Requirement 18,Technical,Medium,Identified,Technical Team,Bob Rodriguez,43.847412301808696,60.48235217656794,2024-03-05,2024-07-07,65,67,6,Medium
+PQC-001,Student Portal Upgrade,PQC-001-REQ-019,Requirement 19,Functional,Critical,Completed,Technical Team,Carol Kim,12.706051265188478,47.001893404932396,2024-03-07,2024-06-02,115,112,5,Low
+PQC-001,Student Portal Upgrade,PQC-001-REQ-020,Requirement 20,Compliance,Critical,In Development,Compliance,Carol Kim,13.835309241780136,11.947088001867282,2024-03-04,2024-06-02,113,149,8,Low
+PQC-001,Student Portal Upgrade,PQC-001-REQ-021,Requirement 21,Technical,Medium,Approved,Technical Team,Alice Chen,8.087296661719767,38.5483027446097,2024-01-26,2024-06-09,8,62,1,Low
+PQC-001,Student Portal Upgrade,PQC-001-REQ-022,Requirement 22,Functional,Medium,Approved,Stakeholder,Alice Chen,73.78969166957685,49.891864726026064,2024-02-05,2024-07-03,74,80,3,Medium
+PQC-001,Student Portal Upgrade,PQC-001-REQ-023,Requirement 23,Functional,High,Identified,Compliance,Alice Chen,31.141330939129418,88.15594757593577,2024-01-19,2024-07-20,23,89,7,Low
+PQC-001,Student Portal Upgrade,PQC-001-REQ-024,Requirement 24,Compliance,High,Testing,Business User,David Thompson,4.530400977204452,33.71513531638241,2024-03-12,2024-07-13,65,100,1,Medium
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-001,Requirement 1,Technical,Medium,Completed,Technical Team,Alice Chen,86.71989335550037,57.27632377014101,2023-09-20,2024-01-22,19,128,1,Low
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-002,Requirement 2,Business,Medium,Testing,Business User,Alice Chen,65.1484771857788,18.601592388907086,2023-09-29,2024-02-02,19,99,2,Low
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-003,Requirement 3,Non-Functional,Medium,Identified,Stakeholder,Alice Chen,84.48753109694546,2.094474216224328,2023-10-04,2023-12-26,112,139,4,Medium
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-004,Requirement 4,Non-Functional,Medium,Completed,Stakeholder,Alice Chen,80.34809303848486,25.383111531417583,2023-09-10,2024-01-09,80,103,4,Low
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-005,Requirement 5,Compliance,High,Testing,Compliance,Alice Chen,23.823615240397945,33.995599755866536,2023-10-19,2024-01-26,119,90,3,Low
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-006,Requirement 6,Technical,Low,Completed,Business User,Carol Kim,95.68008851264564,60.9092913981873,2023-10-22,2024-01-27,118,148,5,Low
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-007,Requirement 7,Technical,High,Testing,Stakeholder,Alice Chen,79.15790437258485,71.06563285150985,2023-10-15,2023-12-24,49,146,5,Medium
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-008,Requirement 8,Compliance,High,Approved,Stakeholder,Alice Chen,76.15106317174723,55.6396256984635,2023-10-08,2024-02-08,53,145,8,Low
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-009,Requirement 9,Non-Functional,Medium,Approved,Business User,Alice Chen,23.322807242452782,52.317487550410405,2023-10-15,2024-02-14,93,149,7,High
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-010,Requirement 10,Technical,High,Testing,Compliance,Alice Chen,37.798759012225446,63.45759278669939,2023-09-10,2024-01-20,26,43,3,Low
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-011,Requirement 11,Non-Functional,High,Identified,Stakeholder,David Thompson,11.752624677710488,58.42892719044572,2023-09-01,2024-02-12,84,96,9,Low
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-012,Requirement 12,Functional,Critical,In Development,Business User,Bob Rodriguez,80.21092490267341,88.01106018788438,2023-10-15,2023-12-30,28,84,6,High
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-013,Requirement 13,Technical,Critical,In Development,Stakeholder,Alice Chen,52.30978441701488,56.64587743217363,2023-09-14,2024-01-31,38,5,5,Medium
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-014,Requirement 14,Business,Low,Identified,Stakeholder,Bob Rodriguez,95.04114840765587,80.12374055018248,2023-09-12,2024-01-22,35,121,8,Low
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-015,Requirement 15,Technical,High,In Development,Technical Team,David Thompson,7.773463696498483,87.69553268995499,2023-09-27,2023-12-23,70,149,9,Low
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-016,Requirement 16,Technical,Medium,Approved,Business User,Bob Rodriguez,7.620037959916315,84.64786444218451,2023-10-21,2024-02-10,54,14,8,High
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-017,Requirement 17,Business,Critical,Identified,Business User,Bob Rodriguez,81.0553330781833,88.854851638345,2023-10-19,2024-02-04,92,30,9,High
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-018,Requirement 18,Business,Medium,Identified,Business User,Carol Kim,13.38521188006332,1.2304768344297556,2023-10-25,2024-02-09,99,99,5,High
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-019,Requirement 19,Compliance,Medium,Testing,Technical Team,Bob Rodriguez,37.78505492757864,21.697634909666867,2023-09-09,2023-12-31,8,55,4,Low
+PQC-002,Cloud Migration Phase 1,PQC-002-REQ-020,Requirement 20,Functional,Medium,Identified,Compliance,David Thompson,2.218474203030163,44.83486679813036,2023-10-24,2023-12-23,10,127,2,High
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-001,Requirement 1,Compliance,Critical,Testing,Business User,David Thompson,48.00459670184751,37.84822007985676,2024-03-08,2024-11-11,21,70,3,High
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-002,Requirement 2,Technical,Low,Testing,Technical Team,Bob Rodriguez,55.481560854222565,8.190188194619726,2024-03-05,2024-10-11,45,83,7,Medium
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-003,Requirement 3,Functional,Low,Approved,Stakeholder,Alice Chen,49.21162930795382,23.241994946906253,2024-02-24,2024-11-27,41,10,5,Low
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-004,Requirement 4,Business,Medium,In Development,Compliance,Alice Chen,46.0119158983572,52.62894953542383,2024-02-11,2024-10-09,23,12,4,Low
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-005,Requirement 5,Functional,Medium,In Development,Business User,David Thompson,17.231987120162984,17.30601169278037,2024-02-19,2024-11-11,12,96,6,Low
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-006,Requirement 6,Functional,Medium,In Development,Technical Team,Bob Rodriguez,12.87483982996439,29.708956197913988,2024-02-27,2024-11-23,33,51,9,Medium
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-007,Requirement 7,Business,Low,Identified,Technical Team,David Thompson,80.62012797930613,67.34337213452925,2024-03-23,2024-11-17,54,131,8,Low
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-008,Requirement 8,Non-Functional,Medium,In Development,Technical Team,Alice Chen,6.234136251124145,13.296518271560402,2024-03-22,2024-11-25,10,115,7,Medium
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-009,Requirement 9,Technical,Critical,In Development,Compliance,Carol Kim,24.247050363472965,24.231890785444286,2024-03-08,2024-11-04,81,43,9,High
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-010,Requirement 10,Non-Functional,Medium,Approved,Business User,David Thompson,47.396994143055615,31.95938729513743,2024-03-12,2024-10-18,25,115,4,Medium
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-011,Requirement 11,Non-Functional,Medium,In Development,Stakeholder,Carol Kim,37.87726259512893,30.37021504847263,2024-03-23,2024-11-06,71,63,6,Medium
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-012,Requirement 12,Functional,Critical,Approved,Technical Team,Carol Kim,48.78098008087379,76.57357660525317,2024-03-01,2024-11-01,31,59,9,Low
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-013,Requirement 13,Business,Critical,Testing,Stakeholder,Carol Kim,89.66102629740207,51.8398576025094,2024-02-11,2024-11-28,86,138,6,Low
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-014,Requirement 14,Business,Medium,Testing,Compliance,David Thompson,47.661948412641195,75.47243028323624,2024-02-05,2024-11-26,33,122,4,Low
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-015,Requirement 15,Functional,Medium,In Development,Business User,Bob Rodriguez,76.77795014428388,7.85611616307079,2024-02-11,2024-10-27,84,7,1,Low
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-016,Requirement 16,Non-Functional,Medium,In Development,Technical Team,Alice Chen,68.45715478798333,7.908130011839113,2024-03-08,2024-11-23,24,13,8,Medium
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-017,Requirement 17,Business,High,Completed,Technical Team,David Thompson,96.50269106665125,11.186750113699025,2024-03-27,2024-11-21,16,80,3,Low
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-018,Requirement 18,Technical,Medium,Approved,Business User,Alice Chen,20.162732004774455,14.729034857913405,2024-02-21,2024-10-26,12,87,4,Low
+PQC-003,Cybersecurity Enhancement,PQC-003-REQ-019,Requirement 19,Non-Functional,High,Completed,Compliance,David Thompson,37.69444294249076,41.64118071026458,2024-03-09,2024-10-30,30,67,1,Low
+PQC-004,LMS Modernization,PQC-004-REQ-001,Requirement 1,Non-Functional,Medium,Completed,Compliance,Carol Kim,11.689804070836407,84.58489112521276,2024-06-07,2024-11-12,79,46,4,Medium
+PQC-004,LMS Modernization,PQC-004-REQ-002,Requirement 2,Compliance,High,Testing,Compliance,David Thompson,99.76926159238432,67.71628080349404,2024-07-07,2024-12-06,62,37,4,Medium
+PQC-004,LMS Modernization,PQC-004-REQ-003,Requirement 3,Non-Functional,High,Testing,Technical Team,Bob Rodriguez,53.648135148459474,34.09394090012241,2024-07-15,2024-12-09,59,19,8,Low
+PQC-004,LMS Modernization,PQC-004-REQ-004,Requirement 4,Technical,Medium,Testing,Compliance,Carol Kim,69.39484444671,48.84519990128366,2024-07-13,2024-12-06,76,15,8,Medium
+PQC-004,LMS Modernization,PQC-004-REQ-005,Requirement 5,Non-Functional,Low,Approved,Business User,David Thompson,50.5888678884466,55.030881189118304,2024-07-17,2024-11-23,67,104,4,Medium
+PQC-004,LMS Modernization,PQC-004-REQ-006,Requirement 6,Compliance,Medium,Approved,Stakeholder,Carol Kim,60.67150463828559,38.17176041721474,2024-06-29,2024-12-19,47,45,6,High
+PQC-004,LMS Modernization,PQC-004-REQ-007,Requirement 7,Functional,Critical,Completed,Technical Team,David Thompson,12.466268120326685,82.87576943556351,2024-07-24,2024-11-08,47,147,5,Low
+PQC-004,LMS Modernization,PQC-004-REQ-008,Requirement 8,Compliance,High,Completed,Business User,Bob Rodriguez,33.34991716911442,35.8351824231849,2024-06-25,2024-12-07,82,42,2,Low
+PQC-005,Network Infrastructure,PQC-005-REQ-001,Requirement 1,Business,High,Approved,Stakeholder,Carol Kim,14.085702037979985,15.874828785560098,2023-12-07,2024-07-11,77,92,1,Low
+PQC-005,Network Infrastructure,PQC-005-REQ-002,Requirement 2,Business,Medium,Identified,Business User,Alice Chen,17.803596686975144,86.49632857225096,2024-01-18,2024-08-12,93,67,8,Medium
+PQC-005,Network Infrastructure,PQC-005-REQ-003,Requirement 3,Functional,High,In Development,Compliance,Carol Kim,79.97820220742695,31.44482991443997,2023-12-30,2024-08-03,56,34,8,Medium
+PQC-005,Network Infrastructure,PQC-005-REQ-004,Requirement 4,Functional,Medium,In Development,Technical Team,Bob Rodriguez,44.07627469382282,36.06867547877934,2024-01-07,2024-07-12,70,136,1,Low
+PQC-005,Network Infrastructure,PQC-005-REQ-005,Requirement 5,Business,High,Approved,Technical Team,Bob Rodriguez,40.87341710980964,2.2847720094310375,2023-12-28,2024-07-31,57,139,8,Low
+PQC-005,Network Infrastructure,PQC-005-REQ-006,Requirement 6,Business,High,Testing,Business User,David Thompson,10.410858198457385,71.99244768358705,2023-12-03,2024-07-12,104,96,8,Low
+PQC-005,Network Infrastructure,PQC-005-REQ-007,Requirement 7,Business,Low,Completed,Technical Team,Alice Chen,40.6392308273522,29.159105499611965,2023-12-18,2024-08-25,81,11,1,Low
+PQC-005,Network Infrastructure,PQC-005-REQ-008,Requirement 8,Business,Critical,Completed,Business User,David Thompson,70.39461351385094,81.95616031862735,2023-12-05,2024-08-12,18,134,3,Medium
+PQC-005,Network Infrastructure,PQC-005-REQ-009,Requirement 9,Technical,Medium,In Development,Stakeholder,Bob Rodriguez,36.275789466594546,77.49612179772494,2024-01-04,2024-07-11,93,112,8,Low
+PQC-006,AI Tutoring System,PQC-006-REQ-001,Requirement 1,Functional,High,In Development,Business User,David Thompson,69.88458531609044,36.22950392372825,2024-07-09,2025-01-07,29,8,2,Low
+PQC-006,AI Tutoring System,PQC-006-REQ-002,Requirement 2,Business,Medium,In Development,Technical Team,David Thompson,49.809075351100574,6.045785992413908,2024-08-06,2025-02-05,109,126,7,Low
+PQC-006,AI Tutoring System,PQC-006-REQ-003,Requirement 3,Compliance,High,Approved,Compliance,David Thompson,25.073066056159774,56.97882570217028,2024-08-22,2025-02-23,17,149,5,Low
+PQC-006,AI Tutoring System,PQC-006-REQ-004,Requirement 4,Non-Functional,High,In Development,Technical Team,Carol Kim,18.437092067896323,8.130326451984708,2024-08-20,2025-02-04,36,15,8,Low
+PQC-006,AI Tutoring System,PQC-006-REQ-005,Requirement 5,Technical,Medium,Approved,Compliance,Bob Rodriguez,47.60504021990997,59.73040488263833,2024-08-23,2025-02-08,76,60,1,Low
+PQC-006,AI Tutoring System,PQC-006-REQ-006,Requirement 6,Technical,Critical,Completed,Business User,Bob Rodriguez,95.5236312723479,13.92049267949126,2024-07-09,2025-02-04,73,77,9,Low
+PQC-006,AI Tutoring System,PQC-006-REQ-007,Requirement 7,Functional,High,Testing,Technical Team,Alice Chen,24.640203323910683,73.71920859067798,2024-08-06,2025-01-17,51,106,2,Low
+PQC-006,AI Tutoring System,PQC-006-REQ-008,Requirement 8,Compliance,Critical,Completed,Business User,Alice Chen,95.02373538208025,40.140519566216014,2024-08-16,2025-02-18,69,84,8,Medium
+PQC-006,AI Tutoring System,PQC-006-REQ-009,Requirement 9,Compliance,Medium,Testing,Stakeholder,Bob Rodriguez,98.05768001799882,81.30274313724225,2024-07-12,2025-02-15,66,113,7,High
+PQC-006,AI Tutoring System,PQC-006-REQ-010,Requirement 10,Non-Functional,Medium,Completed,Technical Team,Carol Kim,69.742026724684,26.76141066352957,2024-08-17,2025-02-22,66,86,4,High
+PQC-006,AI Tutoring System,PQC-006-REQ-011,Requirement 11,Non-Functional,Medium,Testing,Technical Team,Carol Kim,36.46972494573058,50.46094746031626,2024-08-14,2025-01-27,10,41,8,Low
+PQC-006,AI Tutoring System,PQC-006-REQ-012,Requirement 12,Technical,Medium,Completed,Stakeholder,Alice Chen,66.16551750805415,66.40701902158725,2024-08-02,2025-02-14,116,112,2,Low
+PQC-006,AI Tutoring System,PQC-006-REQ-013,Requirement 13,Non-Functional,Low,Identified,Business User,Alice Chen,38.39638899197257,83.93309184827275,2024-08-28,2025-01-22,53,33,1,Low
+PQC-006,AI Tutoring System,PQC-006-REQ-014,Requirement 14,Compliance,High,In Development,Stakeholder,Carol Kim,39.828738397563555,8.252940160028713,2024-08-08,2025-02-10,12,69,1,Low
+PQC-006,AI Tutoring System,PQC-006-REQ-015,Requirement 15,Non-Functional,High,Approved,Business User,David Thompson,1.787393473341381,88.89501507624284,2024-07-09,2025-02-15,56,125,8,Low
+PQC-006,AI Tutoring System,PQC-006-REQ-016,Requirement 16,Business,Low,Testing,Compliance,David Thompson,41.75807757849284,79.12064768059483,2024-08-15,2025-02-06,18,66,2,Low
+PQC-006,AI Tutoring System,PQC-006-REQ-017,Requirement 17,Technical,Critical,In Development,Business User,Carol Kim,23.0569195805019,74.75782659755622,2024-08-15,2025-02-20,114,61,9,Low
+PQC-006,AI Tutoring System,PQC-006-REQ-018,Requirement 18,Business,Medium,Completed,Technical Team,Carol Kim,21.63240230365535,46.6434330008753,2024-07-20,2025-01-03,68,127,3,Medium
+PQC-006,AI Tutoring System,PQC-006-REQ-019,Requirement 19,Functional,Critical,Completed,Technical Team,Alice Chen,22.38176148226231,48.32769806040722,2024-07-09,2025-02-26,21,105,2,Low
+PQC-006,AI Tutoring System,PQC-006-REQ-020,Requirement 20,Business,High,In Development,Compliance,Alice Chen,85.21935333470077,3.1880131576690562,2024-07-15,2025-01-21,32,9,2,Low
+PQC-006,AI Tutoring System,PQC-006-REQ-021,Requirement 21,Business,Medium,In Development,Technical Team,Alice Chen,22.018320194981133,61.493288729363634,2024-07-05,2025-02-17,88,118,8,High
+PQC-007,Campus WiFi Expansion,PQC-007-REQ-001,Requirement 1,Non-Functional,Medium,Completed,Business User,Bob Rodriguez,52.12603121804149,78.13447236463922,2023-09-11,2023-10-30,66,63,9,Low
+PQC-007,Campus WiFi Expansion,PQC-007-REQ-002,Requirement 2,Compliance,Medium,Testing,Compliance,Carol Kim,75.27166395576413,14.274459476376633,2023-09-26,2023-10-18,65,35,7,Low
+PQC-007,Campus WiFi Expansion,PQC-007-REQ-003,Requirement 3,Business,High,Completed,Technical Team,David Thompson,55.6181735039757,68.09722234064412,2023-08-26,2023-10-24,73,17,1,Medium
+PQC-007,Campus WiFi Expansion,PQC-007-REQ-004,Requirement 4,Non-Functional,Medium,In Development,Compliance,David Thompson,10.698063882695841,68.49251122518253,2023-08-24,2023-10-22,103,67,5,Low
+PQC-007,Campus WiFi Expansion,PQC-007-REQ-005,Requirement 5,Technical,Critical,Testing,Stakeholder,Carol Kim,16.637758693227234,69.3885863278922,2023-08-31,2023-11-22,72,26,8,Low
+PQC-007,Campus WiFi Expansion,PQC-007-REQ-006,Requirement 6,Non-Functional,Low,Testing,Stakeholder,David Thompson,64.75736434019076,53.49562733056908,2023-08-26,2023-11-25,36,143,1,Low
+PQC-007,Campus WiFi Expansion,PQC-007-REQ-007,Requirement 7,Business,High,Identified,Technical Team,Bob Rodriguez,46.85394167685843,84.98732714620469,2023-09-18,2023-11-19,112,43,7,High
+PQC-007,Campus WiFi Expansion,PQC-007-REQ-008,Requirement 8,Business,High,Identified,Technical Team,David Thompson,65.45112142811352,24.59335742983884,2023-08-31,2023-10-19,63,96,5,High
+PQC-007,Campus WiFi Expansion,PQC-007-REQ-009,Requirement 9,Compliance,Medium,In Development,Business User,Alice Chen,98.39776479598282,36.84006056835387,2023-10-13,2023-10-25,22,68,1,Medium
+PQC-007,Campus WiFi Expansion,PQC-007-REQ-010,Requirement 10,Technical,Medium,In Development,Compliance,David Thompson,15.924573827926448,18.333112434864677,2023-09-12,2023-10-10,15,83,2,Medium
+PQC-008,Data Analytics Platform,PQC-008-REQ-001,Requirement 1,Compliance,Critical,Identified,Stakeholder,Bob Rodriguez,61.665031452073805,71.68835618785587,2024-03-25,2024-10-02,85,21,4,Low
+PQC-008,Data Analytics Platform,PQC-008-REQ-002,Requirement 2,Functional,Critical,Testing,Business User,Alice Chen,59.02639388856225,38.992207407449,2024-03-13,2024-10-15,79,25,2,Medium
+PQC-008,Data Analytics Platform,PQC-008-REQ-003,Requirement 3,Non-Functional,High,Testing,Stakeholder,Carol Kim,69.49818861265426,77.41101574702842,2024-04-07,2024-09-21,15,15,6,Medium
+PQC-008,Data Analytics Platform,PQC-008-REQ-004,Requirement 4,Functional,High,Completed,Stakeholder,Carol Kim,49.888815345135605,55.634016088630716,2024-03-20,2024-09-29,81,101,2,Medium
+PQC-008,Data Analytics Platform,PQC-008-REQ-005,Requirement 5,Functional,High,Identified,Stakeholder,Bob Rodriguez,39.69232762015961,11.944417863875431,2024-04-08,2024-10-06,53,126,2,High
+PQC-008,Data Analytics Platform,PQC-008-REQ-006,Requirement 6,Non-Functional,Critical,Approved,Compliance,Alice Chen,70.64757264869012,2.8427530343077834,2024-03-06,2024-10-23,110,45,2,High
+PQC-008,Data Analytics Platform,PQC-008-REQ-007,Requirement 7,Non-Functional,Medium,Testing,Compliance,Carol Kim,48.43984475740406,59.47381064693256,2024-03-16,2024-10-28,13,62,6,Low
+PQC-008,Data Analytics Platform,PQC-008-REQ-008,Requirement 8,Business,Critical,Approved,Technical Team,Carol Kim,72.48265598740583,53.39507834791608,2024-03-12,2024-10-19,32,49,3,Low
+PQC-008,Data Analytics Platform,PQC-008-REQ-009,Requirement 9,Technical,Medium,Completed,Business User,Carol Kim,4.366165770736119,14.55052897321224,2024-03-06,2024-10-14,90,41,8,High
+PQC-008,Data Analytics Platform,PQC-008-REQ-010,Requirement 10,Business,Critical,In Development,Business User,Alice Chen,41.83997886676527,18.32204523080184,2024-03-07,2024-10-20,56,98,5,Medium

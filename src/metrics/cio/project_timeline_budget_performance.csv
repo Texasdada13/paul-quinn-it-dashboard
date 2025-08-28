@@ -1,6 +1,11 @@
 Project_ID,Project_Name,Status,Total_Budget,Spent_to_Date,Start_Date,End_Date,Duration_days,Elapsed_days,Timeline_Completion_%,Budget_Variance_%,Budget_Status,Time_Status
-PQC-001,Student Portal Upgrade,In Progress,250000,175000,2024-01-15,2024-08-30,228,582,100.0,-30.0,Under Budget,Unknown
-PQC-002,Cloud Migration Phase 1,Completed,450000,445000,2023-09-01,2024-03-15,196,718,100.0,-1.1,On Track,On Track
-PQC-003,Cybersecurity Enhancement,In Progress,300000,125000,2024-02-01,2024-12-31,334,565,100.0,-58.3,Under Budget,Unknown
-PQC-004,LMS Modernization,Planning,180000,25000,2024-06-01,2025-01-31,244,444,100.0,-86.1,Under Budget,Unknown
-PQC-005,Network Infrastructure,In Progress,220000,165000,2023-12-01,2024-09-30,304,627,100.0,-25.0,Under Budget,Unknown
+PQC-001,Student Portal Upgrade,In Progress,250000,175000,2024-01-15,2024-08-30,228,590,100.0,-30.0,Under Budget,Unknown
+PQC-002,Cloud Migration Phase 1,Completed,450000,445000,2023-09-01,2024-03-15,196,726,100.0,-1.1,On Track,On Track
+PQC-003,Cybersecurity Enhancement,In Progress,300000,125000,2024-02-01,2024-12-31,334,573,100.0,-58.3,Under Budget,Unknown
+PQC-004,LMS Modernization,Planning,180000,25000,2024-06-01,2025-01-31,244,452,100.0,-86.1,Under Budget,Unknown
+PQC-005,Network Infrastructure,In Progress,220000,165000,2023-12-01,2024-09-30,304,635,100.0,-25.0,Under Budget,Unknown
+PQC-006,AI Tutoring System,Planning,400000,50000,2024-07-01,2025-03-31,273,422,100.0,-87.5,Under Budget,Unknown
+PQC-007,Campus WiFi Expansion,Completed,150000,148000,2023-08-15,2023-12-31,138,743,100.0,-1.3,On Track,On Track
+PQC-008,Data Analytics Platform,In Progress,350000,210000,2024-03-01,2024-11-30,274,544,100.0,-40.0,Under Budget,Unknown
+PQC-009,Mobile App Development,Planning,120000,15000,2024-08-01,2025-02-28,211,391,100.0,-87.5,Under Budget,Unknown
+PQC-010,ERP System Integration,In Progress,280000,200000,2024-01-01,2024-10-31,304,604,100.0,-28.6,Under Budget,Unknown

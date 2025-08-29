@@ -1,0 +1,13 @@
+field_name,persona,source_type,source_file,sample_values,suggested_new_name,notes
+Service,CTO - Technology Operator,CSV Column,src\metrics\cto\cloud_cost_optimization_dashboard_examples.csv,"['AWS EC2', 'AWS S3', 'Azure SQL']",,
+Metric,CTO - Technology Operator,CSV Column,src\metrics\cto\cloud_cost_optimization_dashboard_examples.csv,"['Service/Resource', 'Service/Resource', 'Service/Resource']",,
+Description,CTO - Technology Operator,CSV Column,src\metrics\cto\cloud_cost_optimization_dashboard_examples.csv,"['Cloud platform/instance or service', 'Cloud platform/instance or service', 'Cloud platform/instance or service']",,
+Example,CTO - Technology Operator,CSV Column,src\metrics\cto\cloud_cost_optimization_dashboard_examples.csv,"['$11,162', '$17,441', '$34,446']",,
+date,CTO - Technology Operator,CSV Column,src\metrics\cto\cloud_cost_optimization_metrics.csv,"['2025-06-08', '2025-06-26', '2025-08-02']",,
+cloud_service,CTO - Technology Operator,CSV Column,src\metrics\cto\cloud_cost_optimization_metrics.csv,"['Google BigQuery', 'Dropbox Business', 'Canvas LMS Cloud']",,
+monthly_cloud_spend,CTO - Technology Operator,CSV Column,src\metrics\cto\cloud_cost_optimization_metrics.csv,"[11705, 25650, 2029]",,
+resource_utilization_pct,CTO - Technology Operator,CSV Column,src\metrics\cto\cloud_cost_optimization_metrics.csv,"[87.90413201172026, 56.54833390539267, 52.78682971483998]",,
+cost_optimization_savings,CTO - Technology Operator,CSV Column,src\metrics\cto\cloud_cost_optimization_metrics.csv,"[6006, 5208, 8538]",,
+wasted_spend_identified,CTO - Technology Operator,CSV Column,src\metrics\cto\cloud_cost_optimization_metrics.csv,"[2591, 3604, 3711]",,
+optimization_opportunity,CTO - Technology Operator,CSV Column,src\metrics\cto\cloud_cost_optimization_metrics.csv,"[2.0587958934339268, 7.526669932246516, 1.1134676797818313]",,
+potential_savings,CTO - Technology Operator,CSV Column,src\metrics\cto\cloud_cost_optimization_metrics.csv,"[15649, 1783, 10252]",,

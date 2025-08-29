@@ -1,0 +1,12 @@
+field_name,persona,source_type,source_file,sample_values,suggested_new_name,notes
+date,CTO - Technology Operator,CSV Column,src\metrics\cto\security_metrics.csv,"['2025-06-03', '2025-08-18', '2025-04-25']",,
+asset,CTO - Technology Operator,CSV Column,src\metrics\cto\security_metrics.csv,"['Cloud Servers', 'Website', 'Campus WiFi']",,
+security_incidents,CTO - Technology Operator,CSV Column,src\metrics\cto\security_metrics.csv,"[4, 5, 1]",,
+vulnerability_score,CTO - Technology Operator,CSV Column,src\metrics\cto\security_metrics.csv,"[4.870976697535771, 7.252433750731006, 3.691514257428375]",,
+compliance_score,CTO - Technology Operator,CSV Column,src\metrics\cto\security_metrics.csv,"[95.927784376421, 91.1844508829279, 90.09333497597306]",,
+security_training_completion,CTO - Technology Operator,CSV Column,src\metrics\cto\security_metrics.csv,"[77.590598453596, 94.60586248086084, 74.76814968977237]",,
+threat_level,CTO - Technology Operator,CSV Column,src\metrics\cto\security_metrics.csv,"['High', 'Medium', 'Low']",,
+Asset,CTO - Technology Operator,CSV Column,src\metrics\cto\security_metrics_dashboard_examples.csv,"['Core Network', 'Email Suite', 'ERP System']",,
+Metric,CTO - Technology Operator,CSV Column,src\metrics\cto\security_metrics_dashboard_examples.csv,"['Asset/System', 'Asset/System', 'Asset/System']",,
+Description,CTO - Technology Operator,CSV Column,src\metrics\cto\security_metrics_dashboard_examples.csv,"['System, application, or device being tracked', 'System, application, or device being tracked', 'System, application, or device being tracked']",,
+Example,CTO - Technology Operator,CSV Column,src\metrics\cto\security_metrics_dashboard_examples.csv,"['8', '21', '12']",,

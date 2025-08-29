@@ -11,7 +11,6 @@ from datetime import datetime, timedelta
 import numpy as np
 import os
 import sys
-from issa_theme import ISSATheme  # Keep this one
 
 # Add the parent directory to the path to import our modules
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -43,9 +42,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
-ISSATheme.apply_theme()
-
 
 # Custom CSS for enhanced styling
 st.markdown("""
@@ -172,9 +168,8 @@ if HBCU_INTEGRATION_AVAILABLE and hbcu_integrator:
 
 
 # Main content
-st.markdown(ISSATheme.create_header("ISSA", "Integrated Systems for Strategic Analytics"), unsafe_allow_html=True)
-st.markdown("### Deployed for Paul Quinn College")
-
+st.markdown("<h1 class='main-header'>🎓 Paul Quinn College IT Analytics Suite <span class='integrated-badge'>FULLY INTEGRATED</span></h1>", 
+           unsafe_allow_html=True)
 
 # Display content based on persona
 if persona == "CFO - Financial Steward":
@@ -466,157 +461,17 @@ elif persona == "HBCU Institutional View":
         
         with tab1:
             st.markdown("### Mission-Critical Investment Analysis")
-            
-            # Create mission alignment metrics
-            col1, col2 = st.columns(2)
-            
-            with col1:
-                # Mission alignment scoring
-                mission_scores = {
-                    'Student Support Services': 92,
-                    'Academic Technology': 88,
-                    'Community Engagement': 85,
-                    'Faculty Development': 79,
-                    'Infrastructure': 75
-                }
-                
-                fig = px.bar(
-                    x=list(mission_scores.values()),
-                    y=list(mission_scores.keys()),
-                    orientation='h',
-                    title='Mission Alignment Scores by Investment Area',
-                    labels={'x': 'Alignment Score', 'y': 'Investment Area'},
-                    color=list(mission_scores.values()),
-                    color_continuous_scale='Viridis'
-                )
-                fig.update_layout(height=400, showlegend=False)
-                st.plotly_chart(fig, use_container_width=True)
-            
-            with col2:
-                # ROI by mission category
-                roi_data = pd.DataFrame({
-                    'Category': ['Direct Student Aid', 'Digital Learning', 'Support Programs', 'Research'],
-                    'ROI': [4.2, 3.8, 3.1, 2.5],
-                    'Investment': [1200000, 800000, 600000, 400000]
-                })
-                
-                fig = px.scatter(roi_data, x='Investment', y='ROI', size='ROI', 
-                                color='Category', title='ROI by Mission-Critical Investment',
-                                labels={'Investment': 'Investment Amount ($)', 'ROI': 'Return on Investment (x)'},
-                                size_max=50)
-                fig.update_layout(height=400)
-                st.plotly_chart(fig, use_container_width=True)
-
+            st.info("Mission alignment analysis would go here")
+        
         with tab2:
             st.markdown("### Financial Efficiency vs Peer HBCUs")
-            
-            # Create comparison metrics
-            col1, col2 = st.columns(2)
-            
-            with col1:
-                # Efficiency comparison
-                peer_data = pd.DataFrame({
-                    'Institution': ['Paul Quinn', 'HBCU Avg', 'Top Quartile', 'Peer Median'],
-                    'Cost per Student': [8224, 11500, 9800, 10200],
-                    'Admin Ratio': [18, 25, 20, 22]
-                })
-                
-                fig = px.bar(peer_data, x='Institution', y='Cost per Student',
-                            title='Cost Efficiency: PQC vs HBCU Peers',
-                            color='Cost per Student',
-                            color_continuous_scale=['green', 'yellow', 'orange', 'red'],
-                            text='Cost per Student')
-                fig.update_traces(texttemplate='$%{text:,.0f}', textposition='outside')
-                fig.update_layout(height=400, showlegend=False)
-                st.plotly_chart(fig, use_container_width=True)
-            
-            with col2:
-                # Spending efficiency radar
-                categories = ['IT Efficiency', 'Academic Spend', 'Student Services', 
-                            'Infrastructure', 'Admin Efficiency']
-                
-                fig = go.Figure()
-                
-                fig.add_trace(go.Scatterpolar(
-                    r=[85, 92, 88, 76, 94],
-                    theta=categories,
-                    fill='toself',
-                    name='Paul Quinn',
-                    line_color='blue'
-                ))
-                
-                fig.add_trace(go.Scatterpolar(
-                    r=[72, 78, 75, 70, 68],
-                    theta=categories,
-                    fill='toself',
-                    name='HBCU Average',
-                    line_color='orange'
-                ))
-                
-                fig.update_layout(
-                    polar=dict(radialaxis=dict(visible=True, range=[0, 100])),
-                    title="Efficiency Metrics Comparison",
-                    height=400
-                )
-                st.plotly_chart(fig, use_container_width=True)
-
+            st.info("Financial efficiency analysis would go here")
+        
         with tab3:
             st.markdown("### Technology Impact on Student Success")
-            
-            # Student success metrics
-            col1, col2 = st.columns(2)
-            
-            with col1:
-                # Graduation rate trends
-                years = ['2019', '2020', '2021', '2022', '2023', '2024']
-                grad_rates = pd.DataFrame({
-                    'Year': years,
-                    'With Tech Support': [62, 65, 68, 72, 76, 78],
-                    'Without Tech Support': [58, 59, 60, 61, 62, 63]
-                })
-                
-                fig = px.line(grad_rates, x='Year', 
-                            y=['With Tech Support', 'Without Tech Support'],
-                            title='Graduation Rates: Technology Impact',
-                            labels={'value': 'Graduation Rate (%)', 'variable': 'Student Group'},
-                            markers=True)
-                fig.update_layout(height=400)
-                st.plotly_chart(fig, use_container_width=True)
-            
-            with col2:
-                # Success metrics by intervention
-                interventions = pd.DataFrame({
-                    'Intervention': ['Online Tutoring', 'Learning Analytics', 'Digital Resources', 
-                                'Tech Training', 'Equipment Loans'],
-                    'Success Rate': [82, 79, 85, 77, 88],
-                    'Students Impacted': [1200, 2100, 3500, 800, 650]
-                })
-                
-                fig = px.scatter(interventions, x='Students Impacted', y='Success Rate',
-                                size='Success Rate', color='Intervention',
-                                title='Tech Intervention Effectiveness',
-                                labels={'Success Rate': 'Success Rate (%)', 
-                                    'Students Impacted': 'Number of Students'},
-                                size_max=40)
-                fig.update_layout(height=400)
-                st.plotly_chart(fig, use_container_width=True)
-            
-            # Additional success metrics
-            st.markdown("#### Key Technology Success Indicators")
-            metric_cols = st.columns(4)
-            
-            with metric_cols[0]:
-                st.metric("Digital Literacy", "94%", "↑ 12%", 
-                        help="Students meeting digital competency standards")
-            with metric_cols[1]:
-                st.metric("LMS Engagement", "87%", "↑ 8%",
-                        help="Active weekly LMS users")
-            with metric_cols[2]:
-                st.metric("Tech Support Satisfaction", "4.6/5", "↑ 0.3",
-                        help="Student satisfaction rating")
-            with metric_cols[3]:
-                st.metric("Course Completion", "91%", "↑ 6%",
-                        help="Online course completion rate")
+            st.info("Student outcomes analysis would go here")
+    else:
+        st.error("HBCU integration module not available")
     
 
 # Footer with metrics summary

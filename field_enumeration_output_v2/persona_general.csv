@@ -1,0 +1,13 @@
+field_name,section,source_type,source_file,sample_values,suggested_new_name,notes
+Metric,General,CSV Column,src\metrics\hbcu\hbcu_cost_per_student_served_examples.csv,"['Total Student Service Cost', 'Enrolled Undergraduate Students', 'Enrolled Pell Eligible Students']",,
+Description,General,CSV Column,src\metrics\hbcu\hbcu_cost_per_student_served_examples.csv,"['All instructional, support, administrative spend in year', 'Total undergrad enrolled (annual)', 'Underserved/low-income count (annual)']",,
+Example,General,CSV Column,src\metrics\hbcu\hbcu_cost_per_student_served_examples.csv,"['$47,700,000', '5800', '1720']",,
+Metric,Grant Compliance,CSV Column,src\metrics\hbcu\hbcu_grant_compliance_tracking_examples.csv,"['Active Grant Count', 'Percent Grant Allocation Used', 'Timeliness of Grant Reporting']",,
+Description,Grant Compliance,CSV Column,src\metrics\hbcu\hbcu_grant_compliance_tracking_examples.csv,"['Current number of active federal/foundation grants managed', 'Percent of budgeted grant dollars spent in cycle', 'Percent of required reports submitted on time']",,
+Example,Grant Compliance,CSV Column,src\metrics\hbcu\hbcu_grant_compliance_tracking_examples.csv,"['12', '84%', '95%']",,
+Metric,General,CSV Column,src\metrics\hbcu\hbcu_resource_maximization_examples.csv,"['Instructional Spending Ratio', 'Cost Per Student Served', 'Student Success ROI (Instruction)']",,
+Description,General,CSV Column,src\metrics\hbcu\hbcu_resource_maximization_examples.csv,"['Instruction spend ÷ total revenue (by sector/HBCU vs private)', 'Total operational cost ÷ number of enrolled students', 'Improvement in graduation/employment ÷ instructional cost per FTE']",,
+Example,General,CSV Column,src\metrics\hbcu\hbcu_resource_maximization_examples.csv,"['HBCU: 1.20, Private NP: 0.78', '$8,100', '6.1% graduation increase/$10,000 spend']",,
+Metric,ROI & Benchmarking,CSV Column,src\metrics\hbcu\hbcu_student_success_roi_examples.csv,"['Technology-Linked Graduation Rate', 'Technology-Linked Retention Rate', 'Economic Mobility Index']",,
+Description,ROI & Benchmarking,CSV Column,src\metrics\hbcu\hbcu_student_success_roi_examples.csv,"['Percent of students graduating who used targeted technology interventions', 'Percent of students retained one year after technology adoption', 'Percent increase in job, wage, or graduate study attainment after technology/program']",,
+Example,ROI & Benchmarking,CSV Column,src\metrics\hbcu\hbcu_student_success_roi_examples.csv,"['78%', '87%', '23% increase over 3 years']",,

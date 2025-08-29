@@ -1,0 +1,12 @@
+field_name,persona,source_type,source_file,sample_values,suggested_new_name,notes
+Vendor,CFO - Financial Steward,CSV Column,src\metrics\cfo\cfo_contract_expiration_alerts_examples.csv,"['Microsoft', 'Microsoft', 'AWS']",,
+System/Product,CFO - Financial Steward,CSV Column,src\metrics\cfo\cfo_contract_expiration_alerts_examples.csv,"['Network', 'Cloud Storage', 'Email']",,
+Contract Start Date,CFO - Financial Steward,CSV Column,src\metrics\cfo\cfo_contract_expiration_alerts_examples.csv,"['2023-09-09', '2024-01-19', '2021-09-29']",,
+Contract End Date,CFO - Financial Steward,CSV Column,src\metrics\cfo\cfo_contract_expiration_alerts_examples.csv,"['2024-12-27', '2025-08-09', '2023-04-21']",,
+Annual Spend,CFO - Financial Steward,CSV Column,src\metrics\cfo\cfo_contract_expiration_alerts_examples.csv,"[447406, 328477, 347725]",,
+Contract Status,CFO - Financial Steward,CSV Column,src\metrics\cfo\cfo_contract_expiration_alerts_examples.csv,"['Expired', 'Expired', 'Expired']",,
+Days Until Expiry,CFO - Financial Steward,CSV Column,src\metrics\cfo\cfo_contract_expiration_alerts_examples.csv,"[-235, -10, -851]",,
+Expiration Alert,CFO - Financial Steward,CSV Column,src\metrics\cfo\cfo_contract_expiration_alerts_examples.csv,"['No', 'No', 'No']",,
+Renewal Option,CFO - Financial Steward,CSV Column,src\metrics\cfo\cfo_contract_expiration_alerts_examples.csv,"['Auto-Renew', 'Manual', 'Manual']",,
+Negotiation Recommended,CFO - Financial Steward,CSV Column,src\metrics\cfo\cfo_contract_expiration_alerts_examples.csv,"['No', 'Yes', 'Yes']",,
+Last Negotiation Date,CFO - Financial Steward,CSV Column,src\metrics\cfo\cfo_contract_expiration_alerts_examples.csv,"['2023-11-14', '2024-07-09', '2022-02-24']",,

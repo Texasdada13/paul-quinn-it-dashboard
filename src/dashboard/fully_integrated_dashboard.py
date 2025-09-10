@@ -1,4 +1,4 @@
-﻿"""
+"""
 Paul Quinn College IT Analytics Suite - Fully Integrated Dashboard
 Dynamically loads and displays all metrics from the metrics folder
 """
@@ -276,20 +276,20 @@ st.sidebar.markdown("### ⚡ Quick Actions")
 
 col1, col2 = st.sidebar.columns(2)
 with col1:
-    if st.button("📊 Generate Report", use_container_width=True):
+    if st.button("📊 Generate Report", width='stretch'):
         st.sidebar.success("Report queued!")
         
 with col2:
-    if st.button("🔄 Refresh Data", use_container_width=True):
+    if st.button("🔄 Refresh Data", width='stretch'):
         st.sidebar.success("Data refreshed!")
 
 col3, col4 = st.sidebar.columns(2)        
 with col3:
-    if st.button("📧 Email Summary", use_container_width=True):
+    if st.button("📧 Email Summary", width='stretch'):
         st.sidebar.success("Summary sent!")
         
 with col4:
-    if st.button("⚠️ View Alerts", use_container_width=True):
+    if st.button("⚠️ View Alerts", width='stretch'):
         st.sidebar.info("3 items need attention")
 
 # AI Insights Section - NEW
@@ -629,7 +629,7 @@ if persona == "CFO - Financial Steward":
                             'Target Savings': '${:,.0f}',
                             'Actual Savings': '${:,.0f}'
                         }),
-                        use_container_width=True
+                        width='stretch'
                     )
                 
                 elif tab_name == "🏛️ Grant & Compliance":
@@ -1001,7 +1001,7 @@ elif persona == "CIO - Strategic Partner":
                             'Budget': '${:,.0f}',
                             'Progress': '{:.0f}%'
                         }),
-                        use_container_width=True
+                        width='stretch'
                     )
                 
                 elif tab_name == "⚠️ Risk & Vendor Management":
@@ -1436,7 +1436,7 @@ elif persona == "CTO - Technology Operator":
                         'Status': ['Active', 'Active', 'Active', 'In Progress']
                     })
                     
-                    st.dataframe(automation_data, use_container_width=True)
+                    st.dataframe(automation_data, width='stretch')
                 
                 elif tab_name == "🔒 Security & Compliance":
                     st.markdown("### 🔒 Security Posture & Compliance Monitoring")
@@ -1519,7 +1519,7 @@ elif persona == "CTO - Technology Operator":
                         debt_data.style.format({
                             'Modernization Cost': '${:,.0f}'
                         }),
-                        use_container_width=True
+                        width='stretch'
                     )
                 
                 elif tab_name == "📋 Operations Summary":
@@ -1918,7 +1918,7 @@ elif persona == "Project Manager View":
                         'Risk Level': ['Low', 'Low', 'Medium', 'Low']
                     })
                     
-                    st.dataframe(project_health_data, use_container_width=True)
+                    st.dataframe(project_health_data, width='stretch')
                 
                 elif tab_name == "👥 Resources & Communication":
                     st.markdown("### 👥 Resource Allocation & Stakeholder Communication")
@@ -2160,7 +2160,7 @@ elif persona == "HBCU Institutional View":
                     color_continuous_scale='Viridis'
                 )
                 fig.update_layout(height=400, showlegend=False)
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width='stretch')
                 
                 # Mission impact summary
                 st.markdown("#### 🎯 Mission Impact Summary")
@@ -2186,7 +2186,7 @@ elif persona == "HBCU Institutional View":
                                 labels={'Investment': 'Investment Amount ($)', 'ROI': 'Return on Investment (x)'},
                                 size_max=50)
                 fig.update_layout(height=400)
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width='stretch')
                 
                 # Strategic priorities
                 st.markdown("#### 🚀 Strategic Priority Areas")
@@ -2274,7 +2274,7 @@ elif persona == "HBCU Institutional View":
                             text='Cost per Student')
                 fig.update_traces(texttemplate='$%{text:,.0f}', textposition='outside')
                 fig.update_layout(height=400, showlegend=False)
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width='stretch')
             
             with col2:
                 # Spending efficiency radar
@@ -2304,7 +2304,7 @@ elif persona == "HBCU Institutional View":
                     title="Efficiency Metrics Comparison",
                     height=400
                 )
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width='stretch')
 
         with tab3:
             st.markdown("### 🎓 Technology Impact on Student Success")
@@ -2350,7 +2350,7 @@ elif persona == "HBCU Institutional View":
                             labels={'value': 'Graduation Rate (%)', 'variable': 'Student Group'},
                             markers=True)
                 fig.update_layout(height=400)
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width='stretch')
             
             with col2:
                 # Success metrics by intervention
@@ -2368,7 +2368,7 @@ elif persona == "HBCU Institutional View":
                                     'Students Impacted': 'Number of Students'},
                                 size_max=40)
                 fig.update_layout(height=400)
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width='stretch')
             
             # Additional success metrics
             st.markdown("#### 🏆 Key Technology Success Indicators")
@@ -2458,7 +2458,7 @@ elif persona == "HBCU Institutional View":
                 network_insights.style.format({
                     'Cost per Student': '${:,.0f}'
                 }),
-                use_container_width=True
+                width='stretch'
             )
     
     else:

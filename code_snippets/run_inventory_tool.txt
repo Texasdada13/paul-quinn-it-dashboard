@@ -1,0 +1,5 @@
+# If placed in src/dashboard/
+inventory = DashboardVisualizationInventory('fully_integrated_dashboard.py')
+
+# If placed in src/tools/ or at root
+inventory = DashboardVisualizationInventory('src/dashboard/fully_integrated_dashboard.py')

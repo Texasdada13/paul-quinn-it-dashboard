@@ -1,0 +1,8 @@
+powershell# 1. Save and run the simple script
+.\simple_git_commit.ps1
+
+# 2. After your code is safely committed, then work on deployment
+python deployment_setup.py  # (your deployment script from earlier)
+
+# 3. Future: Consider data integration features
+# (when your basic dashboard is deployed and working)
